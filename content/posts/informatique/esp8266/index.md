@@ -7,6 +7,8 @@ description: Module ESP
 ---
 ### En cours d'écriture ...
 
-test
+* Connecter le wemos en usb au pc
+* Ouvrir le gestionnaire de périphériques
+* Vérifier la présence du périphérique
 
 ![](/uploads/esp8266_1.png)
