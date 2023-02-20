@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Projets personnels
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+#buttons:
+#- name: Tous
+#  filter: "all"
+#- name: Professionnel
+#  filter: "professional"
+#- name: Hobby
+#  filter: "hobby"
+
+# your projects
+projects:
+- name: Application Teampass
+  logo: /images/sections/projects/teampass_logo.png
+  role: Propriétaire & Créateur
+  timeline: "Depuis 2009"
+  repo: https://github.com/nilsteampassnet/TeamPass/tree/teampass_3.0
+  summary: TeamPass est un gestionnaire de mots de passe dédié à leur gestion de manière collaborative en les partageant entre les membres d'une équipe. Teampass propose un large éventail de fonctionnalités permettant de gérer vos mots de passe et données associées de manière organisée dans le respect des droits d'accès définis pour chaque utilisateur. Teampass est un produit Open-Source libre d'utilisation distribué dans le respect de l'open source GNU GPL-3.0.
+  tags: ["sécurité", "mots de passe", "équipe"]
+
+- name: Siteweb Teampass
+  logo: /images/sections/projects/teampass_logo.png
+  role: Créateur
+  timeline: "Depuis 2019"
+  url: "https://teampass.net/"
+  summary: Siteweb de présentation de l'application web Teampass. Il s'agit d'un projet de site web static exploitant les pages de publication au travers de Github et construit avec Jekyll.
+  tags: ["siteweb", "jekyll", "github pages"]
+
+- name: VAG-Technique.fr
+  #logo: /images/sections/projects/kubernetes.png
+  role: Propriétaire & Créateur
+  timeline: "Depuis Mars 2010"
+  url: "https://www.vag-technique.fr/"
+  summary: Communauté articulée autours de l'entretient mécanique des véhicules du groupe VAG et tout particulièrement axée sur le moteur TDI. Ce projet regroupe plusieurs thématiques que sont l'animation et la vie du forum, l'administration et la gestion back-office, l'administration du serveur, la gestion des sauvegardes et des mises à jour des packages, la sécurisation des données, etc. Ce forum a été pour moi un creuset d'expérimentations et d'apprentissage réel.
+  tags: ["hobby", "webmaster", "server", "centos"]

@@ -1,0 +1,88 @@
+# section information
+section:
+  name: Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Sanilea
+    url: "https://www.sanilea.fr"
+    location: Limoges
+    overview: Sanilea est leader de l’organisation du transport sanitaire en France. C’est un maillon essentiel de l’écosystème du transport sanitaire, à savoir les établissements de santé, les professionnels du transport et les patients. Je suis responsable de la division R&D dont la fonction est de développer la solution SpeedCall conformément aux besoins du marché et de la rendre disponible pour nos utilisateurs via une infrastructure en mode Saas.
+  positions:
+  - designation: Directeur R&D
+    start: Février 2020
+    responsibilities:
+    - Piloter l'activité de la division R&D
+    - Définir les orientations à venir (feuilles de route « produits et technique »)
+    - Garantir le respect des réglementations
+    - Veiller au triptyque Cout, Qualité et Délais
+    - Faire grandir chaque collaborateur
+
+- company:
+    name: General Electric
+    url: "https://www.gegridsolutions.com/"
+    location: Montpellier (34)
+    overview: Responsable Qualité R&D dans un environnement multi-sites et diverses lignes de produits, j’interviens sur divers axes de pilotage de la Qualité de nos produits et projets. Je vieille à ce que rigueur, contrôle et agilité fassent de nos produits des best-in-class
+  positions:
+  - designation: Manager Qualité, Méthodes et Outils R&D
+    start: Février 2016
+    end: Janvier 2020
+    responsibilities:
+    - Définition et optimisation du Système Qualité (Cycle de développement).
+    - Contrôle de l’atteinte des objectifs qualités des projets.
+    - Décideur sur les méthodes et outils à déployer et règles associées.
+    - Gestion de risques et suivi projets / équipes.
+    - Déployer l’esprit Qualité et Agilité.
+
+- company:
+    name: Valeo Visibilité
+    url: "https://www.valeo.com/fr/systemes-visibilite/"
+    location: Chatellerault (86)
+    overview: Poste très large me positionnant comme responsable Qualité en termes de méthodes de travail et Qualité projet d’une équipe Electronique de 40 personnes(multi-métiers), et localisé dans 4 pays différents, développant des Cartes Electroniques pilotant des moteurs d’essuyage de véhicules.
+  positions:
+  - designation: Responsable Qualité R&D Électronique
+    start: Mars 2011
+    end: Janvier 2016
+    responsibilities:
+    - Amélioration du Système Qualité (ISO9001 / ASpice2)
+    - Définition et mise en place de l'usine de développement Logiciels
+    - Suivi Qualité des projets
+    - Représentant Qualité auprès des clients
+
+- company:
+    name: Ennov
+    url: "https://fr.ennov.com/"
+    location: Poitiers (86)
+    overview: J’étais membre du codir en apportant la vision Qualité sur le périmètre complet de l'entreprise.
+  positions:
+  - designation: Responsable Qualité
+    start: Avril 2007
+    end: Févriers 2011
+    responsibilities:
+    - Définition et maitrise du Système Qualité (ISO9001)
+    - Industrialiser le développement et faire adhérer l’entreprise à la Qualité
+    - Rédaction des Cahiers de conformité auprès des instances médicales
+
+- company:
+    name: Autoliv Electronics Europe
+    url: "https://www.autoliv.com/"
+    location: Cergy (95)
+    overview: J'ai construit mon expérience chez Autoliv tant au niveau technique que savoir-etre/savoir-faire grâce notamment au fait d'avoir pu occuper plusieurs fonctions différentes au sein du bureau d'études.
+  positions:
+  - designation: Ingénieur Qualité Logiciel
+    start: Septempbre 2001
+    end: Mars 2007
+    responsibilities:
+    - Assurer le maintient et l’amélioration du système qualité du bureau d’études.
+    - Ingénieur Qualité Logiciel sur les projets.
+    - Définition d’outils de pilotage de système Qualité.
+    - Mise en place d'outils et de méthodes.
+    - Superviseur du pôle "Outils & Méthode".
+    - Chef de projet déploiement de DOORS.
