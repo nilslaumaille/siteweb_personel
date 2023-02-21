@@ -15,3 +15,5 @@ fields:
 - type: text
   name: description
   label: description
+pages:
+- content/posts/informatique/ESP8266/flasher-espeasy-dans-un-wemos-esp8266-arduino-sous-windows-11.md
