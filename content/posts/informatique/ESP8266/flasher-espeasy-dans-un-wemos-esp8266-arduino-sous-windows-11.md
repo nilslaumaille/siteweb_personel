@@ -7,7 +7,9 @@ title = "Flasher EspEasy dans un Wemos (esp8266 arduino) sous Windows 11"
 identifier = "flasher_esp8266"
 name = "flasher esp8266"
 parent = "esp8266"
-weight = "100"
+weight = 100
 
 +++
 # En cours d'écriture
+
+Cette page s'inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d'émetteur IR pour contrôler une unité intérieure d'une climatisation.
