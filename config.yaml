@@ -1,4 +1,4 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://nilslaumaille.github.io
 
 languageCode: fr-FR
 title: "Nils Laumaillé"
@@ -32,7 +32,7 @@ markup:
     renderer:
       unsafe: true
   tableOfContents:
-    startLevel: 2
+    startLevel: 1
     endLevel: 6
     ordered: false
 
@@ -60,7 +60,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/nilslaumaille/personel.git
   # Default branch of your Git repo
   gitBranch: main
 
@@ -106,7 +106,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
