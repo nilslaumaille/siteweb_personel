@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Content Organization on Nils Laumaillé</title>
+    <link>https://nilslaumaille.github.io/personel/tags/content-organization/</link>
+    <description>Recent content in Content Organization on Nils Laumaillé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/tags/content-organization/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Comment Paramérer un ESP8266 sous Windows 11 avec ESP Easy</title>
+      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</guid>
+      <description>Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
+La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

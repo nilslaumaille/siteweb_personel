@@ -1,63 +1,900 @@
-<!doctype html><html lang=fr><head><title>Installer un boitier Flexfuel</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><link rel=stylesheet href=/application.fb9df7e952c9dccf496d00faec07de633aae460f909bbba4b5e0ad22f5887d73.css integrity="sha256-+5336VLJ3M9JbQD67AfeYzquRg+Qm7ukteCtIvWIfXM="><link rel=icon type=image/png href=/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png><meta property="og:title" content="Installer un boitier Flexfuel"><meta property="og:description" content="Ajouter un boitier éthanol flexfuel sur un clio 4 TCe 90cv H4B-400"><meta property="og:type" content="article"><meta property="og:url" content="https://hugo-toha.github.io/posts/mecanique/flexfuel/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-10-02T06:00:23+06:00"><meta property="article:modified_time" content="2021-10-02T06:00:23+06:00"><meta name=description content="Ajouter un boitier éthanol flexfuel sur un clio 4 TCe 90cv H4B-400"><script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-H4LBG7NDFZ",{anonymize_ip:!1})}</script></head><body class="type-posts kind-page" data-spy=scroll data-target=#TableOfContents data-offset=80><div class="container-fluid bg-dimmed wrapper"><nav class="navbar navbar-expand-xl top-navbar final-navbar shadow"><div class=container><button class="navbar-toggler navbar-light" id=sidebar-toggler type=button>
-<span class=navbar-toggler-icon></span></button>
-<a class=navbar-brand href=/>Nils Laumaillé</a>
-<button class="navbar-toggler navbar-light" id=toc-toggler type=button>
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse lang-selector" id=top-nav-items><ul class="navbar-nav ml-auto"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=themeSelector role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false><img id=navbar-theme-icon-svg src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a><div id=themeMenu class="dropdown-menu dropdown-menu-icons-only" aria-labelledby=themeSelector><a class="dropdown-item nav-link" href=# data-scheme=light><img class=menu-icon-center src=/icons/sun-svgrepo-com.svg width=20 alt="Light Theme"></a>
-<a class="dropdown-item nav-link" href=# data-scheme=dark><img class=menu-icon-center src=/icons/moon-svgrepo-com.svg width=20 alt="Dark Theme"></a>
-<a class="dropdown-item nav-link" href=# data-scheme=system><img class=menu-icon-center src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div></nav><section class=sidebar-section id=sidebar-section><div class=sidebar-holder><div class=sidebar id=sidebar><form class=mx-auto method=get action=/search><input type=text name=keyword placeholder=Chercher data-search id=search-box></form><div class=sidebar-tree><ul class=tree id=tree><li id=list-heading><a href=/posts/ data-filter=all>Articles</a></li><div class=subtree><li><i class="fas fa-plus-circle"></i><a href=/posts/bricolage/>Bricolage</a><ul><li><a href=/posts/bricolage/nuki/ title="La serrure Nuki">La serrure Nuki</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/informatique/>Informatique</a><ul><li><a href=/posts/informatique/esp8266/ title="ESP8266 - Flasher">ESP8266 - Flasher</a></li><li><a href=/posts/informatique/parametrer_esp8266/ title="ESP8266 - Paraméter">ESP8266 - Paraméter</a></li><li><a href=/posts/informatique/teampass/ title="Gestionnaire de mots de passe">Gestionnaire de mots de passe</a></li><li><a href=/posts/informatique/jeedom/ title="Ma box domotique">Ma box domotique</a></li></ul></li><li><i class="fas fa-minus-circle"></i><a class=active href=/posts/mecanique/>Mécanique</a><ul class=active><li><a class=active href=/posts/mecanique/flexfuel/ title="Boitier Flexfuel">Boitier Flexfuel</a></li></ul></li><li><i class="fas fa-plus-circle"></i><a href=/posts/omv/>OpenMediaVault</a><ul><li><a href=/posts/omv/portainer_maj/ title="Mise à jour de Portainer">Mise à jour de Portainer</a></li></ul></li></div></ul></div></div></div></section><section class=content-section id=content-section><div class=content><div class="container p-0 read-area"><div class="hero-area col-sm-12" id=hero-area style=background-image:url(/posts/mecanique/flexfuel/images/e85.jpg)></div><div class=page-content><div class="author-profile ml-auto align-self-lg-center"><img class=rounded-circle src=/images/site/nl_avatar_hu144615545c32f23c6c762e0a8d173ff5_781661_120x120_fit_box_3.png alt="Author Image"><h5 class=author-name>Nils Laumaillé</h5><p>samedi 2 octobre 2021</p></div><div class=title><h1>Installer un boitier Flexfuel</h1></div><div class=taxonomy-terms><ul style=padding-left:0></ul></div><div class=post-content id=post-content><p>Cet article fait un peu le résumé de toutes mes recherches sur la notion de <code>boitier éthanol</code> car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.</p><h1 id=quelques-généralités>Quelques généralités</h1><h2 id=boitier-éthanol-késako->Boitier éthanol, késako ?</h2><p>Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal. Ils viennent donc se placer entre le calculateur moteur et les injecteurs.
-Une sonde mesure la proportion d’éthanol dans le carburant. Plus elle est élevée plus le boîtier E85 augmentera la quantité de carburant injecté. Le boîtier E85 s’assure que le moteur reçoit bien la quantité d’énergie prévue par le calculateur en ajustant le volume de carburant injecté.</p><h2 id=quel-type-choisir->Quel type choisir ?</h2><p>En faisant quelques recherches, on s&rsquo;aperçoit rapidement que 2 types de boitiers existent. D&rsquo;un côté, ceux composés d&rsquo;un boitier et d&rsquo;un capteur de carburant, et ceux uniquement composé d&rsquo;un boitier.
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Installer un boitier Flexfuel</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/personel/application.fb9df7e952c9dccf496d00faec07de633aae460f909bbba4b5e0ad22f5887d73.css" integrity="sha256-&#43;5336VLJ3M9JbQD67AfeYzquRg&#43;Qm7ukteCtIvWIfXM=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/personel/images/site/favicon_hub02d7508a1c89b2b7812eab204efeb9a_4223_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="Installer un boitier Flexfuel" />
+<meta property="og:description" content="Ajouter un boitier éthanol flexfuel sur un clio 4 TCe 90cv H4B-400" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nilslaumaille.github.io/personel/posts/mecanique/flexfuel/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-10-02T06:00:23+06:00" />
+<meta property="article:modified_time" content="2021-10-02T06:00:23+06:00" />
+
+
+    
+    
+<meta name="description" content="Ajouter un boitier éthanol flexfuel sur un clio 4 TCe 90cv H4B-400" />
+
+
+    
+
+    
+        
+        
+        
+            
+            
+            
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H4LBG7NDFZ"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-H4LBG7NDFZ', { 'anonymize_ip': false });
+}
+</script>
+
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+    
+
+
+
+
+</head>
+
+  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/personel">
+      Nils Laumaillé</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/personel/search">
+          <input type="text" name="keyword" value="" placeholder="Chercher" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Articles</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/personel/posts/bricolage/">Bricolage</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/personel/posts/bricolage/nuki/" title="La serrure Nuki">La serrure Nuki</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/personel/posts/informatique/">Informatique</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/personel/posts/informatique/esp8266-flasher/" title="ESP8266 - Flasher">ESP8266 - Flasher</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/personel/posts/informatique/esp8266-parametrer/" title="ESP8266 - Paramétrer">ESP8266 - Paramétrer</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/personel/posts/informatique/teampass/" title="Gestionnaire de mots de passe">Gestionnaire de mots de passe</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/personel/posts/informatique/jeedom/" title="Ma box domotique">Ma box domotique</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/personel/posts/mecanique/">Mécanique</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/personel/posts/mecanique/flexfuel/" title="Boitier Flexfuel">Boitier Flexfuel</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/personel/posts/omv/">OpenMediaVault</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/personel/posts/omv/portainer_maj/" title="Mise à jour de Portainer">Mise à jour de Portainer</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/personel/posts/mecanique/flexfuel/images/e85.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/personel/images/site/nl_avatar_hu144615545c32f23c6c762e0a8d173ff5_781661_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">Nils Laumaillé</h5>
+          <p>samedi 2 octobre 2021</p>
+        </div>
+
+        <div class="title">
+          <h1>Installer un boitier Flexfuel</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+          <ul style="padding-left: 0;">
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Cet article fait un peu le résumé de toutes mes recherches sur la notion de <code>boitier éthanol</code> car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.</p>
+<h1 id="quelques-généralités">Quelques généralités</h1>
+<h2 id="boitier-éthanol-késako-">Boitier éthanol, késako ?</h2>
+<p>Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal. Ils viennent donc se placer entre le calculateur moteur et les injecteurs.
+Une sonde mesure la proportion d’éthanol dans le carburant. Plus elle est élevée plus le boîtier E85 augmentera la quantité de carburant injecté. Le boîtier E85 s’assure que le moteur reçoit bien la quantité d’énergie prévue par le calculateur en ajustant le volume de carburant injecté.</p>
+<h2 id="quel-type-choisir-">Quel type choisir ?</h2>
+<p>En faisant quelques recherches, on s&rsquo;aperçoit rapidement que 2 types de boitiers existent. D&rsquo;un côté, ceux composés d&rsquo;un boitier et d&rsquo;un capteur de carburant, et ceux uniquement composé d&rsquo;un boitier.
 Je ne parlerais que des 1ers, car je reste sceptique qu&rsquo;en a la qualité des signaux d&rsquo;injections des modèles sans capture du carburant. En effet, comment modifier le temps d&rsquo;injection avec précision si l&rsquo;on ne connait pas la ratio d&rsquo;éthanol précisément ?
-Donc pas d&rsquo;hésitation, il s&rsquo;agit d&rsquo;ors et déjà de ne cibler que des boitiers ayant un capteur de carburant.</p><blockquote><p>Un des avantages que je vois également avec le système à capteur, c&rsquo;est qu&rsquo;il est possible de rouler avec la proportion d&rsquo;éthanol que l&rsquo;on souhaite sans avoir à ce soucier d&rsquo;une forme d&rsquo;adaptation du boitier. Également, il n&rsquo;est pas nécessaire de faire un plein en 2 fois (éthanol puis sans plomb).</p></blockquote><h2 id=quel-est-le-principe-de-fonctionnement->Quel est le principe de fonctionnement ?</h2><p>Il s&rsquo;agit tout simplement de garder ouvert un peu plus longtemps les injecteurs afin que ces derniers envoient plus de carburant. Pour cela on va intercaler entre le calculateur et les injecteurs un autre calculateur (le fameux boîtier éthanol). Ce dernier sera connecté à une sonde mise à l&rsquo;arrivée de carburant pour qu&rsquo;il sache si il doit retarder ou pas la fermeture des injecteurs. Si il n&rsquo;y a pas de sonde de carburant avec le boîtier alors il ne sera pas au courant si il fonctionne à l&rsquo;éthanol ou au sans plomb, et dans ce cas seule la sonde lambda pourra corriger en partie la richesse. L&rsquo;idéal reste donc que le boîtier soit aussi au courant du carburant utilisé afin qu&rsquo;il augmente ou pas les temps d&rsquo;ouverture des injecteurs.
+Donc pas d&rsquo;hésitation, il s&rsquo;agit d&rsquo;ors et déjà de ne cibler que des boitiers ayant un capteur de carburant.</p>
+<blockquote>
+<p>Un des avantages que je vois également avec le système à capteur, c&rsquo;est qu&rsquo;il est possible de rouler avec la proportion d&rsquo;éthanol que l&rsquo;on souhaite sans avoir à ce soucier d&rsquo;une forme d&rsquo;adaptation du boitier. Également, il n&rsquo;est pas nécessaire de faire un plein en 2 fois (éthanol puis sans plomb).</p>
+</blockquote>
+<h2 id="quel-est-le-principe-de-fonctionnement-">Quel est le principe de fonctionnement ?</h2>
+<p>Il s&rsquo;agit tout simplement de garder ouvert un peu plus longtemps les injecteurs afin que ces derniers envoient plus de carburant. Pour cela on va intercaler entre le calculateur et les injecteurs un autre calculateur (le fameux boîtier éthanol). Ce dernier sera connecté à une sonde mise à l&rsquo;arrivée de carburant pour qu&rsquo;il sache si il doit retarder ou pas la fermeture des injecteurs. Si il n&rsquo;y a pas de sonde de carburant avec le boîtier alors il ne sera pas au courant si il fonctionne à l&rsquo;éthanol ou au sans plomb, et dans ce cas seule la sonde lambda pourra corriger en partie la richesse. L&rsquo;idéal reste donc que le boîtier soit aussi au courant du carburant utilisé afin qu&rsquo;il augmente ou pas les temps d&rsquo;ouverture des injecteurs.
 Dans le cas où il y a de l&rsquo;éthanol, ce dernier va ouvrir plus longtemps les injecteurs, ce qui permettra donc d&rsquo;arriver au dosage 10/1 de l&rsquo;éthanol (en réalité un peu plus, car on ne tourne pas à 100% d&rsquo;éthanol en France : E85%). C&rsquo;est donc lui qui va déduire le temps d&rsquo;ouverture supplémentaire à faire faire aux injecteurs.
-D&rsquo;un autre côté, le calculateur va lui aussi finit d&rsquo;adapter au mieux le dosage avec ce que lui renvoie la sonde lambda. Il va donc permettre de peaufiner au millimètre les réglages pour optimiser la consommation et les émissions de polluants (et cela malgré que le boîtier éthanol augmente ce dosage en aval).</p><h2 id=est-ce-bien-légal-tout-cela->Est-ce bien légal tout cela ?</h2><p>Alors oui et non.
+D&rsquo;un autre côté, le calculateur va lui aussi finit d&rsquo;adapter au mieux le dosage avec ce que lui renvoie la sonde lambda. Il va donc permettre de peaufiner au millimètre les réglages pour optimiser la consommation et les émissions de polluants (et cela malgré que le boîtier éthanol augmente ce dosage en aval).</p>
+<h2 id="est-ce-bien-légal-tout-cela-">Est-ce bien légal tout cela ?</h2>
+<p>Alors oui et non.
 Il existe bien des boitiers dit homologués. Dans ce cas, l&rsquo;installation se fait par un professionnel et la prestation inclut également le changement de carte grise. Ils ont un cout d&rsquo;environ 800 €. Petite précision qui à son intéret tout de meme, en cas de revente du véhicule, la carte grise est gratuite pour le nouvel acquéreur 😉.
 Ces mêmes vendeurs proposent également des modèles non homologués. Ceux-ci sont à monter par soi-même et coutent environ 400 €. Le point de vérification sera de bien s&rsquo;assurer d&rsquo;avoir fait un plein complé au sans-plomb avant de réaliser le controle technique.
 En effet, le fait de venir mettre de l&rsquo;éthanol va changer les caractéristiques d&rsquo;émission de votre véhicule donc même si vous polluez moins vous serait hors gabarit.
-Ainsi la différence de prix et donc d&rsquo;amortissement de l&rsquo;achat m&rsquo;a décidé pour un modèle non homologué.</p><h1 id=dans-mon-cas>Dans mon cas</h1><h2 id=mon-choix>Mon choix</h2><p>Pour notre Clio 4 équipée d&rsquo;un moteur TCe 90cv de 900 cm3, je me suis décidé pour un boitier <code>eFlexEco</code> de la société <a href=https://eflexfuel.com/fr target=_blank rel=noopener>eFlexFuel Technology</a>.
-Pourquoi ? Pour les avis, la qualité apparente du produit, l&rsquo;historique de la société, les nombreux retours des utilisateurs et surtout la qualité des guides techniques d&rsquo;installation mis en ligne.</p><h2 id=linstallation>L&rsquo;installation</h2><p>L&rsquo;installation en soit n&rsquo;est pas bien compliquée dès lors que l&rsquo;on dispose d&rsquo;une petite caisse à outils classique et de quelques notions de bricolage mécanique.
+Ainsi la différence de prix et donc d&rsquo;amortissement de l&rsquo;achat m&rsquo;a décidé pour un modèle non homologué.</p>
+<h1 id="dans-mon-cas">Dans mon cas</h1>
+<h2 id="mon-choix">Mon choix</h2>
+<p>Pour notre Clio 4 équipée d&rsquo;un moteur TCe 90cv de 900 cm3, je me suis décidé pour un boitier <code>eFlexEco</code> de la société <a href="https://eflexfuel.com/fr" target="_blank" rel="noopener">eFlexFuel Technology</a>.
+Pourquoi ? Pour les avis, la qualité apparente du produit, l&rsquo;historique de la société, les nombreux retours des utilisateurs et surtout la qualité des guides techniques d&rsquo;installation mis en ligne.</p>
+<h2 id="linstallation">L&rsquo;installation</h2>
+<p>L&rsquo;installation en soit n&rsquo;est pas bien compliquée dès lors que l&rsquo;on dispose d&rsquo;une petite caisse à outils classique et de quelques notions de bricolage mécanique.
 En effet, le point le plus dangereux de la manipulation consiste à venir dériver la conduite d&rsquo;admission du carburant de la rampe d&rsquo;injection vers le capteur d&rsquo;analyse du carburant.
-À noter qu&rsquo;il est important de se munir d&rsquo;un bon lot de serflex, en effet la boite d&rsquo;installation n&rsquo;en contenant qu&rsquo;un nombre limité.</p><blockquote><p>À noter que je n&rsquo;avais pas fait de complément en éthanol dans le réservoir, j&rsquo;étais à environ la moitier du réservoir en SP98.</p></blockquote><p>De façon schématisé, voici l&rsquo;implentation des différents éléments à ajouter.
-<img src=images/IMG_20210925_172706_2.jpg alt=1></p><h3 id=le-capteur>Le capteur</h3><p>Avant de commencer, il est nécessaire de définir à quel endroit sera installé le capteur.
-Pour ma part, j&rsquo;ai décidé de le fixer sur la patte de fixation des durites de liquide de refroidissement juste au-dessus du réservoir de liquide de lave vitre.</p><h4 id=enlever-la-durite-dalimentation-en-carburant>Enlever la durite d&rsquo;alimentation en carburant</h4><blockquote><p>Il va falloir venir retirer la durite d&rsquo;alimentation de carburant matérialisée par les 2 fleches rouge.
-<img src=images/IMG_20210925_172706.jpg alt=1></p></blockquote><blockquote><p>Retirer l&rsquo;extrémité de la durite située au niveau de la rampe d&rsquo;injection en appuyant fortement sur le clips rouge.
-<img src=images/IMG_20210925_172823.jpg alt=1></p></blockquote><blockquote><p>Faire de même pour l&rsquo;autre extrémité.
-<img src=images/IMG_20210925_172814.jpg alt=1></p></blockquote><blockquote><p>Retirer maintenant la durite. Pensez à la stocker à l&rsquo;abris de façon à pouvoir la remettre si vous retiriez le boitier à l&rsquo;avenir.
-<img src=images/IMG_20210925_173001.jpg alt=1></p></blockquote><h4 id=préparer-la-nouvelle-durite-avec-le-capteur>Préparer la nouvelle durite avec le capteur</h4><blockquote><p>Pour faciliter les prochaines étapes, vous pouvez déviser la durite d&rsquo;admission d&rsquo;air et la décaler sur la gauche. De même pour la durite pneumatique, vous pouvez la déloger et également en déclipser l&rsquo;extrémité pour totalement l&rsquo;enlever de votre zone de travail (nb : on ne le voit pas sur la photo).
-<img src=images/IMG_20210925_173010.jpg alt=1></p></blockquote><blockquote><p>Il s&rsquo;agit maintenant d&rsquo;utiliser les adaptateurs rapides fournis dans le kit. J&rsquo;ai isolé sur la photo ceux qui m&rsquo;intéressent.
-<img src=images/IMG_20210925_173226.jpg alt=1></p></blockquote><blockquote><p>Venir clipser le 1er sur la rampe d&rsquo;injection (en forçant légérement).
-<img src=images/IMG_20210925_173407.jpg alt=1></p></blockquote><blockquote><p>Venir clipser celui qui est coudé à l&rsquo;autre extrémité.
-<img src=images/IMG_20210925_173409.jpg alt=1></p></blockquote><blockquote><p>En fonction de la zone où sera fixé le capteur, il faut couper le tuyau flexible d&rsquo;alimentation en carburant.
+À noter qu&rsquo;il est important de se munir d&rsquo;un bon lot de serflex, en effet la boite d&rsquo;installation n&rsquo;en contenant qu&rsquo;un nombre limité.</p>
+<blockquote>
+<p>À noter que je n&rsquo;avais pas fait de complément en éthanol dans le réservoir, j&rsquo;étais à environ la moitier du réservoir en SP98.</p>
+</blockquote>
+<p>De façon schématisé, voici l&rsquo;implentation des différents éléments à ajouter.
+<img src="images/IMG_20210925_172706_2.jpg" alt="1"></p>
+<h3 id="le-capteur">Le capteur</h3>
+<p>Avant de commencer, il est nécessaire de définir à quel endroit sera installé le capteur.
+Pour ma part, j&rsquo;ai décidé de le fixer sur la patte de fixation des durites de liquide de refroidissement juste au-dessus du réservoir de liquide de lave vitre.</p>
+<h4 id="enlever-la-durite-dalimentation-en-carburant">Enlever la durite d&rsquo;alimentation en carburant</h4>
+<blockquote>
+<p>Il va falloir venir retirer la durite d&rsquo;alimentation de carburant matérialisée par les 2 fleches rouge.
+<img src="images/IMG_20210925_172706.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Retirer l&rsquo;extrémité de la durite située au niveau de la rampe d&rsquo;injection en appuyant fortement sur le clips rouge.
+<img src="images/IMG_20210925_172823.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Faire de même pour l&rsquo;autre extrémité.
+<img src="images/IMG_20210925_172814.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Retirer maintenant la durite. Pensez à la stocker à l&rsquo;abris de façon à pouvoir la remettre si vous retiriez le boitier à l&rsquo;avenir.
+<img src="images/IMG_20210925_173001.jpg" alt="1"></p>
+</blockquote>
+<h4 id="préparer-la-nouvelle-durite-avec-le-capteur">Préparer la nouvelle durite avec le capteur</h4>
+<blockquote>
+<p>Pour faciliter les prochaines étapes, vous pouvez déviser la durite d&rsquo;admission d&rsquo;air et la décaler sur la gauche. De même pour la durite pneumatique, vous pouvez la déloger et également en déclipser l&rsquo;extrémité pour totalement l&rsquo;enlever de votre zone de travail (nb : on ne le voit pas sur la photo).
+<img src="images/IMG_20210925_173010.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Il s&rsquo;agit maintenant d&rsquo;utiliser les adaptateurs rapides fournis dans le kit. J&rsquo;ai isolé sur la photo ceux qui m&rsquo;intéressent.
+<img src="images/IMG_20210925_173226.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Venir clipser le 1er sur la rampe d&rsquo;injection (en forçant légérement).
+<img src="images/IMG_20210925_173407.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Venir clipser celui qui est coudé à l&rsquo;autre extrémité.
+<img src="images/IMG_20210925_173409.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>En fonction de la zone où sera fixé le capteur, il faut couper le tuyau flexible d&rsquo;alimentation en carburant.
 Penser à positionner les colliers de serrage adaptés avant de venir insérer le tuyau aux adaptateurs et le capteur.
 Serrer les collier fermement mais sans trop écraser la durite.
-<img src=images/IMG_20210925_175059.jpg alt=1></p></blockquote><blockquote><p>Faire de même pour l&rsquo;autre extrémité.
+<img src="images/IMG_20210925_175059.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Faire de même pour l&rsquo;autre extrémité.
 À noter que pour des raisons de faciliter d&rsquo;accès pour les étapes suivantes, je n&rsquo;ai pas conserver cette attache en place.
-<img src=images/IMG_20210925_175101.jpg alt=1></p></blockquote><blockquote><p>Venir fixer le capteur d&rsquo;analyse avec des serflex.
-<img src=images/IMG_20210925_175124.jpg alt=1></p></blockquote><h3 id=le-faisceau-électrique-et-le-capteur>Le faisceau électrique et le capteur</h3><p>De même que précédemment, il faut se poser un peu pour définir où sera positionné le boitier ainsi que le passage des différents câbles.
+<img src="images/IMG_20210925_175101.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Venir fixer le capteur d&rsquo;analyse avec des serflex.
+<img src="images/IMG_20210925_175124.jpg" alt="1"></p>
+</blockquote>
+<h3 id="le-faisceau-électrique-et-le-capteur">Le faisceau électrique et le capteur</h3>
+<p>De même que précédemment, il faut se poser un peu pour définir où sera positionné le boitier ainsi que le passage des différents câbles.
 Dans mon cas, le boitier sera inséré sur la tranche entre la batterie et le calculateur moteur.
-Les câbles seront regroupés en toron en passant à l&rsquo;arrière de la boite à air.</p><h4 id=préparer-le-faisceau>Préparer le faisceau</h4><p>Au déballage, le faisceau n&rsquo;est pas complet. En effet, il est nécessaire de venir s&rsquo;assurer de la polarité des injecteurs pour positionner correctement les connecteurs fournis.</p><p>Pour vérifier la polarité des injecteurs, il faut commencer par déclipser les connecteurs des injecteurs.</p><blockquote><p>Pour cela, il est nécessaire d&rsquo;utiliser une pince à bec long pour venir décoller la patte de clipsage du connecteur.
-<img src=images/IMG_20210925_182912.jpg alt=1></p></blockquote><blockquote><p>Une fois fait, à l&rsquo;aide d&rsquo;un multimêtre en position <code>continuité de courant</code>, venir identifier les cables servant de <code>+</code>.
+Les câbles seront regroupés en toron en passant à l&rsquo;arrière de la boite à air.</p>
+<h4 id="préparer-le-faisceau">Préparer le faisceau</h4>
+<p>Au déballage, le faisceau n&rsquo;est pas complet. En effet, il est nécessaire de venir s&rsquo;assurer de la polarité des injecteurs pour positionner correctement les connecteurs fournis.</p>
+<p>Pour vérifier la polarité des injecteurs, il faut commencer par déclipser les connecteurs des injecteurs.</p>
+<blockquote>
+<p>Pour cela, il est nécessaire d&rsquo;utiliser une pince à bec long pour venir décoller la patte de clipsage du connecteur.
+<img src="images/IMG_20210925_182912.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Une fois fait, à l&rsquo;aide d&rsquo;un multimêtre en position <code>continuité de courant</code>, venir identifier les cables servant de <code>+</code>.
 Dans mon cas, il s&rsquo;agissait du cable noir/blanc positionné à droite du connecteur (avec la patte de clipsage en fond).
-<img src=images/IMG_20210925_182954.jpg alt=1></p></blockquote><blockquote><p>Dans votre attelier, venir insérer les pinoches dans les connecteur en vous assurant de respecter la position du cable <code>+</code>.
-Pour vous assurer d&rsquo;une étanchéité et d&rsquo;un clipsage parfait de la pinoche dans le connecteur, venir la tirer avec une pince à bec long jusqu&rsquo;à entendre le petit clic.</p></blockquote><h4 id=installer-le-faisceau>Installer le faisceau</h4><blockquote><p>De retour devant votre moteur, venir faire le branchement des connecteurs.
+<img src="images/IMG_20210925_182954.jpg" alt="1"></p>
+</blockquote>
+<blockquote>
+<p>Dans votre attelier, venir insérer les pinoches dans les connecteur en vous assurant de respecter la position du cable <code>+</code>.
+Pour vous assurer d&rsquo;une étanchéité et d&rsquo;un clipsage parfait de la pinoche dans le connecteur, venir la tirer avec une pince à bec long jusqu&rsquo;à entendre le petit clic.</p>
+</blockquote>
+<h4 id="installer-le-faisceau">Installer le faisceau</h4>
+<blockquote>
+<p>De retour devant votre moteur, venir faire le branchement des connecteurs.
 Attention à bien veiller à brancher <strong>le connecteur disposant d&rsquo;une gaine rouge</strong>, c&rsquo;est l&rsquo;injecteur principal qui alimente les autres.
 Construire également votre toron en utilisant des serflex tous les 7/10 cm de façon à optenir un toron très serré.
-<img src=images/IMG_20211002_184150.jpg alt=1></p></blockquote><h4 id=installer-le-capteur-de-température>Installer le capteur de température</h4><blockquote><p>Installer le capteur de température moteur au niveau du bouchon de remplissage d&rsquo;huile.
-<img src=images/IMG_20211002_184156.jpg alt=1></p></blockquote><h4 id=clipser-le-connecteur-du-capteur-danalyse-de-carburant>Clipser le connecteur du capteur d&rsquo;analyse de carburant</h4><blockquote><p>Faire courir le cable jusqu&rsquo;au capteur.
-<img src=images/IMG_20211002_184208.jpg alt=1></p></blockquote><h4 id=relier-le-faisceau-à-la-masse-véhicule>Relier le faisceau à la masse véhicule</h4><blockquote><p>Du faisceau électrique part un cable noir de masse. Il est nécessaire de le fixer à un point de masse du véhicule.
-<img src=images/IMG_20211002_184142.jpg alt=1></p></blockquote><h4 id=fixer-le-boitier>Fixer le boitier</h4><blockquote><p>Utiliser un serflex pour fixer le boitier.</p></blockquote><h2 id=premier-démarrage-et-vérification>Premier démarrage et vérification</h2><h3 id=installer-lapplication-eflexapp>Installer l&rsquo;application eFlexApp</h3><p>Avant de procéder au démarrage, installer sur votre smartphone l&rsquo;application eFlexApp.
-Elle vous permettra de savoir si l&rsquo;installation est optimum.</p><h3 id=démarrer-le-moteur>Démarrer le moteur</h3><p>Logiquement votre véhicule démarrera normallement. D&rsquo;après la notice, il est possible que l&rsquo;on doive tirer un peu sur le démarreur.
-Ce ne fut pas mon cas, le moteur a démarré comme d&rsquo;habitude.</p><p>Maintenant démarrer l&rsquo;application et sélectionner eFlexFuel au niveau du bluetooth.</p><p>L&rsquo;accueil affiche entre autre les injecteurs connectés au boitier sous la forme d&rsquo;un carré vert.
-Dans mon cas, le moteur ne dispose que de 3 cylindres et on voit que les cylindres #1, #3 et #4 sont connectés et opérationnels.</p><img src=images/Screenshot_20211002-184526.jpg alt=Test width=400px><p>Aller également voir dans les erreurs depuis le menu de l&rsquo;application. Si tout va bien, vous devriez voir cela</p><img src=images/Screenshot_20211002-184541.jpg alt=Test width=400px><p>Enfin l&rsquo;entrée <em>Liste des données</em> vous affiche certaines informations, à vous de voir ce que vous pouvez en faire.</p><img src=images/Screenshot_20211002-184536.jpg alt=Test width=400px><h3 id=premier-passage-à-la-pompe>Premier passage à la pompe.</h3><p>C&rsquo;est du bonheur, la 1ère fois, j&rsquo;ai mis 29 litres pour un peu plus de 17 € 😆</p><h2 id=a-lusage>A l&rsquo;usage</h2><p>Nous avons maintenant parcouru plus de 1000km et à vrai dire, nous ne notons aucun changement en ce qui concerne le véhicule.
-Toujours la même consommation, toujours le même comportement routier, aucun changement perceptible au quotidien.</p><blockquote><p>Attention cependant au filtre à essence qu&rsquo;il va falloir changer environ 3 ou 4 pleins après le passage à l&rsquo;éthanol.
+<img src="images/IMG_20211002_184150.jpg" alt="1"></p>
+</blockquote>
+<h4 id="installer-le-capteur-de-température">Installer le capteur de température</h4>
+<blockquote>
+<p>Installer le capteur de température moteur au niveau du bouchon de remplissage d&rsquo;huile.
+<img src="images/IMG_20211002_184156.jpg" alt="1"></p>
+</blockquote>
+<h4 id="clipser-le-connecteur-du-capteur-danalyse-de-carburant">Clipser le connecteur du capteur d&rsquo;analyse de carburant</h4>
+<blockquote>
+<p>Faire courir le cable jusqu&rsquo;au capteur.
+<img src="images/IMG_20211002_184208.jpg" alt="1"></p>
+</blockquote>
+<h4 id="relier-le-faisceau-à-la-masse-véhicule">Relier le faisceau à la masse véhicule</h4>
+<blockquote>
+<p>Du faisceau électrique part un cable noir de masse. Il est nécessaire de le fixer à un point de masse du véhicule.
+<img src="images/IMG_20211002_184142.jpg" alt="1"></p>
+</blockquote>
+<h4 id="fixer-le-boitier">Fixer le boitier</h4>
+<blockquote>
+<p>Utiliser un serflex pour fixer le boitier.</p>
+</blockquote>
+<h2 id="premier-démarrage-et-vérification">Premier démarrage et vérification</h2>
+<h3 id="installer-lapplication-eflexapp">Installer l&rsquo;application eFlexApp</h3>
+<p>Avant de procéder au démarrage, installer sur votre smartphone l&rsquo;application eFlexApp.
+Elle vous permettra de savoir si l&rsquo;installation est optimum.</p>
+<h3 id="démarrer-le-moteur">Démarrer le moteur</h3>
+<p>Logiquement votre véhicule démarrera normallement. D&rsquo;après la notice, il est possible que l&rsquo;on doive tirer un peu sur le démarreur.
+Ce ne fut pas mon cas, le moteur a démarré comme d&rsquo;habitude.</p>
+<p>Maintenant démarrer l&rsquo;application et sélectionner eFlexFuel au niveau du bluetooth.</p>
+<p>L&rsquo;accueil affiche entre autre les injecteurs connectés au boitier sous la forme d&rsquo;un carré vert.
+Dans mon cas, le moteur ne dispose que de 3 cylindres et on voit que les cylindres #1, #3 et #4 sont connectés et opérationnels.</p>
+<img src="images/Screenshot_20211002-184526.jpg"
+    
+        alt="Test"
+    
+    
+        width="400px"
+    
+    
+    
+    
+>
+
+<p>Aller également voir dans les erreurs depuis le menu de l&rsquo;application. Si tout va bien, vous devriez voir cela</p>
+<img src="images/Screenshot_20211002-184541.jpg"
+    
+        alt="Test"
+    
+    
+        width="400px"
+    
+    
+    
+    
+>
+
+<p>Enfin l&rsquo;entrée <em>Liste des données</em> vous affiche certaines informations, à vous de voir ce que vous pouvez en faire.</p>
+<img src="images/Screenshot_20211002-184536.jpg"
+    
+        alt="Test"
+    
+    
+        width="400px"
+    
+    
+    
+    
+>
+
+<h3 id="premier-passage-à-la-pompe">Premier passage à la pompe.</h3>
+<p>C&rsquo;est du bonheur, la 1ère fois, j&rsquo;ai mis 29 litres pour un peu plus de 17 € 😆</p>
+<h2 id="a-lusage">A l&rsquo;usage</h2>
+<p>Nous avons maintenant parcouru plus de 1000km et à vrai dire, nous ne notons aucun changement en ce qui concerne le véhicule.
+Toujours la même consommation, toujours le même comportement routier, aucun changement perceptible au quotidien.</p>
+<blockquote>
+<p>Attention cependant au filtre à essence qu&rsquo;il va falloir changer environ 3 ou 4 pleins après le passage à l&rsquo;éthanol.
 En effet, l&rsquo;éthanol étant plus « corrosif » que l&rsquo;essence, son effet détergeant sur les impuretés et saletés multiples deposées dans le réservoire vont se retrouver dans le filtre.
-Si le filtre se trouve être trop encrassé alors la pompe à injection va forcer plus que de nécessaire.</p></blockquote></div><div class="row pl-3 pr-3"><div class="col-md-6 share-buttons"><strong>Partager sur:</strong>
-<a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fhugo-toha.github.io%2fposts%2fmecanique%2fflexfuel%2f" target=_blank><i class="fab fa-facebook"></i></a>
-<a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fhugo-toha.github.io%2fposts%2fmecanique%2fflexfuel%2f&text=Installer%20un%20boitier%20Flexfuel&via=Nils%20Laumaill%c3%a9" target=_blank><i class="fab fa-twitter"></i></a>
-<a class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fhugo-toha.github.io%2fposts%2fmecanique%2fflexfuel%2f&title=Installer%20un%20boitier%20Flexfuel" target=_blank><i class="fab fa-reddit"></i></a>
-<a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fhugo-toha.github.io%2fposts%2fmecanique%2fflexfuel%2f&title=Installer%20un%20boitier%20Flexfuel" target=_blank><i class="fab fa-linkedin"></i></a>
-<a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Installer%20un%20boitier%20Flexfuel https%3a%2f%2fhugo-toha.github.io%2fposts%2fmecanique%2fflexfuel%2f" target=_blank><i class="fab fa-whatsapp"></i></a>
-<a class="btn btn-sm email-btn" href="mailto:?subject=Installer%20un%20boitier%20Flexfuel&body=https%3a%2f%2fhugo-toha.github.io%2fposts%2fmecanique%2fflexfuel%2f" target=_blank><i class="fas fa-envelope-open-text"></i></a></div><div class="col-md-6 btn-improve-page"><a href=https://github.com/hugo-toha/hugo-toha.github.io/edit/main/content/posts%5cmecanique%5cflexfuel%5cindex.md title="Améliorez cette page" target=_blank rel=noopener><i class="fas fa-code-branch"></i>
-Améliorez cette page</a></div></div><hr><div class="row next-prev-navigator"><div class="col-md-6 previous-article"><a href=/posts/informatique/jeedom/ title="Mon installation domotique à base de Jeedom" class="btn btn-outline-info"><div><i class="fas fa-chevron-circle-left"></i> Précédent</div><div class=next-prev-text>Mon installation domotique à base de Jeedom</div></a></div><div class="col-md-6 next-article"><a href=/posts/omv/portainer_maj/ title="Mettre à jour Portainer" class="btn btn-outline-info"><div>Suivant <i class="fas fa-chevron-circle-right"></i></div><div class=next-prev-text>Mettre à jour Portainer</div></a></div></div><hr></div></div></div><a id=scroll-to-top class=btn><i class="fas fa-chevron-circle-up"></i></a></section><section class=toc-section id=toc-section><div class=toc-holder><h5 class="text-center pl-3">Table des matières</h5><hr><div class=toc><nav id=TableOfContents><ul><li><a href=#quelques-généralités>Quelques généralités</a><ul><li><a href=#boitier-éthanol-késako->Boitier éthanol, késako ?</a></li><li><a href=#quel-type-choisir->Quel type choisir ?</a></li><li><a href=#quel-est-le-principe-de-fonctionnement->Quel est le principe de fonctionnement ?</a></li><li><a href=#est-ce-bien-légal-tout-cela->Est-ce bien légal tout cela ?</a></li></ul></li><li><a href=#dans-mon-cas>Dans mon cas</a><ul><li><a href=#mon-choix>Mon choix</a></li><li><a href=#linstallation>L&rsquo;installation</a><ul><li><a href=#le-capteur>Le capteur</a><ul><li><a href=#enlever-la-durite-dalimentation-en-carburant>Enlever la durite d&rsquo;alimentation en carburant</a></li><li><a href=#préparer-la-nouvelle-durite-avec-le-capteur>Préparer la nouvelle durite avec le capteur</a></li></ul></li><li><a href=#le-faisceau-électrique-et-le-capteur>Le faisceau électrique et le capteur</a><ul><li><a href=#préparer-le-faisceau>Préparer le faisceau</a></li><li><a href=#installer-le-faisceau>Installer le faisceau</a></li><li><a href=#installer-le-capteur-de-température>Installer le capteur de température</a></li><li><a href=#clipser-le-connecteur-du-capteur-danalyse-de-carburant>Clipser le connecteur du capteur d&rsquo;analyse de carburant</a></li><li><a href=#relier-le-faisceau-à-la-masse-véhicule>Relier le faisceau à la masse véhicule</a></li><li><a href=#fixer-le-boitier>Fixer le boitier</a></li></ul></li></ul></li><li><a href=#premier-démarrage-et-vérification>Premier démarrage et vérification</a><ul><li><a href=#installer-lapplication-eflexapp>Installer l&rsquo;application eFlexApp</a></li><li><a href=#démarrer-le-moteur>Démarrer le moteur</a></li><li><a href=#premier-passage-à-la-pompe>Premier passage à la pompe.</a></li></ul></li><li><a href=#a-lusage>A l&rsquo;usage</a></li></ul></li></ul></nav></div></div></section></div><footer id=footer class="container-fluid text-center align-content-center footer pb-2"><div class="container pt-5"><div class="row text-left"><div class="col-md-4 col-sm-12"><h5>Navigation</h5><ul><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io#about>A propos</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io#skills>Compétences</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io#experiences>Expériences</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io#projects>Projets personnels</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io#recent-posts>Recent Posts</a></li><li class=nav-item><a class=smooth-scroll href=https://hugo-toha.github.io#achievements>Mes passions</a></li></ul></div><div class="col-md-4 col-sm-12"><h5>Contactez moi :</h5><ul><li><a href=mailto:nils@laumaille.fr target=_blank rel=noopener><span><i class="fas fa-envelope"></i></span> <span>nils@laumaille.fr</span></a></li></ul></div></div></div><hr><div class=container><div class="row text-left"><div class=col-md-4><a id=theme href=https://github.com/hugo-toha/toha target=_blank rel=noopener><img src=/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png alt="Toha Theme Logo">
-Toha</a></div><div class="col-md-4 text-center">© 2021 Tous droits réservés.</div><div class="col-md-4 text-right"><a id=hugo href=https://gohugo.io/ target=_blank rel=noopener>Alimenté par
-<img src=/images/hugo-logo.svg alt="Hugo Logo" height=18></a></div></div></div></footer><script src=/application.5fdcddcbd0bed534e439775b9737f74350aaedfe4b95f3b937a8fc9ecfa7417f.js integrity="sha256-X9zdy9C+1TTkOXdblzf3Q1Cq7f5LlfO5N6j8ns+nQX8=" defer></script></body></html>
+Si le filtre se trouve être trop encrassé alors la pompe à injection va forcer plus que de nécessaire.</p>
+</blockquote>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+            <strong>Partager sur:</strong>
+            
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fnilslaumaille.github.io%2fpersonel%2fposts%2fmecanique%2fflexfuel%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2fnilslaumaille.github.io%2fpersonel%2fposts%2fmecanique%2fflexfuel%2f&text=Installer%20un%20boitier%20Flexfuel&via=Nils%20Laumaill%c3%a9" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=https%3a%2f%2fnilslaumaille.github.io%2fpersonel%2fposts%2fmecanique%2fflexfuel%2f&title=Installer%20un%20boitier%20Flexfuel" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fnilslaumaille.github.io%2fpersonel%2fposts%2fmecanique%2fflexfuel%2f&title=Installer%20un%20boitier%20Flexfuel" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Installer%20un%20boitier%20Flexfuel https%3a%2f%2fnilslaumaille.github.io%2fpersonel%2fposts%2fmecanique%2fflexfuel%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=Installer%20un%20boitier%20Flexfuel&body=https%3a%2f%2fnilslaumaille.github.io%2fpersonel%2fposts%2fmecanique%2fflexfuel%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/nilslaumaille/personel.git/edit/main/content/posts%5cmecanique%5cflexfuel%5cindex.md" title="Améliorez cette page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Améliorez cette page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/personel/posts/informatique/jeedom/" title="Mon installation domotique à base de Jeedom" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Précédent</div>
+        <div class="next-prev-text">Mon installation domotique à base de Jeedom</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/personel/posts/omv/portainer_maj/" title="Mettre à jour Portainer" class="btn btn-outline-info">
+          <div>Suivant <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Mettre à jour Portainer</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table des matières</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#quelques-généralités">Quelques généralités</a>
+      <ul>
+        <li><a href="#boitier-éthanol-késako-">Boitier éthanol, késako ?</a></li>
+        <li><a href="#quel-type-choisir-">Quel type choisir ?</a></li>
+        <li><a href="#quel-est-le-principe-de-fonctionnement-">Quel est le principe de fonctionnement ?</a></li>
+        <li><a href="#est-ce-bien-légal-tout-cela-">Est-ce bien légal tout cela ?</a></li>
+      </ul>
+    </li>
+    <li><a href="#dans-mon-cas">Dans mon cas</a>
+      <ul>
+        <li><a href="#mon-choix">Mon choix</a></li>
+        <li><a href="#linstallation">L&rsquo;installation</a>
+          <ul>
+            <li><a href="#le-capteur">Le capteur</a>
+              <ul>
+                <li><a href="#enlever-la-durite-dalimentation-en-carburant">Enlever la durite d&rsquo;alimentation en carburant</a></li>
+                <li><a href="#préparer-la-nouvelle-durite-avec-le-capteur">Préparer la nouvelle durite avec le capteur</a></li>
+              </ul>
+            </li>
+            <li><a href="#le-faisceau-électrique-et-le-capteur">Le faisceau électrique et le capteur</a>
+              <ul>
+                <li><a href="#préparer-le-faisceau">Préparer le faisceau</a></li>
+                <li><a href="#installer-le-faisceau">Installer le faisceau</a></li>
+                <li><a href="#installer-le-capteur-de-température">Installer le capteur de température</a></li>
+                <li><a href="#clipser-le-connecteur-du-capteur-danalyse-de-carburant">Clipser le connecteur du capteur d&rsquo;analyse de carburant</a></li>
+                <li><a href="#relier-le-faisceau-à-la-masse-véhicule">Relier le faisceau à la masse véhicule</a></li>
+                <li><a href="#fixer-le-boitier">Fixer le boitier</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#premier-démarrage-et-vérification">Premier démarrage et vérification</a>
+          <ul>
+            <li><a href="#installer-lapplication-eflexapp">Installer l&rsquo;application eFlexApp</a></li>
+            <li><a href="#démarrer-le-moteur">Démarrer le moteur</a></li>
+            <li><a href="#premier-passage-à-la-pompe">Premier passage à la pompe.</a></li>
+          </ul>
+        </li>
+        <li><a href="#a-lusage">A l&rsquo;usage</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://nilslaumaille.github.io/personel/#about">A propos</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://nilslaumaille.github.io/personel/#skills">Compétences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://nilslaumaille.github.io/personel/#experiences">Expériences</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://nilslaumaille.github.io/personel/#projects">Projets personnels</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://nilslaumaille.github.io/personel/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://nilslaumaille.github.io/personel/#achievements">Mes passions</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contactez moi :</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:nils@laumaille.fr target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>nils@laumaille.fr</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/personel/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2021 Tous droits réservés.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
+          <img
+            src="/personel/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/personel/application.4913f160edec4fa0e245e876938cbd8c53a4b425eea92957602141a3cb247bb9.js" integrity="sha256-SRPxYO3sT6DiReh2k4y9jFOktCXuqSlXYCFBo8ske7k=" defer></script>
+
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

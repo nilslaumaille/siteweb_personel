@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bricolage on Nils Laumaillé</title><link>https://hugo-toha.github.io/posts/bricolage/</link><description>Recent content in Bricolage on Nils Laumaillé</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Mon, 08 Jun 2020 06:00:23 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/posts/bricolage/index.xml" rel="self" type="application/rss+xml"/><item><title>Il est ou ? le Nuki ?</title><link>https://hugo-toha.github.io/posts/bricolage/nuki/</link><pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate><guid>https://hugo-toha.github.io/posts/bricolage/nuki/</guid><description>En cours d&amp;rsquo;écriture &amp;hellip;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bricolage on Nils Laumaillé</title>
+    <link>https://nilslaumaille.github.io/personel/posts/bricolage/</link>
+    <description>Recent content in Bricolage on Nils Laumaillé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Mon, 08 Jun 2020 06:00:23 +0600</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/posts/bricolage/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Il est ou ? le Nuki ?</title>
+      <link>https://nilslaumaille.github.io/personel/posts/bricolage/nuki/</link>
+      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
+      
+      <guid>https://nilslaumaille.github.io/personel/posts/bricolage/nuki/</guid>
+      <description>En cours d&amp;rsquo;écriture &amp;hellip; </description>
+    </item>
+    
+    
+  </channel>
+</rss>

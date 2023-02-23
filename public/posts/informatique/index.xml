@@ -1,3 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Informatique on Nils Laumaillé</title><link>https://hugo-toha.github.io/posts/informatique/</link><description>Recent content in Informatique on Nils Laumaillé</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://hugo-toha.github.io/posts/informatique/index.xml" rel="self" type="application/rss+xml"/><item><title>Comment flasher un ESP8266 sous Windows 11</title><link>https://hugo-toha.github.io/posts/informatique/esp8266/</link><pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/posts/informatique/esp8266/</guid><description>En cours d&amp;rsquo;écriture Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description></item><item><title>Comment flasher un ESP8266 sous Windows 11</title><link>https://hugo-toha.github.io/posts/informatique/parametrer_esp8266/</link><pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate><guid>https://hugo-toha.github.io/posts/informatique/parametrer_esp8266/</guid><description/></item><item><title>Mon installation domotique à base de Jeedom</title><link>https://hugo-toha.github.io/posts/informatique/jeedom/</link><pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate><guid>https://hugo-toha.github.io/posts/informatique/jeedom/</guid><description>En cours d&amp;rsquo;écriture &amp;hellip;</description></item><item><title>Teampass, un gestionnaire de mots de passe collaboratif</title><link>https://hugo-toha.github.io/posts/informatique/teampass/</link><pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate><guid>https://hugo-toha.github.io/posts/informatique/teampass/</guid><description>En cours d&amp;rsquo;écriture &amp;hellip;
-Génése Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip; Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Informatique on Nils Laumaillé</title>
+    <link>https://nilslaumaille.github.io/personel/posts/informatique/</link>
+    <description>Recent content in Informatique on Nils Laumaillé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/posts/informatique/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Comment flasher un ESP8266 sous Windows 11</title>
+      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</guid>
+      <description>En cours d&amp;rsquo;écriture Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
+La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+    </item>
+    
+    <item>
+      <title>Comment Paramérer un ESP8266 sous Windows 11 avec ESP Easy</title>
+      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</guid>
+      <description>Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
+La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+    </item>
+    
+    <item>
+      <title>Mon installation domotique à base de Jeedom</title>
+      <link>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</link>
+      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
+      
+      <guid>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</guid>
+      <description>En cours d&amp;rsquo;écriture &amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Teampass, un gestionnaire de mots de passe collaboratif</title>
+      <link>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</link>
+      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
+      
+      <guid>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</guid>
+      <description>En cours d&amp;rsquo;écriture &amp;hellip;
+Génése Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip; Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
