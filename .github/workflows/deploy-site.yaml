@@ -27,6 +27,9 @@ jobs:
       with:
         node-version: 18
 
+    - name: Install Node.js dependencies
+      run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
     - name: Install node modules
       run: |
         hugo mod npm pack
