@@ -54,5 +54,5 @@ skills:
   summary: "Je connais les principes de bases ainsi que le gitflow classique."
 
 - name: Office365
-  #logo: "/images/sections/skills/o365.png"
+  logo: "/images/sections/skills/o365.png"
   summary: "Très expérimenté dans son utilisation, j'en connais de nombreux recoins."
