@@ -12,8 +12,6 @@ menu:
 ---
 
 
-# En cours d'écriture
-
 Cette page s'inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d'émetteur IR pour contrôler une unité intérieure d'une climatisation.
 
 La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.
@@ -67,7 +65,3 @@ Dans mon cas, je vais choisir le firmware *ESP_Easy_mega_20221224_minimal_IRext_
 ## Réinitialiser intégralement le module
 
 Il est tout à fait possible de réinitialiser le module en flashant une image vide, pour cela, il faut choisir le firmware **blank_4MB**.
-
-## Paraméter le module
-
-*
