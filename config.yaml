@@ -1,4 +1,4 @@
-baseURL: https://nilslaumaille.github.io/personel/
+baseURL: https://nils.laumaille.fr/
 
 languageCode: fr-FR
 title: "Nils Laumaillé"
@@ -60,7 +60,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/nilslaumaille/personel.git
+  gitRepo: https://github.com/nilslaumaille/siteweb_personel.git
   # Default branch of your Git repo
   gitBranch: main
 
