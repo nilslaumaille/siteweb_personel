@@ -25,9 +25,14 @@ skills:
   summary: "Expérimenté dans la façon dont un projet de développement doit s'articuler et se gérer pour assurer un suivi QCD."
   url: "https://git-scm.com/"
 
+- name: Delivery
+  logo: "/images/sections/skills/delivery.png"
+  summary: "Expérimenté dans sa mise en place et son suivi à l'échelle d'un produit, je m'appuie souvent sur un plan de production permettant d'organiser et prioriser les réalisations, garantir la capacité de production, et partager transversalement les éléments."
+  url: "https://fr.wikipedia.org/wiki/Forge_(informatique)"
+
 - name: Gestion d’équipe
   logo: "/images/sections/skills/team.png"
-  summary: "Je gère des équipes allant de 3 à 20 depuis plus de 10 ans ce qui me permet d'avoir un certain recul."
+  summary: "Je gère et accompagne des équipes allant de 3 à 20 personnes (développeurs, testeurs, IT, devops, etc.) depuis plus de 10 ans. C'est une dimension dans mon travail que j'apprécie."
 
 - name: Gestion des Exigences
   logo: "/images/sections/skills/reqs.png"
