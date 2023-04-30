@@ -14,7 +14,7 @@ skills:
 - name: Méthodes logiciels
   logo: "/images/sections/skills/sdlc.png"
   summary: "Très bonne expérience dans l'exécution de la transformation des méthodes de développement logiciel et la mise en place de « forges »."
-  url: "https://fr.wikipedia.org/wiki/Forge_(informatique)"
+  #url: "https://fr.wikipedia.org/wiki/Forge_(informatique)"
 
 - name: Qualité en R&D
   logo: "/images/sections/skills/swquality.png"
