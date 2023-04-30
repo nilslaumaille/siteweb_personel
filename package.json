@@ -29,7 +29,10 @@
       "postcss-cli": "github.com/hugo-toha/toha/v4"
     }
   },
-  "dependencies": {},
+  "dependencies": {
+    "@tinacms/cli": "^1.5.9",
+    "tinacms": "^1.5.2"
+  },
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -56,6 +59,10 @@
     "popper.js": "^1.16.1",
     "postcss": "^8.4.21",
     "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo"
   },
   "name": "hugo-toha.github.io",
   "version": "0.1.0"
