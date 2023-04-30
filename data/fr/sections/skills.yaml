@@ -48,7 +48,7 @@ skills:
   summary: "Le DevOps pour moi contient toujours une part de « magie » car je n'en connais pas tous les rouages et ne dispose pas des compétences techniques. Cependant, je connais les bénéfices que l'on peut en tirer en terme d'efficience, de qualité et de rapidité pour avoir coaché sa mise en place from scratch. On vit vraiment une époque formidable en terme d'évolutions technologiques alors pourquoi s'en priver."
 
 - name: Suite Atlassian
-  logo: "/images/sections/skills/Atlassian.png"
+  logo: "/images/sections/skills/atlassian.png"
   summary: "Je pratique toute la suite Atlassian depuis de nombreuses années. J'en suis un administrateur avancé, et je m'appuie sur ses fonctionnalités pour appuyer et soutenir l'ensemble des pratiques et processus mis en place au sein des équipes. C'est un formidable outil à plusieurs niveaux et que l'on peut adapter à des besoins simples comme complexes."
 
 - name: Git
