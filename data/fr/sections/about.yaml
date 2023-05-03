@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Directeur R&D
+designation: Responsable R&D
 # your company information
 company:
   name: Sanilea
