@@ -38,12 +38,12 @@ socialLinks:
 badges:
 - type: soft-skill-indicator
   name: Travail en équipe
-  percentage: 85
+  percentage: 95
   color: "#dedb1f"
 
 - type: soft-skill-indicator
   name: Travailleur
-  percentage: 90
+  percentage: 95
   color: "#cc8635"
 
 - type: soft-skill-indicator
@@ -53,7 +53,7 @@ badges:
 
 - type: soft-skill-indicator
   name: Leadership
-  percentage: 75
+  percentage: 85
   color: "#1f8f50"
 
 - type: soft-skill-indicator
@@ -63,7 +63,7 @@ badges:
 
 - type: soft-skill-indicator
   name: Synthèse
-  percentage: 80
+  percentage: 85
   color: "#4287f5"
 
 # you can also provide color code instead of the color name
