@@ -30,8 +30,8 @@
     }
   },
   "dependencies": {
-    "@tinacms/cli": "^1.5.10",
-    "tinacms": "^1.5.3"
+    "@tinacms/cli": "^1.5.12",
+    "tinacms": "^1.5.5"
   },
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
