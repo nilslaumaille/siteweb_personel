@@ -1,5 +1,5 @@
 ---
-title: "Comment Paramérer un ESP8266 sous Windows 11 avec ESP Easy"
+title: "Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy"
 date: 2023-02-18T23:00:00Z
 hero: images/d1_mini_ESP8266-wemos-d1-mini-pinout.png
 description: EspEasy dans un Wemos (ESP8266 arduino) sous Windows 11

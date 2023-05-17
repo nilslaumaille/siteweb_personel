@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projets personnels
+  name: Projets
   id: projects
   enable: true
   weight: 5
@@ -33,7 +33,7 @@ projects:
   timeline: "Depuis 2019"
   url: "https://teampass.net/"
   summary: Siteweb de présentation de l'application web Teampass. Il s'agit d'un projet de site web static exploitant les pages de publication au travers de Github et construit avec Jekyll.
-  tags: ["siteweb", "jekyll", "github pages"]
+  tags: ["siteweb", "hugo", "github pages"]
 
 - name: VAG-Technique.fr
   #logo: /images/sections/projects/kubernetes.png
