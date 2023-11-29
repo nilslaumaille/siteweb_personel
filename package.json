@@ -50,6 +50,8 @@
     "flag-icon-css": "^4.1.7",
     "fuse.js": "^6.6.2",
     "highlight.js": "^11.6.0",
+    "hugo-bin": "^0.116.4",
+    "hugo-installer": "^4.0.1",
     "imagesloaded": "^5.0.0",
     "ityped": "^1.0.3",
     "katex": "^0.16.3",
@@ -62,7 +64,7 @@
   },
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
-    "build": "tinacms build && hugo"
+    "build": "npx run tinacms build && hugo"
   },
   "name": "hugo-toha.github.io",
   "version": "0.1.0"
