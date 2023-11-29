@@ -10,11 +10,11 @@ menu:
     parent: informatique
     weight: 400
 keywords:
-	- android 14
-	- accessibilité
-	- accessibility
-	- paramètre restreint
-	- sécurité
+  - android 14
+  - accessibilité
+  - accessibility
+  - paramètre restreint
+  - sécurité
 ---
 
 
