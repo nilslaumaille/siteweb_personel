@@ -1,6 +1,6 @@
 ---
 title: "Comment retirer les paramètres restreints de certaines applications"
-date: 2023-29-11T23:00:00Z
+date: 2023-11-29T10:00:00Z
 hero: images/android_parametre_restreint.png
 description: Retirer les paramètres restreints d'une application
 menu:
@@ -16,7 +16,6 @@ keywords:
   - paramètre restreint
   - sécurité
 ---
-
 
 Je viens d'upgrader mon smartphone (OnePlus 8T) sur Android 14 et je me suis confronté à un problème de paramètre restreint sur une de mes applications préférées.
 

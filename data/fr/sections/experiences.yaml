@@ -11,7 +11,7 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Sanilea
+    name: Sanilea (Éditeur de logiciel en mode SaaS)
     url: "https://www.sanilea.fr"
     location: Limoges
     overview: Sanilea est leader de l’organisation du transport sanitaire en France. C’est un maillon essentiel de l’écosystème du transport sanitaire, à savoir les établissements de santé, les professionnels du transport et les patients. Je suis responsable de la division R&D dont la fonction est de développer la solution SpeedCall conformément aux besoins du marché et de la rendre disponible pour nos utilisateurs via une infrastructure en mode Saas.
@@ -28,7 +28,7 @@ experiences:
     - Manager l'équipe et accompagner chaque collaborateur
 
 - company:
-    name: General Electric
+    name: General Electric (Transport de courant)
     url: "https://www.gegridsolutions.com/"
     location: Montpellier (34)
     overview: Responsable Qualité R&D dans un environnement multi-sites et diverses lignes de produits, j’interviens sur divers axes de pilotage de la Qualité de nos produits et projets. Je vieille à ce que rigueur, contrôle et agilité fassent de nos produits des best-in-class
@@ -44,7 +44,7 @@ experiences:
     - Déployer l’esprit Qualité et Agilité.
 
 - company:
-    name: Valeo Visibilité
+    name: Valeo (Automobile - visibilité)
     url: "https://www.valeo.com/fr/systemes-visibilite/"
     location: Chatellerault (86)
     overview: Poste très large me positionnant comme responsable Qualité en termes de méthodes de travail et Qualité projet d’une équipe Electronique de 40 personnes(multi-métiers), et localisé dans 4 pays différents, développant des Cartes Electroniques pilotant des moteurs d’essuyage de véhicules.
@@ -59,7 +59,7 @@ experiences:
     - Représentant Qualité auprès des clients
 
 - company:
-    name: Ennov
+    name: Ennov / Clinsight (Éditeur de logiciel)
     url: "https://fr.ennov.com/"
     location: Poitiers (86)
     overview: J’étais membre du codir en apportant la vision Qualité sur le périmètre complet de l'entreprise.
@@ -73,7 +73,7 @@ experiences:
     - Rédaction des Cahiers de conformité auprès des instances médicales
 
 - company:
-    name: Autoliv Electronics Europe
+    name: Autoliv Electronics Europe (Automobile - sécurité passive)
     url: "https://www.autoliv.com/"
     location: Cergy (95)
     overview: J'ai construit mon expérience chez Autoliv tant au niveau technique que savoir-etre/savoir-faire grâce notamment au fait d'avoir pu occuper plusieurs fonctions différentes au sein du bureau d'études.
@@ -82,7 +82,7 @@ experiences:
     start: Septempbre 2001
     end: Mars 2007
     responsibilities:
-    - Assurer le maintient et l’amélioration du système qualité du bureau d’études.
+    - Assurer le maintien et l’amélioration du système qualité du bureau d’études.
     - Ingénieur Qualité Logiciel sur les projets.
     - Définition d’outils de pilotage de système Qualité.
     - Mise en place d'outils et de méthodes.
