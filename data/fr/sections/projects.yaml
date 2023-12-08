@@ -32,7 +32,7 @@ projects:
   role: Créateur
   timeline: "Depuis 2019"
   url: "https://teampass.net/"
-  summary: Siteweb de présentation de l'application web Teampass. Il s'agit d'un projet de site web static exploitant les pages de publication au travers de Github et construit avec Jekyll.
+  summary: Siteweb de présentation de l'application web Teampass. Il s'agit d'un projet de site web statique exploitant les pages de publication au travers de Github et construit avec Jekyll.
   tags: ["siteweb", "hugo", "github pages"]
 
 - name: VAG-Technique.fr
@@ -40,5 +40,5 @@ projects:
   role: Propriétaire & Créateur
   timeline: "Depuis Mars 2010"
   url: "https://www.vag-technique.fr/"
-  summary: Communauté articulée autours de l'entretient mécanique des véhicules du groupe VAG et tout particulièrement axée sur le moteur TDI. Ce projet regroupe plusieurs thématiques que sont l'animation et la vie du forum, l'administration et la gestion back-office, l'administration du serveur, la gestion des sauvegardes et des mises à jour des packages, la sécurisation des données, etc. Ce forum a été pour moi un creuset d'expérimentations et d'apprentissage réel.
+  summary: Communauté articulée autour de l'entretien mécanique des véhicules du groupe VAG et tout particulièrement axée sur le moteur TDI. Ce projet regroupe plusieurs thématiques que sont l'animation et la vie du forum, l'administration et la gestion back-office, l'administration du serveur, la gestion des sauvegardes et des mises à jour des packages, la sécurisation des données, etc. Ce forum a été pour moi un creuset d'expérimentations et d'apprentissage réel.
   tags: ["hobby", "webmaster", "server", "centos"]
