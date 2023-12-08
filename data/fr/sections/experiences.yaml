@@ -14,18 +14,18 @@ experiences:
     name: Sanilea (Éditeur de logiciel en mode SaaS)
     url: "https://www.sanilea.fr"
     location: Limoges
-    overview: Sanilea est leader de l’organisation du transport sanitaire en France. C’est un maillon essentiel de l’écosystème du transport sanitaire, à savoir les établissements de santé, les professionnels du transport et les patients. Je suis responsable de la division R&D dont la fonction est de développer la solution SpeedCall conformément aux besoins du marché et de la rendre disponible pour nos utilisateurs via une infrastructure en mode Saas.
+    overview: Sanilea est leader de l’organisation du transport sanitaire en France. C’est un maillon essentiel de l’écosystème du transport sanitaire, à savoir les établissements de santé, les professionnels du transport et les patients. Je suis responsable de la division R&D dont la fonction est de développer la solution SpeedCall conformément aux besoins du marché et de la rendre disponible pour nos utilisateurs via une infrastructure en mode Saas.<br>Dans ce contexte, j'assure la gestion des équipes R&D (produits, développement et infrastructure) en mode Delivery.
   positions:
   - designation: Responsable R&D
     start: Février 2020
+    end: septembre 2023
     responsibilities:
-    - Piloter l'activité de la division R&D
-    - Définir , suivre et adapter les roadmap produit et technique
-    - Gérer le delivery du logiciel
-    - Piloter le plan de production en fonction des roadmaps et des événements
-    - Garantir le respect des réglementations
-    - Veiller au triptyque Cout, Qualité et Délais
-    - Manager l'équipe et accompagner chaque collaborateur
+    - « Leader » le produit - écrire la vision produit et technique, ainsi que les roadmaps associées tout en focalisant sur la valeur ajoutée ; identifier les risques et les limites ; proposer des améliorations ; définir les objectifs produit.
+    - Garantir le « Delivery » - Piloter l'activité des équipes pour respecter les délais, la qualité et les budgets des différents projets au travers d'un plan de production ; prendre des décisions relatives aux livrables (versus le MVP et/ou le rational des fonctionnalités / évolutions indispensables clients et / ou techniques).
+    - Contribuer à l'ensemble des phases de développement - Participer auprès de l'équipe aux événements quotidiens ; faciliter la résolution des problèmes ; mettre en place et suivre les indicateurs.
+    - Contribuer aux différents choix de l'équipe - comprendre les enjeux et les solutions ; susciter des interrogations et faire émerger des solutions alternatives ; statuer si divergence.
+    - Garantir la fluidité des étapes et des cycles au travers de process définis, compris et adaptés aux projets ; implémenter les outils nécessaires pour maximiser la performance globale de l’équipe.
+    - Team building - amener les membres à franchir des étapes et ainsi favoriser la cohésion globale de l'équipe ; définir, suivre les objectifs et les résultats ; accompagner et favoriser l'échange dans un climat de confiance.
 
 - company:
     name: General Electric (Transport de courant)
