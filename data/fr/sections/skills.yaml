@@ -11,7 +11,7 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Méthodes logiciels
+- name: Méthodes logicielles
   logo: "/images/sections/skills/sdlc.png"
   summary: "Très bonne expérience dans l'exécution de la transformation des méthodes de développement logiciel et la mise en place de « forges »."
 
@@ -33,7 +33,7 @@ skills:
 
 - name: Gestion des Exigences
   logo: "/images/sections/skills/reqs.png"
-  summary: "Il s'agit de ma thématique préférée. De la définition de l'expression du besoin à la phase de recettage, je suis plus que performant pour définir les modalités de gestion et de traçabilité des exigences."
+  summary: "Il s'agit de ma thématique préférée. De la définition de l'expression du besoin à la phase de recette, je suis plus que performant pour définir les modalités de gestion et de traçabilité des exigences."
 
 - name: Gestion de Risques
   logo: "/images/sections/skills/risks.png"
@@ -45,7 +45,7 @@ skills:
 
 - name: Méthodes DevOps
   logo: "/images/sections/skills/devops.png"
-  summary: "Le DevOps pour moi contient toujours une part de « magie » car je n'en connais pas tous les rouages et ne dispose pas des compétences techniques. Cependant, je connais les bénéfices que l'on peut en tirer en terme d'efficience, de qualité et de rapidité pour avoir coaché sa mise en place from scratch. On vit vraiment une époque formidable en terme d'évolutions technologiques alors pourquoi s'en priver."
+  summary: "Le DevOps pour moi contient toujours une part de « magie » car je n'en connais pas tous les rouages et ne dispose pas des compétences techniques. Cependant, je connais les bénéfices que l'on peut en tirer en termes d'efficience, de qualité et de rapidité pour avoir coaché sa mise en place from scratch. On vit vraiment une époque formidable en termes d'évolutions technologiques alors pourquoi s'en priver."
 
 - name: Suite Atlassian
   logo: "/images/sections/skills/atlassian.png"
@@ -53,7 +53,7 @@ skills:
 
 - name: Git
   logo: "/images/sections/skills/git.png"
-  summary: "Je connais les principes de bases ainsi que le gitflow classique."
+  summary: "Je connais et mets en application les principes et les principales commandes ainsi que le gitflow classique."
 
 - name: Office365
   logo: "/images/sections/skills/o365.png"
