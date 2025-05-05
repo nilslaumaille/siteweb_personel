@@ -52,6 +52,8 @@ params:
   # Background image of the landing page
   background: /images/site/bg2.jpg
 
+  disableAnalytics: true
+
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
@@ -144,11 +146,12 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
+        #googleAnalytics: G-H4LBG7NDFZ
+        #google:
+        #  id: G-H4LBG7NDFZ
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>

@@ -2,18 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content Organization on Nils Laumaillé</title>
-    <link>https://nilslaumaille.github.io/personel/tags/content-organization/</link>
+    <link>http://localhost:1313/tags/content-organization/</link>
     <description>Recent content in Content Organization on Nils Laumaillé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/tags/content-organization/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Comment Paramérer un ESP8266 sous Windows 11 avec ESP Easy</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</link>
+    <language>fr</language>
+    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/content-organization/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Comment inclure un module ESP8266 dans Jeedom avec ESPEasy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-jeedom/</link>
       <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</guid>
-      <description>Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+      <guid>http://localhost:1313/posts/informatique/esp8266-jeedom/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette étape permet d&amp;rsquo;inclure un module ESP8266 dans Jeedom avec le pluggin ESPEasy&lt;/p&gt;
+&lt;h1 id=&#34;paraméter-lesp8266-pour-linclure-dans-jeedom&#34;&gt;Paraméter l&amp;rsquo;ESP8266 pour l&amp;rsquo;inclure dans jeedom&lt;/h1&gt;
+&lt;p&gt;Cette étape permet de préparer l&amp;rsquo;ESP8266 pour qu&amp;rsquo;il puisse être inclut dans le pluggin EspEasy dans Jeedom.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-parametrer/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/esp8266-parametrer/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette 2de étape permet d&amp;rsquo;associer l&amp;rsquo;ESP8266 à une connexion wifi.&lt;/p&gt;
+&lt;h1 id=&#34;association-au-wifi&#34;&gt;Association au Wifi&lt;/h1&gt;
+&lt;p&gt;Rien de bien sorcier, il suffit d&amp;rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;L&amp;rsquo;ESP8266 doit être branché et activé.&lt;/p&gt;</description>
     </item>
     
     

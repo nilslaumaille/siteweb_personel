@@ -11,6 +11,18 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Urbasolar
+    url: "https://www.urbasolar.com/"
+    location: Montpellier
+    overview: Le soleil est certainement la source d’énergie la plus inépuisable de notre planète. Cette énergie d’origine renouvelable est une des solutions majeures pour répondre durablement et de manière responsable aux besoins énergétiques de l’humanité. Nous nous consacrons ainsi à son déploiement à grande échelle depuis plus de 15 ans. 
+  positions:
+  - designation: Product Owner
+    start: Février 2024
+    #end: septembre 2023
+    responsibilities:
+    - En construction
+
+- company:
     name: Sanilea (Éditeur de logiciel en mode SaaS)
     url: "https://www.sanilea.fr"
     location: Limoges
@@ -20,7 +32,7 @@ experiences:
     start: Février 2020
     end: septembre 2023
     responsibilities:
-    - « Leader » le produi - écrire la vision produit et technique, ainsi que les roadmaps associées tout en focalisant sur la valeur ajoutée ; identifier les risques et les limites ; proposer des améliorations ; définir les objectifs produit.
+    - « Leader » le produit - écrire la vision produit et technique, ainsi que les roadmaps associées tout en focalisant sur la valeur ajoutée ; identifier les risques et les limites ; proposer des améliorations ; définir les objectifs produit.
     - Garantir le « Delivery » - Piloter l'activité des équipes pour respecter les délais, la qualité et les budgets des différents projets au travers d'un plan de production ; prendre des décisions relatives aux livrables (versus le MVP et/ou le rational des fonctionnalités / évolutions indispensables clients et / ou techniques).
     - Contribuer à l'ensemble des phases de développement - Participer auprès de l'équipe aux événements quotidiens ; faciliter la résolution des problèmes ; mettre en place et suivre les indicateurs.
     - Contribuer aux différents choix de l'équipe - comprendre les enjeux et les solutions ; susciter des interrogations et faire émerger des solutions alternatives ; statuer si divergence.

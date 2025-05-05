@@ -2,235 +2,162 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Nils Laumaillé</title>
-    <link>https://nilslaumaille.github.io/personel/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Nils Laumaillé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/posts/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Comment flasher un ESP8266 sous Windows 11</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</link>
-      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+    <language>fr</language>
+    <lastBuildDate>Wed, 29 Nov 2023 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Comment retirer les paramètres restreints de certaines applications</title>
+      <link>http://localhost:1313/posts/informatique/android/</link>
+      <pubDate>Wed, 29 Nov 2023 10:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</guid>
-      <description>En cours d&amp;rsquo;écriture Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+      <guid>http://localhost:1313/posts/informatique/android/</guid>
+      <description>&lt;p&gt;Je viens d&amp;rsquo;upgrader mon smartphone (OnePlus 8T) sur Android 14 et je me suis confronté à un problème de paramètre restreint sur une de mes applications préférées.&lt;/p&gt;
+&lt;p&gt;En effet, j&amp;rsquo;utilise une application tiers comme launcher combinée au &lt;code&gt;double appui&lt;/code&gt; pour éteindre l&amp;rsquo;écran. Et c&amp;rsquo;est sur cette action que je voyais apparaitre l&amp;rsquo;erreur en question.&lt;/p&gt;
+&lt;h1 id=&#34;erreur-rencontrée&#34;&gt;Erreur rencontrée&lt;/h1&gt;
+&lt;p&gt;Ainsi après avoir upgradé vers Android 14, en faisant le &lt;code&gt;double appui&lt;/code&gt; sur une zone vide l&amp;rsquo;écran, au lieu que celui-ci ne s&amp;rsquo;éteigne, le message suivant était visible.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Comment Paramérer un ESP8266 sous Windows 11 avec ESP Easy</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</link>
+      <title>Comment mettre à jour automatiquement vos logiciels sous Windows 11</title>
+      <link>http://localhost:1313/posts/informatique/windows-winget/</link>
+      <pubDate>Sun, 26 Mar 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/windows-winget/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Mon cas d&amp;rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;winget-&#34;&gt;Winget ?&lt;/h1&gt;
+&lt;p&gt;Winget est l&amp;rsquo;outil en ligne de commande du gestionnaire de packages de Windows (10 et 11). L&amp;rsquo;avantage étant que l&amp;rsquo;on peut donc l&amp;rsquo;utiliser dans des scripts maisons pour définir notre propre stratégie de mise à jour des logiciels.&lt;/p&gt;
+&lt;p&gt;Toute la &lt;a href=&#34;https://learn.microsoft.com/fr-fr/windows/package-manager/winget/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation de Winget&lt;/a&gt; est disponible.&lt;/p&gt;
+&lt;p&gt;À savoir pour la suite que Winget présente les applications de la façon suivante.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment flasher un ESP8266 sous Windows 11</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-flasher/</link>
       <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</guid>
-      <description>Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+      <guid>http://localhost:1313/posts/informatique/esp8266-flasher/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment inclure un module ESP8266 dans Jeedom avec ESPEasy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-jeedom/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/esp8266-jeedom/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette étape permet d&amp;rsquo;inclure un module ESP8266 dans Jeedom avec le pluggin ESPEasy&lt;/p&gt;
+&lt;h1 id=&#34;paraméter-lesp8266-pour-linclure-dans-jeedom&#34;&gt;Paraméter l&amp;rsquo;ESP8266 pour l&amp;rsquo;inclure dans jeedom&lt;/h1&gt;
+&lt;p&gt;Cette étape permet de préparer l&amp;rsquo;ESP8266 pour qu&amp;rsquo;il puisse être inclut dans le pluggin EspEasy dans Jeedom.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-parametrer/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/esp8266-parametrer/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette 2de étape permet d&amp;rsquo;associer l&amp;rsquo;ESP8266 à une connexion wifi.&lt;/p&gt;
+&lt;h1 id=&#34;association-au-wifi&#34;&gt;Association au Wifi&lt;/h1&gt;
+&lt;p&gt;Rien de bien sorcier, il suffit d&amp;rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;L&amp;rsquo;ESP8266 doit être branché et activé.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installer un boitier Flexfuel</title>
-      <link>https://nilslaumaille.github.io/personel/posts/mecanique/flexfuel/</link>
+      <link>http://localhost:1313/posts/mecanique/flexfuel/</link>
       <pubDate>Sat, 02 Oct 2021 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/mecanique/flexfuel/</guid>
-      <description>Cet article fait un peu le résumé de toutes mes recherches sur la notion de boitier éthanol car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.
-Quelques généralités Boitier éthanol, késako ? Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal.</description>
+      <guid>http://localhost:1313/posts/mecanique/flexfuel/</guid>
+      <description>&lt;p&gt;Cet article fait un peu le résumé de toutes mes recherches sur la notion de &lt;code&gt;boitier éthanol&lt;/code&gt; car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.&lt;/p&gt;
+&lt;h1 id=&#34;quelques-généralités&#34;&gt;Quelques généralités&lt;/h1&gt;
+&lt;h2 id=&#34;boitier-éthanol-késako-&#34;&gt;Boitier éthanol, késako ?&lt;/h2&gt;
+&lt;p&gt;Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal. Ils viennent donc se placer entre le calculateur moteur et les injecteurs.
+Une sonde mesure la proportion d’éthanol dans le carburant. Plus elle est élevée plus le boîtier E85 augmentera la quantité de carburant injecté. Le boîtier E85 s’assure que le moteur reçoit bien la quantité d’énergie prévue par le calculateur en ajustant le volume de carburant injecté.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Il est ou ? le Nuki ?</title>
-      <link>https://nilslaumaille.github.io/personel/posts/bricolage/nuki/</link>
+      <link>http://localhost:1313/posts/bricolage/nuki/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/bricolage/nuki/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip; </description>
+      <guid>http://localhost:1313/posts/bricolage/nuki/</guid>
+      <description>&lt;h3 id=&#34;en-cours-décriture-&#34;&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Mettre à jour Portainer</title>
-      <link>https://nilslaumaille.github.io/personel/posts/omv/portainer_maj/</link>
+      <link>http://localhost:1313/posts/omv/portainer_maj/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/omv/portainer_maj/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip;
-Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.
-Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.
-À partir d&amp;rsquo;OpenMediaVault, il suffit de :
-Sélectionner l&amp;rsquo;option OMV-Extras présent dans la section Système Cliquer sur l&amp;rsquo;onglet Docker Depuis le menu du haut, choisir Installer dans la liste déroulante de Portainer Attendre que l&amp;rsquo;installation soit terminée Rafraichir la page de Portainer Aussi étrange que cela puisse paraitre et bien que Portainer soit déjà installé, il suffit de le ré-installer pour que l&amp;rsquo;instance en place se mette à jour.</description>
+      <guid>http://localhost:1313/posts/omv/portainer_maj/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.&lt;/p&gt;
+&lt;p&gt;Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.&lt;/p&gt;
+&lt;p&gt;À partir d&amp;rsquo;OpenMediaVault, il suffit de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sélectionner l&amp;rsquo;option &lt;code&gt;OMV-Extras&lt;/code&gt; présent dans la section &lt;code&gt;Système&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cliquer sur l&amp;rsquo;onglet &lt;code&gt;Docker&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Depuis le menu du haut, choisir &lt;code&gt;Installer&lt;/code&gt; dans la liste déroulante de &lt;code&gt;Portainer&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Attendre que l&amp;rsquo;installation soit terminée&lt;/li&gt;
+&lt;li&gt;Rafraichir la page de Portainer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aussi étrange que cela puisse paraitre et bien que Portainer soit déjà installé, il suffit de le ré-installer pour que l&amp;rsquo;instance en place se mette à jour.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mon installation domotique à base de Jeedom</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</link>
+      <link>http://localhost:1313/posts/informatique/jeedom/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip; </description>
+      <guid>http://localhost:1313/posts/informatique/jeedom/</guid>
+      <description>&lt;h3 id=&#34;en-cours-décriture-&#34;&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Teampass, un gestionnaire de mots de passe collaboratif</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</link>
+      <link>http://localhost:1313/posts/informatique/teampass/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip;
-Génése Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip; Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.</description>
+      <guid>http://localhost:1313/posts/informatique/teampass/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;génése&#34;&gt;Génése&lt;/h1&gt;
+&lt;p&gt;Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip;
+Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>Resultados de Búsqueda</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
-No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
-Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
-Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
-    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      <title>Hello, World!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>অনুসন্ধানের ফলাফল</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.&lt;/p&gt;
+&lt;p&gt;Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a posuere eros justo nec sem. Nullam laoreet accumsan metus, sit amet tincidunt orci egestas nec. Pellentesque ut aliquet ante, at tristique nunc. Donec non massa nibh. Ut posuere lacus non aliquam laoreet. Fusce pharetra ligula a felis porttitor, at mollis ipsum maximus. Donec quam tortor, vehicula a magna sit amet, tincidunt dictum enim. In hac habitasse platea dictumst. Mauris sit amet ornare ligula, blandit consequat risus. Duis malesuada pellentesque lectus, non feugiat turpis eleifend a. Nullam tempus ante et diam pretium, ac faucibus ligula interdum.&lt;/p&gt;</description>
     </item>
     
     

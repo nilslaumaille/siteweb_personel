@@ -2,479 +2,493 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nils Laumaillé</title>
-    <link>https://nilslaumaille.github.io/personel/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Nils Laumaillé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Comment flasher un ESP8266 sous Windows 11</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</link>
-      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+    <language>fr</language>
+    <lastBuildDate>Wed, 29 Nov 2023 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Comment retirer les paramètres restreints de certaines applications</title>
+      <link>http://localhost:1313/posts/informatique/android/</link>
+      <pubDate>Wed, 29 Nov 2023 10:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</guid>
-      <description>En cours d&amp;rsquo;écriture Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+      <guid>http://localhost:1313/posts/informatique/android/</guid>
+      <description>&lt;p&gt;Je viens d&amp;rsquo;upgrader mon smartphone (OnePlus 8T) sur Android 14 et je me suis confronté à un problème de paramètre restreint sur une de mes applications préférées.&lt;/p&gt;
+&lt;p&gt;En effet, j&amp;rsquo;utilise une application tiers comme launcher combinée au &lt;code&gt;double appui&lt;/code&gt; pour éteindre l&amp;rsquo;écran. Et c&amp;rsquo;est sur cette action que je voyais apparaitre l&amp;rsquo;erreur en question.&lt;/p&gt;
+&lt;h1 id=&#34;erreur-rencontrée&#34;&gt;Erreur rencontrée&lt;/h1&gt;
+&lt;p&gt;Ainsi après avoir upgradé vers Android 14, en faisant le &lt;code&gt;double appui&lt;/code&gt; sur une zone vide l&amp;rsquo;écran, au lieu que celui-ci ne s&amp;rsquo;éteigne, le message suivant était visible.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Comment Paramérer un ESP8266 sous Windows 11 avec ESP Easy</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</link>
+      <title>Comment mettre à jour automatiquement vos logiciels sous Windows 11</title>
+      <link>http://localhost:1313/posts/informatique/windows-winget/</link>
+      <pubDate>Sun, 26 Mar 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/windows-winget/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Mon cas d&amp;rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;winget-&#34;&gt;Winget ?&lt;/h1&gt;
+&lt;p&gt;Winget est l&amp;rsquo;outil en ligne de commande du gestionnaire de packages de Windows (10 et 11). L&amp;rsquo;avantage étant que l&amp;rsquo;on peut donc l&amp;rsquo;utiliser dans des scripts maisons pour définir notre propre stratégie de mise à jour des logiciels.&lt;/p&gt;
+&lt;p&gt;Toute la &lt;a href=&#34;https://learn.microsoft.com/fr-fr/windows/package-manager/winget/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation de Winget&lt;/a&gt; est disponible.&lt;/p&gt;
+&lt;p&gt;À savoir pour la suite que Winget présente les applications de la façon suivante.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment flasher un ESP8266 sous Windows 11</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-flasher/</link>
       <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</guid>
-      <description>Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+      <guid>http://localhost:1313/posts/informatique/esp8266-flasher/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment inclure un module ESP8266 dans Jeedom avec ESPEasy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-jeedom/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/esp8266-jeedom/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette étape permet d&amp;rsquo;inclure un module ESP8266 dans Jeedom avec le pluggin ESPEasy&lt;/p&gt;
+&lt;h1 id=&#34;paraméter-lesp8266-pour-linclure-dans-jeedom&#34;&gt;Paraméter l&amp;rsquo;ESP8266 pour l&amp;rsquo;inclure dans jeedom&lt;/h1&gt;
+&lt;p&gt;Cette étape permet de préparer l&amp;rsquo;ESP8266 pour qu&amp;rsquo;il puisse être inclut dans le pluggin EspEasy dans Jeedom.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-parametrer/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/esp8266-parametrer/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette 2de étape permet d&amp;rsquo;associer l&amp;rsquo;ESP8266 à une connexion wifi.&lt;/p&gt;
+&lt;h1 id=&#34;association-au-wifi&#34;&gt;Association au Wifi&lt;/h1&gt;
+&lt;p&gt;Rien de bien sorcier, il suffit d&amp;rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;L&amp;rsquo;ESP8266 doit être branché et activé.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Installer un boitier Flexfuel</title>
-      <link>https://nilslaumaille.github.io/personel/posts/mecanique/flexfuel/</link>
+      <link>http://localhost:1313/posts/mecanique/flexfuel/</link>
       <pubDate>Sat, 02 Oct 2021 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/mecanique/flexfuel/</guid>
-      <description>Cet article fait un peu le résumé de toutes mes recherches sur la notion de boitier éthanol car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.
-Quelques généralités Boitier éthanol, késako ? Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal.</description>
+      <guid>http://localhost:1313/posts/mecanique/flexfuel/</guid>
+      <description>&lt;p&gt;Cet article fait un peu le résumé de toutes mes recherches sur la notion de &lt;code&gt;boitier éthanol&lt;/code&gt; car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.&lt;/p&gt;
+&lt;h1 id=&#34;quelques-généralités&#34;&gt;Quelques généralités&lt;/h1&gt;
+&lt;h2 id=&#34;boitier-éthanol-késako-&#34;&gt;Boitier éthanol, késako ?&lt;/h2&gt;
+&lt;p&gt;Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal. Ils viennent donc se placer entre le calculateur moteur et les injecteurs.
+Une sonde mesure la proportion d’éthanol dans le carburant. Plus elle est élevée plus le boîtier E85 augmentera la quantité de carburant injecté. Le boîtier E85 s’assure que le moteur reçoit bien la quantité d’énergie prévue par le calculateur en ajustant le volume de carburant injecté.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Il est ou ? le Nuki ?</title>
-      <link>https://nilslaumaille.github.io/personel/posts/bricolage/nuki/</link>
+      <link>http://localhost:1313/posts/bricolage/nuki/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/bricolage/nuki/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip; </description>
+      <guid>http://localhost:1313/posts/bricolage/nuki/</guid>
+      <description>&lt;h3 id=&#34;en-cours-décriture-&#34;&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Mettre à jour Portainer</title>
-      <link>https://nilslaumaille.github.io/personel/posts/omv/portainer_maj/</link>
+      <link>http://localhost:1313/posts/omv/portainer_maj/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/omv/portainer_maj/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip;
-Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.
-Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.
-À partir d&amp;rsquo;OpenMediaVault, il suffit de :
-Sélectionner l&amp;rsquo;option OMV-Extras présent dans la section Système Cliquer sur l&amp;rsquo;onglet Docker Depuis le menu du haut, choisir Installer dans la liste déroulante de Portainer Attendre que l&amp;rsquo;installation soit terminée Rafraichir la page de Portainer Aussi étrange que cela puisse paraitre et bien que Portainer soit déjà installé, il suffit de le ré-installer pour que l&amp;rsquo;instance en place se mette à jour.</description>
+      <guid>http://localhost:1313/posts/omv/portainer_maj/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.&lt;/p&gt;
+&lt;p&gt;Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.&lt;/p&gt;
+&lt;p&gt;À partir d&amp;rsquo;OpenMediaVault, il suffit de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sélectionner l&amp;rsquo;option &lt;code&gt;OMV-Extras&lt;/code&gt; présent dans la section &lt;code&gt;Système&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cliquer sur l&amp;rsquo;onglet &lt;code&gt;Docker&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Depuis le menu du haut, choisir &lt;code&gt;Installer&lt;/code&gt; dans la liste déroulante de &lt;code&gt;Portainer&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Attendre que l&amp;rsquo;installation soit terminée&lt;/li&gt;
+&lt;li&gt;Rafraichir la page de Portainer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aussi étrange que cela puisse paraitre et bien que Portainer soit déjà installé, il suffit de le ré-installer pour que l&amp;rsquo;instance en place se mette à jour.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mon installation domotique à base de Jeedom</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</link>
+      <link>http://localhost:1313/posts/informatique/jeedom/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip; </description>
+      <guid>http://localhost:1313/posts/informatique/jeedom/</guid>
+      <description>&lt;h3 id=&#34;en-cours-décriture-&#34;&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Teampass, un gestionnaire de mots de passe collaboratif</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</link>
+      <link>http://localhost:1313/posts/informatique/teampass/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip;
-Génése Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip; Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.</description>
+      <guid>http://localhost:1313/posts/informatique/teampass/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;génése&#34;&gt;Génése&lt;/h1&gt;
+&lt;p&gt;Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip;
+Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>Resultados de Búsqueda</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
-No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
-Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
-Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
-    </item>
     
-    <item>
-      <title>Resultados de Búsqueda</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
-No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
-Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
-Esta implementación utiliza Fusejs, jquery y mark.js
-Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>Search Results</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>অনুসন্ধানের ফলাফল</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
     
-    <item>
-      <title>অনুসন্ধানের ফলাফল</title>
-      <link>https://nilslaumaille.github.io/personel/search/</link>
-      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/search/</guid>
-      <description>This file exists solely to respond to /search URL with the related search layout template.
-No content shown here is rendered, all content is based in the template layouts/page/search.html
-Setting a very low sitemap priority will tell search engines this is not important content.
-This implementation uses Fusejs and mark.js
-Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
-    </item>
-    
-    <item>
-      <title>Go পরিচিতি</title>
-      <link>https://nilslaumaille.github.io/personel/notes/go/basic/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/notes/go/basic/introduction/</guid>
-      <description> Hello World A sample go program is show here.
-package main import &amp;#34;fmt&amp;#34; func main() { message := greetMe(&amp;#34;world&amp;#34;) fmt.Println(message) } func greetMe(name string) string { return &amp;#34;Hello, &amp;#34; + name + &amp;#34;!&amp;#34; } Run the program as below:
-$ go run hello.go Variables Normal Declaration:
-var msg string msg = &amp;#34;Hello&amp;#34; Shortcut:
-msg := &amp;#34;Hello&amp;#34; Constants const Phi = 1.618 </description>
-    </item>
     
     <item>
       <title>Go বেসিক</title>
-      <link>https://nilslaumaille.github.io/personel/notes/go/basic/</link>
+      <link>http://localhost:1313/notes/go/basic/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/notes/go/basic/</guid>
+      <guid>http://localhost:1313/notes/go/basic/_index.bn/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/notes/go/basic/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/basic/introduction/</guid>
+      <description>&lt;!-- A Sample Program --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Hello World&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;p&gt;A sample go program is show here.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;package&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;message&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greetMe&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;world&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;message&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;greetMe&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;!&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run the program as below:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ go run hello.go
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Declaring Variables --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Variables&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Normal Declaration:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;p&gt;&lt;strong&gt;Shortcut:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;msg&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Declaring Constants --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Constants&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Phi&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;1.618&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Basic Types</title>
+      <link>http://localhost:1313/notes/go/basic/types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/notes/go/basic/types/</guid>
+      <description>&lt;!-- String Type --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Strings&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;str&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Multiline string&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;str&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;`Multiline
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;string`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Number Types --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Numbers&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;p&gt;Typical types&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;          &lt;span style=&#34;color:#75715e&#34;&gt;// int
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt;         &lt;span style=&#34;color:#75715e&#34;&gt;// float64
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4i&lt;/span&gt;     &lt;span style=&#34;color:#75715e&#34;&gt;// complex128
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; byte(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;)  &lt;span style=&#34;color:#75715e&#34;&gt;// byte (alias for uint8)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Other Types&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;uint&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// uint (unsigned)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;float32&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;22.7&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 32-bit float
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!----------- Arrays  ------&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Arrays&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// var numbers [5]int
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;numbers&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; [&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;{&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Pointers --&gt;
+&lt;div class=&#34;note-card medium-note&#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Pointers&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt; () {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;getPointer&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Value is&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getPointer&lt;/span&gt; () (&lt;span style=&#34;color:#a6e22e&#34;&gt;myPointer&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;234&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; new(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;234&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Pointers point to a memory location of a variable. Go is fully garbage-collected.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>অ্যাডভান্সড</title>
-      <link>https://nilslaumaille.github.io/personel/notes/go/advanced/</link>
+      <link>http://localhost:1313/notes/go/advanced/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/notes/go/advanced/</guid>
+      <guid>http://localhost:1313/notes/go/advanced/_index.bn/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>বেসিক টাইপ সমূহ</title>
-      <link>https://nilslaumaille.github.io/personel/notes/go/basic/types/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nilslaumaille.github.io/personel/notes/go/basic/types/</guid>
-      <description>Strings str := &amp;#34;Hello&amp;#34; Multiline string
-str := `Multiline string` Numbers Typical types
-num := 3 // int num := 3. // float64 num := 3 + 4i // complex128 num := byte(&amp;#39;a&amp;#39;) // byte (alias for uint8) Other Types
-var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float Arrays // var numbers [5]int numbers := [...]int{0, 0, 0, 0, 0} Pointers func main () { b := *getPointer() fmt.</description>
-    </item>
-    
-    <item>
       <title>Flow Control</title>
-      <link>https://nilslaumaille.github.io/personel/notes/go/basic/flow-control/</link>
+      <link>http://localhost:1313/notes/go/basic/flow-control/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/notes/go/basic/flow-control/</guid>
-      <description>Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) Switch switch day { case &amp;#34;sunday&amp;#34;: // cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default! fallthrough case &amp;#34;saturday&amp;#34;: rest() default: work() } Loop for count := 0; count &amp;lt;= 10; count++ { fmt.Println(&amp;#34;My counter is at&amp;#34;, count) } entry := []string{&amp;#34;Jack&amp;#34;,&amp;#34;John&amp;#34;,&amp;#34;Jones&amp;#34;} for i, val := range entry { fmt.</description>
+      <guid>http://localhost:1313/notes/go/basic/flow-control/</guid>
+      <description>&lt;!-- Condition --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sunday&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;saturday&amp;#34;&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;rest&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;monday&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;isTired&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;groan&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;work&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;_&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;doThing&lt;/span&gt;(); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Uh oh&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Switch --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Switch&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;switch&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sunday&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default!
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;fallthrough&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;saturday&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;rest&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;default&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;work&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Loop --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Loop&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;count&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;count&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My counter is at&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;count&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;entry&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; []&lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;{&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Jack&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Jones&amp;#34;&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;val&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;range&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;entry&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Printf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;At position %d, the character %s is present\n&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;val&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;n&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;42&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;n&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;n&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;guess&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>ফাইল ম্যানিপুলেশন</title>
-      <link>https://nilslaumaille.github.io/personel/notes/go/advanced/files/</link>
+      <title>File Manipulation</title>
+      <link>http://localhost:1313/notes/go/advanced/files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/notes/go/advanced/files/</guid>
-      <description> Condition if day == &amp;#34;sunday&amp;#34; || day == &amp;#34;saturday&amp;#34; { rest() } else if day == &amp;#34;monday&amp;#34; &amp;amp;&amp;amp; isTired() { groan() } else { work() } if _, err := doThing(); err != nil { fmt.Println(&amp;#34;Uh oh&amp;#34;) </description>
+      <guid>http://localhost:1313/notes/go/advanced/files/</guid>
+      <description>&lt;!-- Condition --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sunday&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;saturday&amp;#34;&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;rest&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;monday&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;isTired&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;groan&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;} &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;work&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;_&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;doThing&lt;/span&gt;(); &lt;span style=&#34;color:#a6e22e&#34;&gt;err&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;nil&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Uh oh&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
-      <title>ব্যাশ ভেরিয়েবল</title>
-      <link>https://nilslaumaille.github.io/personel/notes/bash/basic/</link>
+      <title>Bash Variables</title>
+      <link>http://localhost:1313/notes/bash/basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/notes/bash/basic/</guid>
-      <description> Variable NAME=&amp;#34;John&amp;#34; echo $NAME echo &amp;#34;$NAME&amp;#34; echo &amp;#34;${NAME} Condition if [[ -z &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is empty&amp;#34; elif [[ -n &amp;#34;$string&amp;#34; ]]; then echo &amp;#34;String is not empty&amp;#34; fi </description>
+      <guid>http://localhost:1313/notes/bash/basic/</guid>
+      <description>&lt;!-- Variable --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Variable&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo $NAME
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$NAME&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;NAME&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Condition --&gt;
+&lt;div class=&#34;note-card &#34;&gt;
+    &lt;div class=&#34;item&#34;&gt;
+        &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Condition&lt;/span&gt;&lt;/h5&gt;
+        
+            &lt;div class=&#34;card&#34;&gt;
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; -z &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$string&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;String is empty&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[[&lt;/span&gt; -n &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$string&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;String is not empty&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Go এর নোট সমূহ</title>
-      <link>https://nilslaumaille.github.io/personel/notes/go/</link>
+      <link>http://localhost:1313/notes/go/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/notes/go/</guid>
-      <description>Go Notes </description>
+      <guid>http://localhost:1313/notes/go/_index.bn/</guid>
+      <description>&lt;h1 id=&#34;go-notes&#34;&gt;Go Notes&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.&lt;/p&gt;
+&lt;p&gt;Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a posuere eros justo nec sem. Nullam laoreet accumsan metus, sit amet tincidunt orci egestas nec. Pellentesque ut aliquet ante, at tristique nunc. Donec non massa nibh. Ut posuere lacus non aliquam laoreet. Fusce pharetra ligula a felis porttitor, at mollis ipsum maximus. Donec quam tortor, vehicula a magna sit amet, tincidunt dictum enim. In hac habitasse platea dictumst. Mauris sit amet ornare ligula, blandit consequat risus. Duis malesuada pellentesque lectus, non feugiat turpis eleifend a. Nullam tempus ante et diam pretium, ac faucibus ligula interdum.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ব্যাশের নোট সমূহ</title>
-      <link>https://nilslaumaille.github.io/personel/notes/bash/</link>
+      <link>http://localhost:1313/notes/bash/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/notes/bash/</guid>
-      <description>Bash Notes </description>
+      <guid>http://localhost:1313/notes/bash/_index.bn/</guid>
+      <description>&lt;h1 id=&#34;bash-notes&#34;&gt;Bash Notes&lt;/h1&gt;</description>
     </item>
     
     

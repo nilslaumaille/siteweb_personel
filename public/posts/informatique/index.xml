@@ -2,47 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informatique on Nils Laumaillé</title>
-    <link>https://nilslaumaille.github.io/personel/posts/informatique/</link>
+    <link>http://localhost:1313/posts/informatique/</link>
     <description>Recent content in Informatique on Nils Laumaillé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/posts/informatique/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Comment flasher un ESP8266 sous Windows 11</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</link>
-      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+    <language>fr</language>
+    <lastBuildDate>Wed, 29 Nov 2023 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/informatique/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Comment retirer les paramètres restreints de certaines applications</title>
+      <link>http://localhost:1313/posts/informatique/android/</link>
+      <pubDate>Wed, 29 Nov 2023 10:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-flasher/</guid>
-      <description>En cours d&amp;rsquo;écriture Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+      <guid>http://localhost:1313/posts/informatique/android/</guid>
+      <description>&lt;p&gt;Je viens d&amp;rsquo;upgrader mon smartphone (OnePlus 8T) sur Android 14 et je me suis confronté à un problème de paramètre restreint sur une de mes applications préférées.&lt;/p&gt;
+&lt;p&gt;En effet, j&amp;rsquo;utilise une application tiers comme launcher combinée au &lt;code&gt;double appui&lt;/code&gt; pour éteindre l&amp;rsquo;écran. Et c&amp;rsquo;est sur cette action que je voyais apparaitre l&amp;rsquo;erreur en question.&lt;/p&gt;
+&lt;h1 id=&#34;erreur-rencontrée&#34;&gt;Erreur rencontrée&lt;/h1&gt;
+&lt;p&gt;Ainsi après avoir upgradé vers Android 14, en faisant le &lt;code&gt;double appui&lt;/code&gt; sur une zone vide l&amp;rsquo;écran, au lieu que celui-ci ne s&amp;rsquo;éteigne, le message suivant était visible.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Comment Paramérer un ESP8266 sous Windows 11 avec ESP Easy</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</link>
+      <title>Comment mettre à jour automatiquement vos logiciels sous Windows 11</title>
+      <link>http://localhost:1313/posts/informatique/windows-winget/</link>
+      <pubDate>Sun, 26 Mar 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/windows-winget/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Mon cas d&amp;rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;winget-&#34;&gt;Winget ?&lt;/h1&gt;
+&lt;p&gt;Winget est l&amp;rsquo;outil en ligne de commande du gestionnaire de packages de Windows (10 et 11). L&amp;rsquo;avantage étant que l&amp;rsquo;on peut donc l&amp;rsquo;utiliser dans des scripts maisons pour définir notre propre stratégie de mise à jour des logiciels.&lt;/p&gt;
+&lt;p&gt;Toute la &lt;a href=&#34;https://learn.microsoft.com/fr-fr/windows/package-manager/winget/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation de Winget&lt;/a&gt; est disponible.&lt;/p&gt;
+&lt;p&gt;À savoir pour la suite que Winget présente les applications de la façon suivante.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment flasher un ESP8266 sous Windows 11</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-flasher/</link>
       <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/esp8266-parametrer/</guid>
-      <description>Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.
-La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.</description>
+      <guid>http://localhost:1313/posts/informatique/esp8266-flasher/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;La 1ère étape décrite dans cette page consiste donc à flasher un firmware ESPEasy dans un wemos d1 mini et de le paramétrer. Le protocole est donc tout à fait valide pour tout type de finalité.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment inclure un module ESP8266 dans Jeedom avec ESPEasy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-jeedom/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/esp8266-jeedom/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette étape permet d&amp;rsquo;inclure un module ESP8266 dans Jeedom avec le pluggin ESPEasy&lt;/p&gt;
+&lt;h1 id=&#34;paraméter-lesp8266-pour-linclure-dans-jeedom&#34;&gt;Paraméter l&amp;rsquo;ESP8266 pour l&amp;rsquo;inclure dans jeedom&lt;/h1&gt;
+&lt;p&gt;Cette étape permet de préparer l&amp;rsquo;ESP8266 pour qu&amp;rsquo;il puisse être inclut dans le pluggin EspEasy dans Jeedom.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</title>
+      <link>http://localhost:1313/posts/informatique/esp8266-parametrer/</link>
+      <pubDate>Sat, 18 Feb 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/esp8266-parametrer/</guid>
+      <description>&lt;p&gt;Cette page s&amp;rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&amp;rsquo;émetteur IR pour contrôler une unité intérieure d&amp;rsquo;une climatisation.&lt;/p&gt;
+&lt;p&gt;Cette 2de étape permet d&amp;rsquo;associer l&amp;rsquo;ESP8266 à une connexion wifi.&lt;/p&gt;
+&lt;h1 id=&#34;association-au-wifi&#34;&gt;Association au Wifi&lt;/h1&gt;
+&lt;p&gt;Rien de bien sorcier, il suffit d&amp;rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;L&amp;rsquo;ESP8266 doit être branché et activé.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mon installation domotique à base de Jeedom</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</link>
+      <link>http://localhost:1313/posts/informatique/jeedom/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/jeedom/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip; </description>
+      <guid>http://localhost:1313/posts/informatique/jeedom/</guid>
+      <description>&lt;h3 id=&#34;en-cours-décriture-&#34;&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/h3&gt;</description>
     </item>
     
     <item>
       <title>Teampass, un gestionnaire de mots de passe collaboratif</title>
-      <link>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</link>
+      <link>http://localhost:1313/posts/informatique/teampass/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/informatique/teampass/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip;
-Génése Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip; Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.</description>
+      <guid>http://localhost:1313/posts/informatique/teampass/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;génése&#34;&gt;Génése&lt;/h1&gt;
+&lt;p&gt;Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip;
+Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.&lt;/p&gt;</description>
     </item>
     
     

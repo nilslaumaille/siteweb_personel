@@ -2,18 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mécanique on Nils Laumaillé</title>
-    <link>https://nilslaumaille.github.io/personel/posts/mecanique/</link>
+    <link>http://localhost:1313/posts/mecanique/</link>
     <description>Recent content in Mécanique on Nils Laumaillé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sat, 02 Oct 2021 06:00:23 +0600</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/posts/mecanique/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>fr</language>
+    <lastBuildDate>Sat, 02 Oct 2021 06:00:23 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/mecanique/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Installer un boitier Flexfuel</title>
-      <link>https://nilslaumaille.github.io/personel/posts/mecanique/flexfuel/</link>
+      <link>http://localhost:1313/posts/mecanique/flexfuel/</link>
       <pubDate>Sat, 02 Oct 2021 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/mecanique/flexfuel/</guid>
-      <description>Cet article fait un peu le résumé de toutes mes recherches sur la notion de boitier éthanol car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.
-Quelques généralités Boitier éthanol, késako ? Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal.</description>
+      <guid>http://localhost:1313/posts/mecanique/flexfuel/</guid>
+      <description>&lt;p&gt;Cet article fait un peu le résumé de toutes mes recherches sur la notion de &lt;code&gt;boitier éthanol&lt;/code&gt; car effectivement le fait de pouvoir rouler un peu moins cher à suscité en moi une certaine curiosité.&lt;/p&gt;
+&lt;h1 id=&#34;quelques-généralités&#34;&gt;Quelques généralités&lt;/h1&gt;
+&lt;h2 id=&#34;boitier-éthanol-késako-&#34;&gt;Boitier éthanol, késako ?&lt;/h2&gt;
+&lt;p&gt;Les boîtiers E85 sont des boitiers électroniques qui se positionnent sous le capot, au niveau du moteur. Ils permettent au moteur d’injecter la bonne quantité de carburant en fonction de la proportion d’éthanol présente dans le réservoir pour un fonctionnement optimal. Ils viennent donc se placer entre le calculateur moteur et les injecteurs.
+Une sonde mesure la proportion d’éthanol dans le carburant. Plus elle est élevée plus le boîtier E85 augmentera la quantité de carburant injecté. Le boîtier E85 s’assure que le moteur reçoit bien la quantité d’énergie prévue par le calculateur en ajustant le volume de carburant injecté.&lt;/p&gt;</description>
     </item>
     
     

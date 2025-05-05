@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Comment retirer les paramètres restreints de certaines applications</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/styles/application.template.scss" integrity="" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu14458373468778497799.png" />
+
+<meta property="og:url" content="http://localhost:1313/posts/informatique/android/">
+  <meta property="og:site_name" content="Nils Laumaillé">
+  <meta property="og:title" content="Comment retirer les paramètres restreints de certaines applications">
+  <meta property="og:description" content="Retirer les paramètres restreints d&#39;une application">
+  <meta property="og:locale" content="fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-11-29T10:00:00+00:00">
+    <meta property="article:modified_time" content="2023-11-29T10:00:00+00:00">
+
+
+    
+    
+<meta name="description" content="Retirer les paramètres restreints d&#39;une application" />
+
+
+    
+
+    
+        
+        
+        
+            
+            
+            
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+    
+
+
+
+
+</head>
+
+  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      Nils Laumaillé</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Chercher" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Articles</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/bricolage/">Bricolage</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/bricolage/nuki/" title="La serrure Nuki">La serrure Nuki</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/informatique/">Informatique</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/informatique/android/" title="Android 14">Android 14</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/informatique/esp8266-flasher/" title="ESP8266 - Flasher">ESP8266 - Flasher</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/informatique/esp8266-parametrer/" title="ESP8266 - Paramétrer">ESP8266 - Paramétrer</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/informatique/esp8266-jeedom/" title="ESP8266 / Jeedom">ESP8266 / Jeedom</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/informatique/teampass/" title="Gestionnaire de mots de passe">Gestionnaire de mots de passe</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/informatique/jeedom/" title="Ma box domotique">Ma box domotique</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/informatique/windows-winget/" title="Winget">Winget</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/mecanique/">Mécanique</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/mecanique/flexfuel/" title="Boitier Flexfuel">Boitier Flexfuel</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/omv/">OpenMediaVault</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/omv/portainer_maj/" title="Mise à jour de Portainer">Mise à jour de Portainer</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/posts/informatique/android/images/android_parametre_restreint.png);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/site/nl_avatar_hu1195115488428037397.png' alt="Author Image">
+          <h5 class="author-name">Nils Laumaillé</h5>
+          <p>mercredi 29 novembre 2023</p>
+        </div>
+
+        <div class="title">
+          <h1>Comment retirer les paramètres restreints de certaines applications</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+          <ul style="padding-left: 0;">
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <p>Je viens d&rsquo;upgrader mon smartphone (OnePlus 8T) sur Android 14 et je me suis confronté à un problème de paramètre restreint sur une de mes applications préférées.</p>
+<p>En effet, j&rsquo;utilise une application tiers comme launcher combinée au <code>double appui</code> pour éteindre l&rsquo;écran. Et c&rsquo;est sur cette action que je voyais apparaitre l&rsquo;erreur en question.</p>
+<h1 id="erreur-rencontrée">Erreur rencontrée</h1>
+<p>Ainsi après avoir upgradé vers Android 14, en faisant le <code>double appui</code> sur une zone vide l&rsquo;écran, au lieu que celui-ci ne s&rsquo;éteigne, le message suivant était visible.</p>
+<p><img alt="1" src="/posts/informatique/android/images/Screenshot_2023-11-29-08-23-37-57_3822ac0e29cfec8970059bb21d01f05e.jpg"></p>
+<h1 id="comment-la-résoudre-et-autoriser-ce-paramètre-daccessibilité">Comment la résoudre et autoriser ce paramètre d&rsquo;accessibilité</h1>
+<p>Cela pourrait être simple mais non, il n&rsquo;est pas possible de modifier ce paramètre en se laissant guider depuis la précédente erreur.</p>
+<p>Pour accèder au réglage de ce paramètre d&rsquo;accessibilité d&rsquo;Android, il est nécessaire de passer par un chemin bien précis.</p>
+<ul>
+<li>Ouvrir les <code>Paramètres</code> de l&rsquo;appareil</li>
+<li>Choisir <code>Applications</code></li>
+<li>Sélectionner <code>Gestion d'applis</code></li>
+<li>Rechercher l&rsquo;application impactée</li>
+<li>Repérer les 3 petits points en haut à droite</li>
+</ul>
+<p><img alt="1" src="/posts/informatique/android/images/Screenshot_2023-11-29-13-45-30-54_fc704e6b13c4fb26bf5e411f75da84f2.jpg"></p>
+<ul>
+<li>Cliquer dessus</li>
+</ul>
+<p><img alt="1" src="/posts/informatique/android/images/Screenshot_2023-11-29-13-46-05-64_fc704e6b13c4fb26bf5e411f75da84f2.jpg"></p>
+<ul>
+<li>Confirmer l&rsquo;action avec votre moyen de protection</li>
+<li>Un petit message vous indique que la restriction est levée et les 3 petits points ont disparus</li>
+</ul>
+<p>La restriction est maintenant levée, je peux utiliser mon application comme précédemment.</p>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+            <strong>Partager sur:</strong>
+            
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fandroid%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fandroid%2f&text=Comment%20retirer%20les%20param%c3%a8tres%20restreints%20de%20certaines%20applications&via=Nils%20Laumaill%c3%a9" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fandroid%2f&title=Comment%20retirer%20les%20param%c3%a8tres%20restreints%20de%20certaines%20applications" target="_blank">
+                  <i class="fab fa-reddit"></i>
+                </a>
+            
+            
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fandroid%2f&title=Comment%20retirer%20les%20param%c3%a8tres%20restreints%20de%20certaines%20applications" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Comment%20retirer%20les%20param%c3%a8tres%20restreints%20de%20certaines%20applications http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fandroid%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=Comment%20retirer%20les%20param%c3%a8tres%20restreints%20de%20certaines%20applications&body=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fandroid%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+          
+            
+          
+          <div class="col-md-6 btn-improve-page">
+             
+               <a href="https://github.com/nilslaumaille/siteweb_personel/edit/main/content/posts%5cinformatique%5candroid%5cindex.md" title="Améliorez cette page" target="_blank" rel="noopener">
+            
+                <i class="fas fa-code-branch"></i>
+                Améliorez cette page
+              </a>
+          </div>
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/posts/bricolage/nuki/" title="Il est ou ? le Nuki ?" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Précédent</div>
+        <div class="next-prev-text">Il est ou ? le Nuki ?</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/posts/informatique/esp8266-flasher/" title="Comment flasher un ESP8266 sous Windows 11" class="btn btn-outline-info">
+          <div>Suivant <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Comment flasher un ESP8266 sous Windows 11</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table des matières</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#erreur-rencontrée">Erreur rencontrée</a></li>
+    <li><a href="#comment-la-résoudre-et-autoriser-ce-paramètre-daccessibilité">Comment la résoudre et autoriser ce paramètre d&rsquo;accessibilité</a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contactez moi :</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:nils@laumaille.fr target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>nils@laumaille.fr</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2023 Tous droits réservés.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/scripts/application.js" integrity="" defer></script>
+
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>

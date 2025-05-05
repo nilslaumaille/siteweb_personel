@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Nils Laumaillé</title>
-    <link>https://nilslaumaille.github.io/personel/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Nils Laumaillé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sat, 18 Feb 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language>
+    <lastBuildDate>Sun, 26 Mar 2023 23:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

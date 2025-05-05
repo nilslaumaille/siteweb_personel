@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenMediaVault on Nils Laumaillé</title>
-    <link>https://nilslaumaille.github.io/personel/posts/omv/</link>
+    <link>http://localhost:1313/posts/omv/</link>
     <description>Recent content in OpenMediaVault on Nils Laumaillé</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Mon, 08 Jun 2020 06:00:23 +0600</lastBuildDate><atom:link href="https://nilslaumaille.github.io/personel/posts/omv/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>fr</language>
+    <lastBuildDate>Mon, 08 Jun 2020 06:00:23 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/omv/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Mettre à jour Portainer</title>
-      <link>https://nilslaumaille.github.io/personel/posts/omv/portainer_maj/</link>
+      <link>http://localhost:1313/posts/omv/portainer_maj/</link>
       <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
       
-      <guid>https://nilslaumaille.github.io/personel/posts/omv/portainer_maj/</guid>
-      <description>En cours d&amp;rsquo;écriture &amp;hellip;
-Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.
-Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.
-À partir d&amp;rsquo;OpenMediaVault, il suffit de :
-Sélectionner l&amp;rsquo;option OMV-Extras présent dans la section Système Cliquer sur l&amp;rsquo;onglet Docker Depuis le menu du haut, choisir Installer dans la liste déroulante de Portainer Attendre que l&amp;rsquo;installation soit terminée Rafraichir la page de Portainer Aussi étrange que cela puisse paraitre et bien que Portainer soit déjà installé, il suffit de le ré-installer pour que l&amp;rsquo;instance en place se mette à jour.</description>
+      <guid>http://localhost:1313/posts/omv/portainer_maj/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.&lt;/p&gt;
+&lt;p&gt;Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.&lt;/p&gt;
+&lt;p&gt;À partir d&amp;rsquo;OpenMediaVault, il suffit de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sélectionner l&amp;rsquo;option &lt;code&gt;OMV-Extras&lt;/code&gt; présent dans la section &lt;code&gt;Système&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Cliquer sur l&amp;rsquo;onglet &lt;code&gt;Docker&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Depuis le menu du haut, choisir &lt;code&gt;Installer&lt;/code&gt; dans la liste déroulante de &lt;code&gt;Portainer&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Attendre que l&amp;rsquo;installation soit terminée&lt;/li&gt;
+&lt;li&gt;Rafraichir la page de Portainer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aussi étrange que cela puisse paraitre et bien que Portainer soit déjà installé, il suffit de le ré-installer pour que l&amp;rsquo;instance en place se mette à jour.&lt;/p&gt;</description>
     </item>
     
     

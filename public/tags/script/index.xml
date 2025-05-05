@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Script on Nils Laumaillé</title>
+    <link>http://localhost:1313/tags/script/</link>
+    <description>Recent content in Script on Nils Laumaillé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 26 Mar 2023 23:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/script/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Comment mettre à jour automatiquement vos logiciels sous Windows 11</title>
+      <link>http://localhost:1313/posts/informatique/windows-winget/</link>
+      <pubDate>Sun, 26 Mar 2023 23:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/informatique/windows-winget/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Mon cas d&amp;rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;winget-&#34;&gt;Winget ?&lt;/h1&gt;
+&lt;p&gt;Winget est l&amp;rsquo;outil en ligne de commande du gestionnaire de packages de Windows (10 et 11). L&amp;rsquo;avantage étant que l&amp;rsquo;on peut donc l&amp;rsquo;utiliser dans des scripts maisons pour définir notre propre stratégie de mise à jour des logiciels.&lt;/p&gt;
+&lt;p&gt;Toute la &lt;a href=&#34;https://learn.microsoft.com/fr-fr/windows/package-manager/winget/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation de Winget&lt;/a&gt; est disponible.&lt;/p&gt;
+&lt;p&gt;À savoir pour la suite que Winget présente les applications de la façon suivante.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
