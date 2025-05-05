@@ -23,6 +23,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.147.1
+      HUGO_ENVIRONMENT: production
+      TZ: Europe/Paris
     steps:
 #      - name: Checkout
 #        uses: actions/checkout@v4
