@@ -11,6 +11,10 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+- name: Agile / Scrum
+  logo: "/images/sections/skills/agile.png"
+  summary: "J'ai la certification Professional Scrum Product Owner I (PSPO I). Cela fait plus de 10 ans que je m'y intéresse en parcourant une foultitude de livres, blogs et autres vidéos. J'ai participé activement à des transformations d'équipes vers ce mode de fonctionnement. J'en suis maintenant un fervent défenseur."
+
 - name: Méthodes logicielles
   logo: "/images/sections/skills/sdlc.png"
   summary: "Très bonne expérience dans l'exécution de la transformation des méthodes de développement logiciel et la mise en place de « forges »."
@@ -39,10 +43,6 @@ skills:
   logo: "/images/sections/skills/risks.png"
   summary: "Pour avoir travaillé dans des domaines extrêmement « tendus » (automobiles et énergie), je suis plus que sensibilisé à la notion de risque et gérer un projet via la gestion des risques me parait normal."
 
-- name: Agile / Scrum
-  logo: "/images/sections/skills/agile.png"
-  summary: "Je n'ai pas de certification particulière en ce domaine, cependant je m'y intéresse depuis environ 10 ans en parcourant une foultitude de livres, blogs et autres vidéos. J'ai participé activement à des transformations d'équipes vers ce mode de fonctionnement. J'en suis maintenant un fervent défenseur."
-
 - name: Méthodes DevOps
   logo: "/images/sections/skills/devops.png"
   summary: "Le DevOps pour moi contient toujours une part de « magie » car je n'en connais pas tous les rouages et ne dispose pas des compétences techniques. Cependant, je connais les bénéfices que l'on peut en tirer en termes d'efficience, de qualité et de rapidité pour avoir coaché sa mise en place from scratch. On vit vraiment une époque formidable en termes d'évolutions technologiques alors pourquoi s'en priver."
@@ -57,4 +57,4 @@ skills:
 
 - name: Office365
   logo: "/images/sections/skills/o365.png"
-  summary: "Très expérimenté dans son utilisation, j'en connais de nombreux recoins."
+  summary: "Très expérimenté dans son utilisation, j'en connais de nombreux recoins. Je sais également en administrer le fonctionnement."

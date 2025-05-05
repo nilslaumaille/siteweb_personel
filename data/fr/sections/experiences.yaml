@@ -11,6 +11,18 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Urbasolar
+    url: "https://www.urbasolar.com/"
+    location: Montpellier
+    overview: Le soleil est certainement la source d’énergie la plus inépuisable de notre planète. Cette énergie d’origine renouvelable est une des solutions majeures pour répondre durablement et de manière responsable aux besoins énergétiques de l’humanité. Nous nous consacrons ainsi à son déploiement à grande échelle depuis plus de 15 ans. 
+  positions:
+  - designation: Product Owner
+    start: Février 2024
+    #end: septembre 2023
+    responsibilities:
+    - En construction
+
+- company:
     name: Sanilea (Éditeur de logiciel en mode SaaS)
     url: "https://www.sanilea.fr"
     location: Limoges
