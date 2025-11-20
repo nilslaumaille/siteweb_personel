@@ -14,13 +14,18 @@ experiences:
     name: Urbasolar
     url: "https://www.urbasolar.com/"
     location: Montpellier
-    overview: Le soleil est certainement la source d’énergie la plus inépuisable de notre planète. Cette énergie d’origine renouvelable est une des solutions majeures pour répondre durablement et de manière responsable aux besoins énergétiques de l’humanité. Nous nous consacrons ainsi à son déploiement à grande échelle depuis plus de 15 ans. 
+    overview: Le soleil est certainement la source d'énergie la plus inépuisable de notre planète. Cette énergie d'origine renouvelable est une des solutions majeures pour répondre durablement et de manière responsable aux besoins énergétiques de l'humanité. Nous nous consacrons ainsi à son déploiement à grande échelle depuis plus de 15 ans.<br>J'exerce le rôle de « Product Owner / Référent numérique » au sein de la Digital Factory pour la division Opération & Maintenance (O&M, ~100 personnes). Je pilote un écosystème de 5 applications critiques destinées à des équipes internes et clients externes, dans un contexte de volumétries massives et d'architecture multi-technos.
   positions:
   - designation: Product Owner
     start: Février 2024
     #end: septembre 2023
     responsibilities:
-    - En construction
+    - Activités standards de PO - Gestion du backlog produit et priorisation des US en environnement Agile/Scrum, facilitation des cérémonies (daily, refinement, retro), collaboration quotidienne avec stakeholders internes/externes, validation des critères d'acceptation et suivi en sprint
+    - Pilotage de la roadmap produit multi-applications - Construction et communication d'une vision stratégique, organisation des besoins métier complexes en épics/features/US, ordonnancement des livrables et arbitrage des dépendances techniques pour assurer une cadence de release fluide et cohérente
+    - Garantie de la qualité des livrables - Rédaction et maintenance des spécifications techniques détaillées, définition des critères d'acceptation, pilotage des tests internes et validation fonctionnelle avant livraison, rédaction du cahier des tests et de la documentation produit, synchronisation avec les clients majeurs pour assurer la conformité
+    - Médiation clients exigeants & simplification de la complexité - Traduction des besoins métier O&M en solutions techniques, représentation des utilisateurs auprès des équipes Build, gestion des enjeux de disponibilité et fiabilité critiques, identification des opportunités de simplification
+    - Gestion d'un écosystème technique varié - Pilotage d'une architecture multi-technos (PostgreSQL, InfluxDB, Databricks, Airtable, Grafana, etc.) et de 5 applications interconnectées, gestion des dépendances inter-applications, coordination du Run (incidents, maintenance, support utilisateur) et du Build, assurance de la scalabilité face aux volumétries importantes de données
+    - Gestion opérationnelle hybride (Run & Build) - Pilotage simultané des incidents/maintenance et des nouveautés produit pour assurer continuité opérationnelle et innovation
 
 - company:
     name: Sanilea (Éditeur de logiciel en mode SaaS)

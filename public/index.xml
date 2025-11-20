@@ -25,8 +25,7 @@
       
       <guid>http://localhost:1313/posts/informatique/windows-winget/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Mon cas d&amp;rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Mon cas d&amp;rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;winget-&#34;&gt;Winget ?&lt;/h1&gt;
 &lt;p&gt;Winget est l&amp;rsquo;outil en ligne de commande du gestionnaire de packages de Windows (10 et 11). L&amp;rsquo;avantage étant que l&amp;rsquo;on peut donc l&amp;rsquo;utiliser dans des scripts maisons pour définir notre propre stratégie de mise à jour des logiciels.&lt;/p&gt;
 &lt;p&gt;Toute la &lt;a href=&#34;https://learn.microsoft.com/fr-fr/windows/package-manager/winget/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation de Winget&lt;/a&gt; est disponible.&lt;/p&gt;
@@ -99,8 +98,7 @@ Une sonde mesure la proportion d’éthanol dans le carburant. Plus elle est él
       
       <guid>http://localhost:1313/posts/omv/portainer_maj/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.&lt;/p&gt;
 &lt;p&gt;Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.&lt;/p&gt;
 &lt;p&gt;À partir d&amp;rsquo;OpenMediaVault, il suffit de :&lt;/p&gt;
@@ -130,8 +128,7 @@ Une sonde mesure la proportion d’éthanol dans le carburant. Plus elle est él
       
       <guid>http://localhost:1313/posts/informatique/teampass/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;génése&#34;&gt;Génése&lt;/h1&gt;
 &lt;p&gt;Les mots de passe sont partout &amp;hellip; ils sont nécessaires à tout moment, il faut s&amp;rsquo;en souvenir, il faut les changer régulièrement, il faut qu&amp;rsquo;ils soient tous différents, il faut &amp;hellip; il faut &amp;hellip; il faut &amp;hellip;
 Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;rsquo;arrache les cheveux alors en entreprise ou en équipe, c&amp;rsquo;est un vrai cauchemar pour la sécurité.&lt;/p&gt;</description>
@@ -267,14 +264,14 @@ Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;
         
             &lt;div class=&#34;card&#34;&gt;
                 &lt;div class=&#34;card-body&#34;&gt;&lt;p&gt;Typical types&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;          &lt;span style=&#34;color:#75715e&#34;&gt;// int
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt;         &lt;span style=&#34;color:#75715e&#34;&gt;// float64
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4i&lt;/span&gt;     &lt;span style=&#34;color:#75715e&#34;&gt;// complex128
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; byte(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;)  &lt;span style=&#34;color:#75715e&#34;&gt;// byte (alias for uint8)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Other Types&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;uint&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// uint (unsigned)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;float32&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;22.7&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 32-bit float
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;          &lt;span style=&#34;color:#75715e&#34;&gt;// int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3.&lt;/span&gt;         &lt;span style=&#34;color:#75715e&#34;&gt;// float64&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4i&lt;/span&gt;     &lt;span style=&#34;color:#75715e&#34;&gt;// complex128&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;num&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; byte(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;)  &lt;span style=&#34;color:#75715e&#34;&gt;// byte (alias for uint8)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Other Types&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;u&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;uint&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;7&lt;/span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// uint (unsigned)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;p&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;float32&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;22.7&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;// 32-bit float&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
             &lt;/div&gt;
         
     &lt;/div&gt;
@@ -286,8 +283,8 @@ Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;
         &lt;h5 class=&#34;note-title&#34;&gt;&lt;span&gt;Arrays&lt;/span&gt;&lt;/h5&gt;
         
             &lt;div class=&#34;card&#34;&gt;
-                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// var numbers [5]int
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;numbers&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; [&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;{&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;}
+                &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// var numbers [5]int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;numbers&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;:=&lt;/span&gt; [&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;{&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
             &lt;/div&gt;
         
@@ -355,8 +352,8 @@ Déjà que pour la gestion personnelle des mots de passe au quotidien, on s&amp;
             &lt;div class=&#34;card&#34;&gt;
                 &lt;div class=&#34;card-body&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;switch&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;day&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sunday&amp;#34;&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default!
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;fallthrough&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;// cases don&amp;#39;t &amp;#34;fall through&amp;#34; by default!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;fallthrough&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;saturday&amp;#34;&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;rest&lt;/span&gt;()

@@ -13,8 +13,7 @@
       
       <guid>http://localhost:1313/posts/omv/portainer_maj/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;En cours d&amp;rsquo;écriture &amp;hellip;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Dès lors qu&amp;rsquo;une nouvelle version de Portainer est disponible, un bandeau l&amp;rsquo;indique dans la page de Portainer.&lt;/p&gt;
 &lt;p&gt;Pour le mettre à jour, j&amp;rsquo;ai un peu tourné en rond avant de trouver une solution extrémement simple.&lt;/p&gt;
 &lt;p&gt;À partir d&amp;rsquo;OpenMediaVault, il suffit de :&lt;/p&gt;

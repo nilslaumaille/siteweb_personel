@@ -8,17 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Responsable R&D
+designation: Product Owner / Référent Numérique
 # your company information
 company:
-  name: Sanilea
-  url: "https://www.sanilea.fr"
+  name: Urbasolar
+  url: "https://www.urbasolar.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/Nils_Laumaille_CV_FR.pdf"
 
 # a summary about you
-summary: "Je suis un ingénieur Qualité passionné par le logiciel sous toutes ces formes et la multitude d'écosystèmes associés. Le métier de la Qualité Logicielle a été le fil conducteur de mon expérience depuis plus de 20 ans. Il m'a permis d'occuper différentes fonctions et rôles dans des environnements variés comme l'automobile, l'énergie, la santé et l'édition du logiciel. J’ai acquis de nombreuses compétences et réflexes qui me permettent d’affronter de multiples situations avec calme et professionnalisme. J’aime être à l’écoute des nouvelles techniques et méthodes pour faire progresser mes collaborateurs."
+summary: "Ingénieur Qualité Logiciel qui a choisi de structurer plutôt que de contrôler. Passionné par les systèmes complexes et comment les rendre simples. 20 ans d'expérience dans des environnements critiques (automobile, énergie, SaaS) m'ont appris que la rigueur n'est jamais un frein mais plutôt une fondation. Pragmatique avant tout, je crois que la qualité et l'agilité doivent coexister. Curieux, j'aime les défis qui demandent de la clarté et de l'exécution. Ma transition vers le Product Owner n'est pas une rupture : c'est l'aboutissement naturel de 20 ans d'expertise appliquée à la vision et au pilotage produit."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -42,7 +42,7 @@ badges:
   color: "#dedb1f"
 
 - type: soft-skill-indicator
-  name: Travailleur
+  name: Rigueur & Exigence
   percentage: 95
   color: "#cc8635"
 
@@ -62,9 +62,38 @@ badges:
   color: "#a3175d"
 
 - type: soft-skill-indicator
-  name: Synthèse
-  percentage: 85
+  name: Clarté & Synthèse
+  percentage: 90
   color: "#4287f5"
+#- type: soft-skill-indicator
+#  name: Travail en équipe
+#  percentage: 95
+#  color: "#dedb1f"
+#
+#- type: soft-skill-indicator
+#  name: Travailleur
+#  percentage: 95
+#  color: "#cc8635"
+#
+#- type: soft-skill-indicator
+#  name: Proactif
+#  percentage: 90
+#  color: "#cf3229"
+#
+#- type: soft-skill-indicator
+#  name: Leadership
+#  percentage: 85
+#  color: "#1f8f50"
+#
+#- type: soft-skill-indicator
+#  name: Autonome
+#  percentage: 95
+#  color: "#a3175d"
+#
+#- type: soft-skill-indicator
+#  name: Synthèse
+#  percentage: 85
+#  color: "#4287f5"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator

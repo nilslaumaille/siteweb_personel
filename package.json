@@ -31,7 +31,10 @@
   },
   "dependencies": {
     "@tinacms/cli": "^1.5.12",
-    "tinacms": "^1.5.5"
+    "feather-icons": "^4.29.2",
+    "include-media": "^1.4.10",
+    "tinacms": "^1.5.5",
+    "typeit": "^8.8.7"
   },
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
@@ -50,8 +53,6 @@
     "flag-icon-css": "^4.1.7",
     "fuse.js": "^6.6.2",
     "highlight.js": "^11.6.0",
-    "hugo-bin": "^0.116.4",
-    "hugo-installer": "^4.0.1",
     "imagesloaded": "^5.0.0",
     "ityped": "^1.0.3",
     "katex": "^0.16.3",

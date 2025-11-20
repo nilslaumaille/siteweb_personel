@@ -11,50 +11,42 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Méthodes logicielles
-  logo: "/images/sections/skills/sdlc.png"
-  summary: "Très bonne expérience dans l'exécution de la transformation des méthodes de développement logiciel et la mise en place de « forges »."
-
-- name: Qualité en R&D
-  logo: "/images/sections/skills/swquality.png"
-  summary: "Depuis plus de 20 ans, je travaille à l'amélioration de la qualité en R&D et tout particulièrement en logiciel tant au niveau du livrable (limiter les défauts) que de sa réalisation (maintenabilité, conformité et exactitude)."
-
-- name: Gestion de projets
-  logo: "/images/sections/skills/safe.png"
-  summary: "Expérimenté dans la façon dont un projet de développement doit s'articuler et se gérer pour assurer un suivi QCD."
-
-- name: Delivery
-  logo: "/images/sections/skills/delivery.png"
-  summary: "Expérimenté dans sa mise en place et son suivi à l'échelle d'un produit, je m'appuie souvent sur un plan de production permettant d'organiser et prioriser les réalisations, garantir la capacité de production, et partager transversalement les éléments."
-
-- name: Gestion d’équipe
-  logo: "/images/sections/skills/team.png"
-  summary: "Je gère et accompagne des équipes allant de 3 à 20 personnes (développeurs, testeurs, IT, devops, etc.) depuis plus de 10 ans. C'est une dimension dans mon travail que j'apprécie."
+- name: Gestion de Produit
+  logo: "/images/sections/skills/skill_gest_prod.png"
+  summary: "Pilotage de portefeuilles produits complexes multi-applications. Construction et communication de vision stratégique, priorisation des besoins, organisation de roadmaps claires et pilotage du delivery. Expérience dans des contextes critiques avec clients exigeants internes et externes."
 
 - name: Gestion des Exigences
   logo: "/images/sections/skills/reqs.png"
-  summary: "Il s'agit de ma thématique préférée. De la définition de l'expression du besoin à la phase de recette, je suis plus que performant pour définir les modalités de gestion et de traçabilité des exigences."
+  summary: "Une de mes thématiques préférées et fondement de mon expertise. De l'expression du besoin à la recette, je maîtrise les modalités de gestion et traçabilité des exigences. Rédaction de spécifications techniques, critères d'acceptation rigoureux et cahiers des tests. Adaptation aux contextes simples comme complexes."
+
+- name: Qualité en R&D & Testing
+  logo: "/images/sections/skills/swquality.png"
+  summary: "20+ ans d'expertise pour améliorer la qualité en R&D logicielle. Au-delà de la limitation des défauts, je pilote tests internes, validation fonctionnelle, documentation produit et conformité. Conviction que la qualité et l'agilité doivent coexister et renforcer mutuellement."
+
+- name: Delivery & Roadmap Produit
+  logo: "/images/sections/skills/delivery.png"
+  summary: "Expérimenté dans la mise en place et le suivi du delivery à l'échelle produit. Construction de plans de production pour organiser et prioriser les réalisations, garantir la capacité de production, arbitrer les dépendances techniques et partager transversalement. Vision multi-applications et multi-stakeholders."
+
+- name: Gestion d'équipe & Leadership
+  logo: "/images/sections/skills/team.png"
+  summary: "Je gère et accompagne des équipes allant de 3 à 20 personnes (développeurs, testeurs, IT, devops, etc.) depuis plus de 10 ans. C'est une dimension dans mon travail que j'apprécie."
 
 - name: Gestion de Risques
   logo: "/images/sections/skills/risks.png"
-  summary: "Pour avoir travaillé dans des domaines extrêmement « tendus » (automobiles et énergie), je suis plus que sensibilisé à la notion de risque et gérer un projet via la gestion des risques me parait normal."
+  summary: "Sensibilisé par 20 ans d'expérience dans des domaines critiques (automobile, énergie, SaaS), je gère les projets et produits via la gestion des risques. C'est une approche naturelle pour moi dans des contextes de haute fiabilité."
 
 - name: Agile / Scrum
   logo: "/images/sections/skills/agile.png"
-  summary: "Je n'ai pas de certification particulière en ce domaine, cependant je m'y intéresse depuis environ 10 ans en parcourant une foultitude de livres, blogs et autres vidéos. J'ai participé activement à des transformations d'équipes vers ce mode de fonctionnement. J'en suis maintenant un fervent défenseur."
+  summary: "Certifié PSPO-1 (Professional Scrum Product Owner Level 1) par Scrum.org. J'ai participé activement à des transformations d'équipes vers ce mode de fonctionnement et je suis un fervent défenseur de l'agilité appliquée de façon pragmatique, adaptée aux contextes et non dogmatique."
 
-- name: Méthodes DevOps
-  logo: "/images/sections/skills/devops.png"
-  summary: "Le DevOps pour moi contient toujours une part de « magie » car je n'en connais pas tous les rouages et ne dispose pas des compétences techniques. Cependant, je connais les bénéfices que l'on peut en tirer en termes d'efficience, de qualité et de rapidité pour avoir coaché sa mise en place from scratch. On vit vraiment une époque formidable en termes d'évolutions technologiques alors pourquoi s'en priver."
-
-- name: Suite Atlassian
-  logo: "/images/sections/skills/atlassian.png"
-  summary: "Je pratique toute la suite Atlassian depuis de nombreuses années. J'en suis un administrateur avancé, et je m'appuie sur ses fonctionnalités pour appuyer et soutenir l'ensemble des pratiques et processus mis en place au sein des équipes. C'est un formidable outil à plusieurs niveaux et que l'on peut adapter à des besoins simples comme complexes."
-
-- name: Git
+- name: Compréhension Architecture Logicielle
   logo: "/images/sections/skills/git.png"
   summary: "Je connais et mets en application les principes et les principales commandes ainsi que le gitflow classique."
 
-- name: Office365
-  logo: "/images/sections/skills/o365.png"
-  summary: "Très expérimenté dans son utilisation, j'en connais de nombreux recoins."
+- name: Méthodes logicielles & DevOps
+  logo: "/images/sections/skills/devops.png"
+  summary: "Très bonne expérience dans la transformation des méthodes de développement et la mise en place de 'forges'. Je comprends les bénéfices du DevOps (efficience, qualité, rapidité) et ai coaché sa mise en place. Pragmatique : on adopte ce qui crée de la valeur."
+
+- name: Suite Atlassian
+  logo: "/images/sections/skills/atlassian.png"
+  summary: "Pratiquant depuis de nombreuses années, administrateur avancé. J'utilise Jira, Confluence, Bitbucket pour supporter l'ensemble des pratiques et processus d'équipe. Outil formidable et très adaptable à des besoins simples comme complexes."

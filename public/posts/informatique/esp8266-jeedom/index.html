@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/styles/application.template.scss" integrity="" />
+<link rel="stylesheet" href="/application.ab5688193c570f61730c933b24f66c0473028a66973d0deaddda2ad423cf833b.css" integrity="sha256-q1aIGTxXD2FzDJM7JPZsBHMCimaXPQ3q3doq1CPPgzs=" />
 
 
 
@@ -21,56 +21,53 @@
   
   
 
-  <link rel="icon" type="image/png" href="/images/site/favicon_hu14458373468778497799.png" />
-
-<meta property="og:url" content="http://localhost:1313/posts/informatique/esp8266-jeedom/">
-  <meta property="og:site_name" content="Nils Laumaillé">
-  <meta property="og:title" content="Comment inclure un module ESP8266 dans Jeedom avec ESPEasy">
-  <meta property="og:description" content="Comment inclure un module ESP8266 dans Jeedom avec ESPEasy">
-  <meta property="og:locale" content="fr">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-02-18T23:00:00+00:00">
-    <meta property="article:modified_time" content="2023-02-18T23:00:00+00:00">
-    <meta property="article:tag" content="Markdown">
-    <meta property="article:tag" content="Content Organization">
-    <meta property="article:tag" content="Multi-Lingual">
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu_a7920c91965714cb.png" />
 
 
-    
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Nils Laumaillé"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Portfolio et blog de Nils Laumaillé"/>
+<meta property="og:image" content="/images/site/nl_avatar.png">
+<meta property="og:url" content="http://localhost:1313/">
+
     
 <meta name="description" content="Comment inclure un module ESP8266 dans Jeedom avec ESPEasy" />
 
 
-    
 
     
-        
-        
-        
-            
-            
-            
-        
 
-        
-        
-
-        
-        
-
-        
-        
-        
     
 
 
 
 
-</head>
 
-  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
-    <div class="container-fluid bg-dimmed wrapper">
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+
+  <body class="type-posts kind-page" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
       
       
     
@@ -86,43 +83,194 @@
 
 
 
-<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
   <div class="container">
-      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
-      <span class="navbar-toggler-icon"></span>
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
     </button>
+    
     <a class="navbar-brand" href="/">
       Nils Laumaillé</a>
-    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
-      <span class="navbar-toggler-icon"></span>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
     </button>
 
-    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
-      
-      
-        <li class="nav-item dropdown">
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Accueil</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">A propos</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Compétences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Expériences</a>
+                </li>
+              
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#projects">Projets</a>
+                </li>
+              
+            
+            
+            
+              
+              
+            
+            
+            
+              
+              
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suite</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#recent-posts">Publications</a>
+                    
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#achievements">Mes passions</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Articles</a>
+          </li>
+        
+        
+        
+        
+        
+          
+
+
+
+
+<li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
-  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
 <div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="light">
-    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="dark">
-    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="system">
-    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
+  
 </div>
 </li>
 
-      
+        
       </ul>
     </div>
   </div>
+  
   
   
   
@@ -150,7 +298,7 @@
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/bricolage/">Bricolage</a>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/bricolage/"> Bricolage</a>
       
       <ul class="">
         
@@ -160,7 +308,9 @@
   
   
     
-    <li><a class="" href="/posts/bricolage/nuki/" title="La serrure Nuki">La serrure Nuki</a></li>
+    
+    <li><a class=" list-link" href="/posts/bricolage/nuki/" title="La serrure Nuki">La serrure Nuki</a></li>
+    
   
 
 
@@ -178,7 +328,7 @@
   
     
     <li>
-      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/informatique/">Informatique</a>
+      <i data-feather="minus-circle"></i><a class="active list-link" href="/posts/informatique/"> Informatique</a>
       
       <ul class="active">
         
@@ -188,7 +338,9 @@
   
   
     
-    <li><a class="" href="/posts/informatique/android/" title="Android 14">Android 14</a></li>
+    
+    <li><a class=" list-link" href="/posts/informatique/android/" title="Android 14">Android 14</a></li>
+    
   
 
   
@@ -197,7 +349,9 @@
   
   
     
-    <li><a class="" href="/posts/informatique/esp8266-flasher/" title="ESP8266 - Flasher">ESP8266 - Flasher</a></li>
+    
+    <li><a class=" list-link" href="/posts/informatique/esp8266-flasher/" title="ESP8266 - Flasher">ESP8266 - Flasher</a></li>
+    
   
 
   
@@ -206,7 +360,9 @@
   
   
     
-    <li><a class="" href="/posts/informatique/esp8266-parametrer/" title="ESP8266 - Paramétrer">ESP8266 - Paramétrer</a></li>
+    
+    <li><a class=" list-link" href="/posts/informatique/esp8266-parametrer/" title="ESP8266 - Paramétrer">ESP8266 - Paramétrer</a></li>
+    
   
 
   
@@ -218,7 +374,9 @@
   
   
     
-    <li><a class="active" href="/posts/informatique/esp8266-jeedom/" title="ESP8266 / Jeedom">ESP8266 / Jeedom</a></li>
+    
+    <li><a class="active list-link" href="/posts/informatique/esp8266-jeedom/" title="ESP8266 / Jeedom">ESP8266 / Jeedom</a></li>
+    
   
 
   
@@ -227,7 +385,9 @@
   
   
     
-    <li><a class="" href="/posts/informatique/teampass/" title="Gestionnaire de mots de passe">Gestionnaire de mots de passe</a></li>
+    
+    <li><a class=" list-link" href="/posts/informatique/teampass/" title="Gestionnaire de mots de passe">Gestionnaire de mots de passe</a></li>
+    
   
 
   
@@ -236,7 +396,9 @@
   
   
     
-    <li><a class="" href="/posts/informatique/jeedom/" title="Ma box domotique">Ma box domotique</a></li>
+    
+    <li><a class=" list-link" href="/posts/informatique/jeedom/" title="Ma box domotique">Ma box domotique</a></li>
+    
   
 
   
@@ -245,32 +407,9 @@
   
   
     
-    <li><a class="" href="/posts/informatique/windows-winget/" title="Winget">Winget</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
     
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/mecanique/">Mécanique</a>
-      
-      <ul class="">
-        
-  
-  
-  
-  
-  
+    <li><a class=" list-link" href="/posts/informatique/windows-winget/" title="Winget">Winget</a></li>
     
-    <li><a class="" href="/posts/mecanique/flexfuel/" title="Boitier Flexfuel">Boitier Flexfuel</a></li>
   
 
 
@@ -285,7 +424,7 @@
   
     
     <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/omv/">OpenMediaVault</a>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/mecanique/"> Mécanique</a>
       
       <ul class="">
         
@@ -295,7 +434,36 @@
   
   
     
-    <li><a class="" href="/posts/omv/portainer_maj/" title="Mise à jour de Portainer">Mise à jour de Portainer</a></li>
+    
+    <li><a class=" list-link" href="/posts/mecanique/flexfuel/" title="Boitier Flexfuel">Boitier Flexfuel</a></li>
+    
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i data-feather="plus-circle"></i><a class=" list-link" href="/posts/omv/"> OpenMediaVault</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    
+    <li><a class=" list-link" href="/posts/omv/portainer_maj/" title="Mise à jour de Portainer">Mise à jour de Portainer</a></li>
+    
   
 
 
@@ -323,30 +491,36 @@
 
       
       <div class="page-content">
-        <div class="author-profile ml-auto align-self-lg-center">
-          <img class="rounded-circle" src='/images/site/nl_avatar_hu1195115488428037397.png' alt="Author Image">
+        
+        <div class="author-profile ms-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/site/nl_avatar_hu_dba6d95ed5981c5a.png' alt="Author Image">
           <h5 class="author-name">Nils Laumaillé</h5>
-          <p>samedi 18 février 2023</p>
+          <p class="text-muted">samedi 18 février 2023</p>
         </div>
+        
 
         <div class="title">
           <h1>Comment inclure un module ESP8266 dans Jeedom avec ESPEasy</h1>
         </div>
+
         
-        <div class="taxonomy-terms">
-          <ul style="padding-left: 0;">
-            
-            
-            <li class="rounded"><a href="/tags/markdown/" class="btn, btn-sm">Markdown</a></li>
-            
-            
-            <li class="rounded"><a href="/tags/content-organization/" class="btn, btn-sm">Content Organization</a></li>
-            
-            
-            <li class="rounded"><a href="/tags/multi-lingual/" class="btn, btn-sm">Multi-lingual</a></li>
-            
-          </ul>
-        </div>
+
+        
+          <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/markdown/" class="btn btn-sm btn-info">Markdown</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/content-organization/" class="btn btn-sm btn-info">Content Organization</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/multi-lingual/" class="btn btn-sm btn-info">Multi-lingual</a></li>
+    
+  </ul>
+</div>
+
         
         <div class="post-content" id="post-content">
           <p>Cette page s&rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&rsquo;émetteur IR pour contrôler une unité intérieure d&rsquo;une climatisation.</p>
@@ -357,17 +531,17 @@
 <li>Depuis un navigateur web, taper l&rsquo;url : <code>http://&lt;IP_CHOISIE_DE_L_ESP8266&gt;</code>
 Vous devriez voir une page ressemblant à cela.</li>
 </ul>
-<p><img alt="1" src="/posts/informatique/esp8266-jeedom/images/esp8266_11.png"></p>
+<p><img src="/posts/informatique/esp8266-jeedom/images/esp8266_11.png" alt="1"></p>
 <ul>
 <li>Changer son nom de façon à vous y retrouver en cliquand sur l&rsquo;onglet <code>Config</code></li>
 </ul>
-<p><img alt="1" src="/posts/informatique/esp8266-jeedom/images/esp8266_12.png"></p>
+<p><img src="/posts/informatique/esp8266-jeedom/images/esp8266_12.png" alt="1"></p>
 <ul>
 <li>Pour synchroniser l&rsquo;heure, il est possible d&rsquo;activer un serveur NTP.
 Pour cela, cliquer l&rsquo;onglet <code>Tools</code> et le bouton <code>Advanced</code>.
 Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midway.ovh</code>.</li>
 </ul>
-<p><img alt="1" src="/posts/informatique/esp8266-jeedom/images/esp8266_14.png"></p>
+<p><img src="/posts/informatique/esp8266-jeedom/images/esp8266_14.png" alt="1"></p>
 <h1 id="inclure-léquipement-dans-jeedom">Inclure l&rsquo;équipement dans jeedom</h1>
 <p>Cette étape permet de faire remonter le nouvel équipement dans le plugin EspEasy. Pour cela,</p>
 <h2 id="préparer-jeedom">Préparer Jeedom</h2>
@@ -448,47 +622,47 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
 </li>
 </ul>
 <h1 id="paramétrer-la-fonction-ir-pour-jeedom">Paramétrer la fonction IR pour Jeedom</h1>
-<p><img alt="1" src="/posts/informatique/esp8266-jeedom/images/esp8266_13.png"></p>
+<p><img src="/posts/informatique/esp8266-jeedom/images/esp8266_13.png" alt="1"></p>
 
         </div>
 
         
-        <div class="row pl-3 pr-3">
+        <div class="row ps-3 pe-3">
         
-        <div class="col-md-6 share-buttons">
-        
+          <div class="col-md-6 share-buttons">
+          
             <strong>Partager sur:</strong>
             
-            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f" target="_blank">
+            <a class="btn icon-button bg-facebook" href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f" target="_blank">
               <i class="fab fa-facebook"></i>
             </a>
             
             
-                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f&text=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy&via=Nils%20Laumaill%c3%a9" target="_blank">
+                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f&text=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy&via=Nils%20Laumaill%c3%a9" target="_blank">
                   <i class="fab fa-twitter"></i>
                 </a>
             
             
-                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f&title=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy" target="_blank">
+                <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f&title=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy" target="_blank">
                   <i class="fab fa-reddit"></i>
                 </a>
             
             
             
             
-                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f&title=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy" target="_blank">
+                <a class="btn icon-button bg-linkedin" href="https://www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f&title=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy" target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
             
             
              
             
-                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f" target="_blank">
+                 <a class="btn icon-button bg-whatsapp" href="https://api.whatsapp.com/send?text=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f" target="_blank">
                   <i class="fab fa-whatsapp"></i>
                 </a>
             
             
-                <a class="btn btn-sm email-btn" href="mailto:?subject=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy&body=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f" target="_blank">
+                <a class="btn icon-button" href="mailto:?subject=Comment%20inclure%20un%20module%20ESP8266%20dans%20Jeedom%20avec%20ESPEasy&body=http%3a%2f%2flocalhost%3a1313%2fposts%2finformatique%2fesp8266-jeedom%2f" target="_blank">
                   <i class="fas fa-envelope-open-text"></i>
                 </a>
             
@@ -566,7 +740,7 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
 <div class="row next-prev-navigator">
   
     <div class="col-md-6 previous-article">
-      <a href="/posts/informatique/esp8266-parametrer/" title="Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy" class="btn btn-outline-info">
+      <a href="/posts/informatique/esp8266-parametrer/" title="Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy" class="btn filled-button">
         <div><i class="fas fa-chevron-circle-left"></i> Précédent</div>
         <div class="next-prev-text">Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</div>
       </a>
@@ -578,7 +752,7 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
         
       
       <div class="col-md-6 next-article">
-        <a href="/posts/informatique/teampass/" title="Teampass, un gestionnaire de mots de passe collaboratif" class="btn btn-outline-info">
+        <a href="/posts/informatique/teampass/" title="Teampass, un gestionnaire de mots de passe collaboratif" class="btn filled-button">
           <div>Suivant <i class="fas fa-chevron-circle-right"></i></div>
           <div class="next-prev-text">Teampass, un gestionnaire de mots de passe collaboratif</div>
         </a>
@@ -598,8 +772,9 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
     </div>
   </div>
   
-  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
-  
+  <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Scroll to top">
+    <i class="fas fa-chevron-circle-up"></i>
+  </a>
 </section>
 
 
@@ -608,7 +783,7 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
   <section class="toc-section" id="toc-section">
     
     <div class="toc-holder">
-      <h5 class="text-center pl-3">Table des matières</h5>
+      <h5 class="text-center ps-3">Table des matières</h5>
       <hr>
       <div class="toc">
         <nav id="TableOfContents">
@@ -687,7 +862,7 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         
         <div class="col-md-4 col-sm-12">
@@ -711,15 +886,15 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
-            <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
+            <img src="/images/theme-logo_hu_b3360284c55cf72d.png" alt="Toha Theme Logo">
             Toha
           </a>
         </div>
         <div class="col-md-4 text-center">© 2023 Tous droits réservés.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
           <img
             src="/images/hugo-logo.svg"
@@ -734,8 +909,7 @@ Enfin, activer <code>NTP</code> et vous pouvez mettre le serveur <code>ntp.midwa
   </footer>
 
 
-    <script src="/scripts/application.js" integrity="" defer></script>
-
+    <script src="/application.1c13140d4f885a4faf169c113ee297f7e569c18d2ec910258271fa8594ff1744.js" integrity="sha256-HBMUDU&#43;IWk&#43;vFpwRPuKX9&#43;VpwY0uyRAlgnH6hZT/F0Q=" defer></script>
 
 
     

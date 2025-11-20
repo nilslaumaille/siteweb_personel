@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-	<meta name="generator" content="Hugo 0.136.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.151.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>Nils Laumaillé</title>
     
     
@@ -16,7 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/styles/application.template.scss" integrity="" />
+<link rel="stylesheet" href="/application.ab5688193c570f61730c933b24f66c0473028a66973d0deaddda2ad423cf833b.css" integrity="sha256-q1aIGTxXD2FzDJM7JPZsBHMCimaXPQ3q3doq1CPPgzs=" />
 
 
 
@@ -31,7 +31,10 @@
   
   
 
-  <link rel="icon" type="image/png" href="/images/site/favicon_hu14458373468778497799.png" />
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu_a7920c91965714cb.png" />
+
+
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Nils Laumaillé">
 
 
 
@@ -48,32 +51,31 @@
 
 
     
-        
-        
-        
-            
-            
-            
-        
 
-        
-        
 
-        
-        
 
-        
-        
-        
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#top-navbar" data-bs-offset="100">
+
     
 
 
 
-
-</head>
-  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
-
-    
 
 
 
@@ -102,23 +104,37 @@
   
 
 
-<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
   <div class="container">
+    
     <a class="navbar-brand" href="/">
       Nils Laumaillé</a>
     <button
       class="navbar-toggler navbar-dark"
       id="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
       aria-label="menu"
     >
-      <span class="navbar-toggler-icon"></span>
+      <i data-feather="menu"></i>
     </button>
 
     <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+      <ul class="nav navbar-nav ms-auto">
         <li class="nav-item">
           <a class="nav-link" href="#home">Accueil</a>
         </li>
@@ -151,6 +167,7 @@
             
             
             
+            
               
               
                 <li class="nav-item">
@@ -164,13 +181,12 @@
               
             
             
-            
               
               
             
           
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suite</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suite</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
                 
@@ -188,6 +204,7 @@
                   
                   
                   
+                  
                     
                     
                   
@@ -197,7 +214,6 @@
                     
                       <a class="dropdown-item" href="#recent-posts">Publications</a>
                     
-                  
                   
                   
                     
@@ -210,32 +226,43 @@
           
         
         
-          <div class="dropdown-divider" id="top-navbar-divider"></div>
+          <div id="top-navbar-divider"></div>
         
         
           <li class="nav-item">
-            <a class="nav-link" id="blog-link" href="/posts/">Articles</a>
+            <a class="nav-link" id="blog-link" href="/posts">Articles</a>
           </li>
         
         
         
         
         
-          <li class="nav-item dropdown">
+          
+
+
+
+
+<li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
-  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
 <div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="light">
-    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="dark">
-    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="system">
-    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
+  
 </div>
 </li>
 
@@ -246,37 +273,61 @@
   
   
   
+  
 </nav>
 
 
-  
-
-
-
-
-  
-
-
-
-
-  
-
-
-
-
-  
 
 
 
 
 
-  
 
 
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -310,73 +361,120 @@
   <style>
      
     #homePageBackgroundImageDivStyled {
-      background-image: url('/images/site/bg2_hu1978001784265798163.jpg');
+      background-image: url('/images/site/bg2_hu_d23ca9068977579b.jpg');
     }
+
      
-    @media (min-width: 500px) and (max-width: 800px) {  
-      #homePageBackgroundImageDivStyled {   
-          background-image: url('/images/site/bg2_hu3155110348563899467.jpg');
-        }
+    @media (min-width: 500px) and (max-width: 800px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/bg2_hu_513204de942fab53.jpg');
+      }
     }
-    @media (min-width: 801px) and (max-width: 1200px) {  
-      #homePageBackgroundImageDivStyled {   
-          background-image: url('/images/site/bg2_hu14254939893709462707.jpg');
-        }
+
+    @media (min-width: 801px) and (max-width: 1200px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/bg2_hu_f0d02ea4e8a4b695.jpg');
+      }
     }
-    @media (min-width: 1201px) and (max-width: 1500px) {  
-      #homePageBackgroundImageDivStyled {   
-          background-image: url('/images/site/bg2_hu6199877003466671215.jpg');
-        }
+
+    @media (min-width: 1201px) and (max-width: 1500px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/bg2_hu_2c059636259626ab.jpg');
+      }
     }
-    @media (min-width: 1501px) {  
-      #homePageBackgroundImageDivStyled {   
+
+    @media (min-width: 1501px) {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/bg2.jpg');
+      }
+    }
+
+    html[data-theme='dark'] {
+
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/bg2_hu_d23ca9068977579b.jpg');
+      }
+
+       
+      @media (min-width: 500px) and (max-width: 800px) {
+
+         
+        #homePageBackgroundImageDivStyled {
+          background-image: url('/images/site/bg2_hu_513204de942fab53.jpg');
+        }
+      }
+
+      @media (min-width: 801px) and (max-width: 1200px) {
+
+         
+        #homePageBackgroundImageDivStyled {
+          background-image: url('/images/site/bg2_hu_f0d02ea4e8a4b695.jpg');
+        }
+      }
+
+      @media (min-width: 1201px) and (max-width: 1500px) {
+
+         
+        #homePageBackgroundImageDivStyled {
+          background-image: url('/images/site/bg2_hu_2c059636259626ab.jpg');
+        }
+      }
+
+      @media (min-width: 1501px) {
+
+         
+        #homePageBackgroundImageDivStyled {
           background-image: url('/images/site/bg2.jpg');
         }
+      }
     }
-    </style>
-    <span class="on-the-fly-behavior"></span>
-  <div
-    id="homePageBackgroundImageDivStyled"
-    class="background container-fluid"
-  ></div>
+  </style>
+  <span class="on-the-fly-behavior"></span>
+  <div id="homePageBackgroundImageDivStyled" class="background container-fluid"></div>
   <div class="container content text-center">
-    <img src="/images/site/nl_avatar_hu3390407883263589097.png"
-      class="rounded-circle mx-auto d-block img-fluid"
-      alt="Author Image"
-    />
+    <img src="/images/site/nl_avatar_hu_5e0d40ed1f69a4ae.png" class="rounded-circle mx-auto d-block img-fluid" alt="Author Image" />
     <h1 class="greeting"> Bonjour et bienvenue, je suis Nils Laumaillé</h1>
     
     <div class="typing-carousel">
-      <span id="ityped" class="ityped"></span>
+      <span id="typed" class="typed"></span>
       <span class="ityped-cursor"></span>
     </div>
     <ul id="typing-carousel-data">
       
-        
-          <li>Ingénieur Qualité Logiciel</li>
-        
-          <li>Amateur de technologies variées</li>
-        
-          <li>Étudiant perpétuel</li>
-        
-          <li>Inspiré par ce que je vois et lis</li>
-        
-          <li>Motard ✌</li>
-        
+      
+      <li>Ingénieur Qualité Logiciel</li>
+      
+      <li>Amateur de technologies variées</li>
+      
+      <li>Étudiant perpétuel</li>
+      
+      <li>Inspiré par ce que je vois et lis</li>
+      
+      <li>Motard ✌</li>
+      
       
     </ul>
     
-      
-        
-        
-          
-        
-        <a href="#about" class="arrow-center" aria-label="Lire Suite - Nils Laumaillé"><i class="arrow bounce fa fa-chevron-down"></i></a>
-      
+    
+    
+    
+    
+    
+    <a href="#about" class="arrow-center" aria-label=" Suite - Nils Laumaillé"> <i
+        class="arrow bounce fa fa-chevron-down"></i></a>
+    
     
   </div>
 </div>
-
     
     
       
@@ -386,7 +484,7 @@
       
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -405,16 +503,16 @@
       <h3 class="p-1">Nils Laumaillé</h3>
       
       <h5 class="p-1">
-        Responsable R&amp;D
+        Product Owner / Référent Numérique
         
-        chez <a href="https://www.sanilea.fr" title="Sanilea" target="_blank" rel="noopener">Sanilea</a>
+        chez <a href="https://www.urbasolar.com" title="Urbasolar" target="_blank" rel="noopener">Urbasolar</a>
         
       </h5>
       
       <p class="p-1 text-justify">
-        Je suis un ingénieur Qualité passionné par le logiciel sous toutes ces formes et la multitude d&rsquo;écosystèmes associés. Le métier de la Qualité Logicielle a été le fil conducteur de mon expérience depuis plus de 20 ans. Il m&rsquo;a permis d&rsquo;occuper différentes fonctions et rôles dans des environnements variés comme l&rsquo;automobile, l&rsquo;énergie, la santé et l&rsquo;édition du logiciel. J’ai acquis de nombreuses compétences et réflexes qui me permettent d’affronter de multiples situations avec calme et professionnalisme. J’aime être à l’écoute des nouvelles techniques et méthodes pour faire progresser mes collaborateurs.
+        Ingénieur Qualité Logiciel qui a choisi de structurer plutôt que de contrôler. Passionné par les systèmes complexes et comment les rendre simples. 20 ans d&rsquo;expérience dans des environnements critiques (automobile, énergie, SaaS) m&rsquo;ont appris que la rigueur n&rsquo;est jamais un frein mais plutôt une fondation. Pragmatique avant tout, je crois que la qualité et l&rsquo;agilité doivent coexister. Curieux, j&rsquo;aime les défis qui demandent de la clarté et de l&rsquo;exécution. Ma transition vers le Product Owner n&rsquo;est pas une rupture : c&rsquo;est l&rsquo;aboutissement naturel de 20 ans d&rsquo;expertise appliquée à la vision et au pilotage produit.
       </p>
-      <div class="text-container ml-auto">
+      <div class="text-container ms-auto">
         <ul class="social-link d-flex">
           
           <li>
@@ -439,7 +537,7 @@
       
     </div>
     
-    <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
       <div class="row">
         
           <div class="col-6 col-lg-4 p-2">
@@ -449,10 +547,16 @@
     
         
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress ">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-95"
+        class="circular-progress-bar circular-progress-percentage-45  circular-progress-percentage-50-delay"
         
             style="border-color: #dedb1f;"
         
@@ -460,7 +564,7 @@
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
             style="border-color: #dedb1f;"
         
@@ -479,10 +583,16 @@
     
         
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress ">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-95"
+        class="circular-progress-bar circular-progress-percentage-45  circular-progress-percentage-50-delay"
         
             style="border-color: #cc8635;"
         
@@ -490,13 +600,13 @@
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
             style="border-color: #cc8635;"
         
         ></span>
     </span>
-    <div class="circular-progress-value">Travailleur</div>
+    <div class="circular-progress-value">Rigueur &amp; Exigence</div>
     </div>
 
 </div>
@@ -509,10 +619,16 @@
     
         
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress ">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-90"
+        class="circular-progress-bar circular-progress-percentage-40  circular-progress-percentage-50-delay"
         
             style="border-color: #cf3229;"
         
@@ -520,7 +636,7 @@
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
             style="border-color: #cf3229;"
         
@@ -539,10 +655,16 @@
     
         
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress ">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-85"
+        class="circular-progress-bar circular-progress-percentage-35  circular-progress-percentage-50-delay"
         
             style="border-color: #1f8f50;"
         
@@ -550,7 +672,7 @@
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
             style="border-color: #1f8f50;"
         
@@ -569,10 +691,16 @@
     
         
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress ">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-95"
+        class="circular-progress-bar circular-progress-percentage-45  circular-progress-percentage-50-delay"
         
             style="border-color: #a3175d;"
         
@@ -580,7 +708,7 @@
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
             style="border-color: #a3175d;"
         
@@ -599,10 +727,16 @@
     
         
     
+    
+    
+    
+        
+        
+    
     <div class="circular-progress ">
     <span class="circular-progress-left">
         <span
-        class="circular-progress-bar circular-progress-percentage-85"
+        class="circular-progress-bar circular-progress-percentage-40  circular-progress-percentage-50-delay"
         
             style="border-color: #4287f5;"
         
@@ -610,13 +744,13 @@
     </span>
     <span class="circular-progress-right">
         <span
-        class="circular-progress-bar"
+        class="circular-progress-bar circular-progress-percentage-50"
         
             style="border-color: #4287f5;"
         
         ></span>
     </span>
-    <div class="circular-progress-value">Synthèse</div>
+    <div class="circular-progress-value">Clarté &amp; Synthèse</div>
     </div>
 
 </div>
@@ -638,22 +772,26 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
 
 
-<div class="container-fluid anchor pb-5 skills-section">
+<div class="container-fluid anchor pb-5 skills-section" id="skills">
   
     <h1 class="text-center">
         <span id="skills"></span>Compétences</h1>
   
+  
   <div class="container d-flex-block">
     <div class="row" id="primary-skills">
+  
       
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -663,20 +801,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/sdlc_hu907712787452292816.png" alt="Méthodes logicielles" />
-          <h5 class="card-title">Méthodes logicielles</h5>
+          <img class="card-img-xs" src="/images/sections/skills/skill_gest_prod_hu_fae6a795a86b05be.png" alt="Gestion de Produit" />
+          <h5 class="card-title">Gestion de Produit</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Très bonne expérience dans l&rsquo;exécution de la transformation des méthodes de développement logiciel et la mise en place de « forges ».</p>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Pilotage de portefeuilles produits complexes multi-applications. Construction et communication de vision stratégique, priorisation des besoins, organisation de roadmaps claires et pilotage du delivery. Expérience dans des contextes critiques avec clients exigeants internes et externes.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -686,20 +826,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/swquality_hu14058895276472133282.png" alt="Qualité en R&amp;D" />
-          <h5 class="card-title">Qualité en R&amp;D</h5>
+          <img class="card-img-xs" src="/images/sections/skills/reqs_hu_cdd03ceb3dd3c684.png" alt="Gestion des Exigences" />
+          <h5 class="card-title">Gestion des Exigences</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Depuis plus de 20 ans, je travaille à l&rsquo;amélioration de la qualité en R&amp;D et tout particulièrement en logiciel tant au niveau du livrable (limiter les défauts) que de sa réalisation (maintenabilité, conformité et exactitude).</p>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Une de mes thématiques préférées et fondement de mon expertise. De l&rsquo;expression du besoin à la recette, je maîtrise les modalités de gestion et traçabilité des exigences. Rédaction de spécifications techniques, critères d&rsquo;acceptation rigoureux et cahiers des tests. Adaptation aux contextes simples comme complexes.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -709,20 +851,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/safe_hu10539549680908691781.png" alt="Gestion de projets" />
-          <h5 class="card-title">Gestion de projets</h5>
+          <img class="card-img-xs" src="/images/sections/skills/swquality_hu_942312acb7310139.png" alt="Qualité en R&amp;D &amp; Testing" />
+          <h5 class="card-title">Qualité en R&amp;D &amp; Testing</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Expérimenté dans la façon dont un projet de développement doit s&rsquo;articuler et se gérer pour assurer un suivi QCD.</p>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">20+ ans d&rsquo;expertise pour améliorer la qualité en R&amp;D logicielle. Au-delà de la limitation des défauts, je pilote tests internes, validation fonctionnelle, documentation produit et conformité. Conviction que la qualité et l&rsquo;agilité doivent coexister et renforcer mutuellement.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -732,20 +876,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/delivery_hu9319519112031533940.png" alt="Delivery" />
-          <h5 class="card-title">Delivery</h5>
+          <img class="card-img-xs" src="/images/sections/skills/delivery_hu_38d5ae4eb68fc66a.png" alt="Delivery &amp; Roadmap Produit" />
+          <h5 class="card-title">Delivery &amp; Roadmap Produit</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Expérimenté dans sa mise en place et son suivi à l&rsquo;échelle d&rsquo;un produit, je m&rsquo;appuie souvent sur un plan de production permettant d&rsquo;organiser et prioriser les réalisations, garantir la capacité de production, et partager transversalement les éléments.</p>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Expérimenté dans la mise en place et le suivi du delivery à l&rsquo;échelle produit. Construction de plans de production pour organiser et prioriser les réalisations, garantir la capacité de production, arbitrer les dépendances techniques et partager transversalement. Vision multi-applications et multi-stakeholders.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -755,20 +901,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/team_hu11657252158203069058.png" alt="Gestion d’équipe" />
-          <h5 class="card-title">Gestion d’équipe</h5>
+          <img class="card-img-xs" src="/images/sections/skills/team_hu_c432e82cceb4ce38.png" alt="Gestion d&#39;équipe &amp; Leadership" />
+          <h5 class="card-title">Gestion d&#39;équipe &amp; Leadership</h5>
         
       </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Je gère et accompagne des équipes allant de 3 à 20 personnes (développeurs, testeurs, IT, devops, etc.) depuis plus de 10 ans. C&rsquo;est une dimension dans mon travail que j&rsquo;apprécie.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -778,43 +926,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/reqs_hu7732791141388734001.png" alt="Gestion des Exigences" />
-          <h5 class="card-title">Gestion des Exigences</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Il s&rsquo;agit de ma thématique préférée. De la définition de l&rsquo;expression du besoin à la phase de recette, je suis plus que performant pour définir les modalités de gestion et de traçabilité des exigences.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/risks_hu13800834574020702138.png" alt="Gestion de Risques" />
+          <img class="card-img-xs" src="/images/sections/skills/risks_hu_c132ef844188c477.png" alt="Gestion de Risques" />
           <h5 class="card-title">Gestion de Risques</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Pour avoir travaillé dans des domaines extrêmement « tendus » (automobiles et énergie), je suis plus que sensibilisé à la notion de risque et gérer un projet via la gestion des risques me parait normal.</p>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Sensibilisé par 20 ans d&rsquo;expérience dans des domaines critiques (automobile, énergie, SaaS), je gère les projets et produits via la gestion des risques. C&rsquo;est une approche naturelle pour moi dans des contextes de haute fiabilité.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -824,20 +951,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/agile_hu13364011081533762110.png" alt="Agile / Scrum" />
+          <img class="card-img-xs" src="/images/sections/skills/agile_hu_a7f085824f3684b2.png" alt="Agile / Scrum" />
           <h5 class="card-title">Agile / Scrum</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Je n&rsquo;ai pas de certification particulière en ce domaine, cependant je m&rsquo;y intéresse depuis environ 10 ans en parcourant une foultitude de livres, blogs et autres vidéos. J&rsquo;ai participé activement à des transformations d&rsquo;équipes vers ce mode de fonctionnement. J&rsquo;en suis maintenant un fervent défenseur.</p>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Certifié PSPO-1 (Professional Scrum Product Owner Level 1) par Scrum.org. J&rsquo;ai participé activement à des transformations d&rsquo;équipes vers ce mode de fonctionnement et je suis un fervent défenseur de l&rsquo;agilité appliquée de façon pragmatique, adaptée aux contextes et non dogmatique.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -847,66 +976,22 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/devops_hu404308603341007186.png" alt="Méthodes DevOps" />
-          <h5 class="card-title">Méthodes DevOps</h5>
+          <img class="card-img-xs" src="/images/sections/skills/git_hu_e27347a44f540e50.png" alt="Compréhension Architecture Logicielle" />
+          <h5 class="card-title">Compréhension Architecture Logicielle</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Le DevOps pour moi contient toujours une part de « magie » car je n&rsquo;en connais pas tous les rouages et ne dispose pas des compétences techniques. Cependant, je connais les bénéfices que l&rsquo;on peut en tirer en termes d&rsquo;efficience, de qualité et de rapidité pour avoir coaché sa mise en place from scratch. On vit vraiment une époque formidable en termes d&rsquo;évolutions technologiques alors pourquoi s&rsquo;en priver.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/atlassian_hu2714157388729264193.png" alt="Suite Atlassian" />
-          <h5 class="card-title">Suite Atlassian</h5>
-        
-      </div>
-      <div class="card-body">
-        <p class="card-text">Je pratique toute la suite Atlassian depuis de nombreuses années. J&rsquo;en suis un administrateur avancé, et je m&rsquo;appuie sur ses fonctionnalités pour appuyer et soutenir l&rsquo;ensemble des pratiques et processus mis en place au sein des équipes. C&rsquo;est un formidable outil à plusieurs niveaux et que l&rsquo;on peut adapter à des besoins simples comme complexes.</p>
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
-    <div class="card">
-      <div class="card-head d-flex">
-        
-          
-          
-          
-            
-          
-        
-          <img class="card-img-xs" src="/images/sections/skills/git_hu9499499597698043909.png" alt="Git" />
-          <h5 class="card-title">Git</h5>
-        
-      </div>
-      <div class="card-body">
+      <div class="card-body text-justify pt-1 pb-1">
         <p class="card-text">Je connais et mets en application les principes et les principales commandes ainsi que le gitflow classique.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
-        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
-  <a class="skill-card-link" >
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
     <div class="card">
       <div class="card-head d-flex">
         
@@ -916,18 +1001,43 @@
             
           
         
-          <img class="card-img-xs" src="/images/sections/skills/o365_hu9271616402100879429.png" alt="Office365" />
-          <h5 class="card-title">Office365</h5>
+          <img class="card-img-xs" src="/images/sections/skills/devops_hu_1c82ec18c907dfe0.png" alt="Méthodes logicielles &amp; DevOps" />
+          <h5 class="card-title">Méthodes logicielles &amp; DevOps</h5>
         
       </div>
-      <div class="card-body">
-        <p class="card-text">Très expérimenté dans son utilisation, j&rsquo;en connais de nombreux recoins.</p>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Très bonne expérience dans la transformation des méthodes de développement et la mise en place de &lsquo;forges&rsquo;. Je comprends les bénéfices du DevOps (efficience, qualité, rapidité) et ai coaché sa mise en place. Pragmatique : on adopte ce qui crée de la valeur.</p>
       </div>
     </div>
   </a>
 </div>
 
-      
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/atlassian_hu_214c9c3a2a92ad2f.png" alt="Suite Atlassian" />
+          <h5 class="card-title">Suite Atlassian</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Pratiquant depuis de nombreuses années, administrateur avancé. J&rsquo;utilise Jira, Confluence, Bitbucket pour supporter l&rsquo;ensemble des pratiques et processus d&rsquo;équipe. Outil formidable et très adaptable à des besoins simples comme complexes.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
     </div>
   </div>
 </div>
@@ -940,7 +1050,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -958,45 +1068,58 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">1</div>
+  <div class="circle fw-bold">1</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Responsable R&amp;D</h5>
-        <h6><a href=https://www.sanilea.fr title="Sanilea (Éditeur de logiciel en mode SaaS)" target="_blank" rel="noopener">Sanilea (Éditeur de logiciel en mode SaaS)</a></h6>
         
-        <p class="text-muted">Février 2020 - septembre 2023,
-            Limoges
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.urbasolar.com/ title="Urbasolar" target="_blank" rel="noopener">Urbasolar</a></h5>
+            <p class="text-muted">
+                Février 2024 - Aujourd&#39;hui
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Montpellier
         </p>
+        
+        <p>Le soleil est certainement la source d&rsquo;énergie la plus inépuisable de notre planète. Cette énergie d&rsquo;origine renouvelable est une des solutions majeures pour répondre durablement et de manière responsable aux besoins énergétiques de l&rsquo;humanité. Nous nous consacrons ainsi à son déploiement à grande échelle depuis plus de 15 ans.<br>J&rsquo;exerce le rôle de « Product Owner / Référent numérique » au sein de la Digital Factory pour la division Opération &amp; Maintenance (O&amp;M, ~100 personnes). Je pilote un écosystème de 5 applications critiques destinées à des équipes internes et clients externes, dans un contexte de volumétries massives et d&rsquo;architecture multi-technos.</p>
     </div>
     
-    <p>Sanilea est leader de l’organisation du transport sanitaire en France. C’est un maillon essentiel de l’écosystème du transport sanitaire, à savoir les établissements de santé, les professionnels du transport et les patients. Je suis responsable de la division R&amp;D dont la fonction est de développer la solution SpeedCall conformément aux besoins du marché et de la rendre disponible pour nos utilisateurs via une infrastructure en mode Saas.<br>Dans ce contexte, j&rsquo;assure la gestion des équipes R&amp;D (produits, développement et infrastructure) en mode Delivery.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Product Owner</h5>
+            <p class="text-muted">Février 2024 -  Aujourd&#39;hui </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsabilités :</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Activités standards de PO - Gestion du backlog produit et priorisation des US en environnement Agile/Scrum, facilitation des cérémonies (daily, refinement, retro), collaboration quotidienne avec stakeholders internes/externes, validation des critères d&rsquo;acceptation et suivi en sprint</li>
+                
+                    <li>Pilotage de la roadmap produit multi-applications - Construction et communication d&rsquo;une vision stratégique, organisation des besoins métier complexes en épics/features/US, ordonnancement des livrables et arbitrage des dépendances techniques pour assurer une cadence de release fluide et cohérente</li>
+                
+                    <li>Garantie de la qualité des livrables - Rédaction et maintenance des spécifications techniques détaillées, définition des critères d&rsquo;acceptation, pilotage des tests internes et validation fonctionnelle avant livraison, rédaction du cahier des tests et de la documentation produit, synchronisation avec les clients majeurs pour assurer la conformité</li>
+                
+                    <li>Médiation clients exigeants &amp; simplification de la complexité - Traduction des besoins métier O&amp;M en solutions techniques, représentation des utilisateurs auprès des équipes Build, gestion des enjeux de disponibilité et fiabilité critiques, identification des opportunités de simplification</li>
+                
+                    <li>Gestion d&rsquo;un écosystème technique varié - Pilotage d&rsquo;une architecture multi-technos (PostgreSQL, InfluxDB, Databricks, Airtable, Grafana, etc.) et de 5 applications interconnectées, gestion des dépendances inter-applications, coordination du Run (incidents, maintenance, support utilisateur) et du Build, assurance de la scalabilité face aux volumétries importantes de données</li>
+                
+                    <li>Gestion opérationnelle hybride (Run &amp; Build) - Pilotage simultané des incidents/maintenance et des nouveautés produit pour assurer continuité opérationnelle et innovation</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsabilités :</h6>
-    <ul class="justify-content-around">
-    
-        <li>« Leader » le produi - écrire la vision produit et technique, ainsi que les roadmaps associées tout en focalisant sur la valeur ajoutée ; identifier les risques et les limites ; proposer des améliorations ; définir les objectifs produit.</li>
-    
-        <li>Garantir le « Delivery » - Piloter l&rsquo;activité des équipes pour respecter les délais, la qualité et les budgets des différents projets au travers d&rsquo;un plan de production ; prendre des décisions relatives aux livrables (versus le MVP et/ou le rational des fonctionnalités / évolutions indispensables clients et / ou techniques).</li>
-    
-        <li>Contribuer à l&rsquo;ensemble des phases de développement - Participer auprès de l&rsquo;équipe aux événements quotidiens ; faciliter la résolution des problèmes ; mettre en place et suivre les indicateurs.</li>
-    
-        <li>Contribuer aux différents choix de l&rsquo;équipe - comprendre les enjeux et les solutions ; susciter des interrogations et faire émerger des solutions alternatives ; statuer si divergence.</li>
-    
-        <li>Garantir la fluidité des étapes et des cycles au travers de process définis, compris et adaptés aux projets ; implémenter les outils nécessaires pour maximiser la performance globale de l’équipe.</li>
-    
-        <li>Team building - amener les membres à franchir des étapes et ainsi favoriser la cohésion globale de l&rsquo;équipe ; définir, suivre les objectifs et les résultats ; accompagner et favoriser l&rsquo;échange dans un climat de confiance.</li>
-    
-    </ul>
-    
+    </div>
 </div>
-
-
 
        </div>
      
@@ -1017,43 +1140,58 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Manager Qualité, Méthodes et Outils R&amp;D</h5>
-        <h6><a href=https://www.gegridsolutions.com/ title="General Electric Grid solutions (Transport de courant)" target="_blank" rel="noopener">General Electric Grid solutions (Transport de courant)</a></h6>
         
-        <p class="text-muted">Février 2016 - Janvier 2020,
-            Montpellier (34)
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.sanilea.fr title="Sanilea (Éditeur de logiciel en mode SaaS)" target="_blank" rel="noopener">Sanilea (Éditeur de logiciel en mode SaaS)</a></h5>
+            <p class="text-muted">
+                Février 2020 - septembre 2023
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Limoges
         </p>
+        
+        <p>Sanilea est leader de l’organisation du transport sanitaire en France. C’est un maillon essentiel de l’écosystème du transport sanitaire, à savoir les établissements de santé, les professionnels du transport et les patients. Je suis responsable de la division R&amp;D dont la fonction est de développer la solution SpeedCall conformément aux besoins du marché et de la rendre disponible pour nos utilisateurs via une infrastructure en mode Saas.<br>Dans ce contexte, j&rsquo;assure la gestion des équipes R&amp;D (produits, développement et infrastructure) en mode Delivery.</p>
     </div>
     
-    <p>Responsable Qualité R&amp;D dans un environnement multi-sites et diverses lignes de produits, j’interviens sur divers axes de pilotage de la Qualité de nos produits et projets. Je vieille à ce que rigueur, contrôle et agilité fassent de nos produits des best-in-class</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Responsable R&amp;D</h5>
+            <p class="text-muted">Février 2020 -  septembre 2023 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsabilités :</h6>
+            <ul class="justify-content-around">
+                
+                    <li>« Leader » le produit - écrire la vision produit et technique, ainsi que les roadmaps associées tout en focalisant sur la valeur ajoutée ; identifier les risques et les limites ; proposer des améliorations ; définir les objectifs produit.</li>
+                
+                    <li>Garantir le « Delivery » - Piloter l&rsquo;activité des équipes pour respecter les délais, la qualité et les budgets des différents projets au travers d&rsquo;un plan de production ; prendre des décisions relatives aux livrables (versus le MVP et/ou le rational des fonctionnalités / évolutions indispensables clients et / ou techniques).</li>
+                
+                    <li>Contribuer à l&rsquo;ensemble des phases de développement - Participer auprès de l&rsquo;équipe aux événements quotidiens ; faciliter la résolution des problèmes ; mettre en place et suivre les indicateurs.</li>
+                
+                    <li>Contribuer aux différents choix de l&rsquo;équipe - comprendre les enjeux et les solutions ; susciter des interrogations et faire émerger des solutions alternatives ; statuer si divergence.</li>
+                
+                    <li>Garantir la fluidité des étapes et des cycles au travers de process définis, compris et adaptés aux projets ; implémenter les outils nécessaires pour maximiser la performance globale de l’équipe.</li>
+                
+                    <li>Team building - amener les membres à franchir des étapes et ainsi favoriser la cohésion globale de l&rsquo;équipe ; définir, suivre les objectifs et les résultats ; accompagner et favoriser l&rsquo;échange dans un climat de confiance.</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsabilités :</h6>
-    <ul class="justify-content-around">
-    
-        <li>Définition et optimisation du Système Qualité (Cycle de développement).</li>
-    
-        <li>Contrôle de l’atteinte des objectifs qualités des projets.</li>
-    
-        <li>Décideur sur les méthodes et outils à déployer et règles associées.</li>
-    
-        <li>Gestion de risques et suivi projets / équipes.</li>
-    
-        <li>Déployer l’esprit Qualité et Agilité.</li>
-    
-    </ul>
-    
+    </div>
 </div>
 
-
-
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">2</div>
+  <div class="circle fw-bold">2</div>
 </div>
 
        </div>
@@ -1076,41 +1214,56 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">3</div>
+  <div class="circle fw-bold">3</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Responsable Qualité R&amp;D Électronique</h5>
-        <h6><a href=https://www.valeo.com/fr/systemes-visibilite/ title="Valeo (Automobile - visibilité)" target="_blank" rel="noopener">Valeo (Automobile - visibilité)</a></h6>
         
-        <p class="text-muted">Mars 2011 - Janvier 2016,
-            Chatellerault (86)
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.gegridsolutions.com/ title="General Electric Grid solutions (Transport de courant)" target="_blank" rel="noopener">General Electric Grid solutions (Transport de courant)</a></h5>
+            <p class="text-muted">
+                Février 2016 - Janvier 2020
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Montpellier (34)
         </p>
+        
+        <p>Responsable Qualité R&amp;D dans un environnement multi-sites et diverses lignes de produits, j’interviens sur divers axes de pilotage de la Qualité de nos produits et projets. Je vieille à ce que rigueur, contrôle et agilité fassent de nos produits des best-in-class</p>
     </div>
     
-    <p>Poste très large me positionnant comme responsable Qualité en termes de méthodes de travail et Qualité projet d’une équipe Electronique de 40 personnes(multi-métiers), et localisé dans 4 pays différents, développant des Cartes Electroniques pilotant des moteurs d’essuyage de véhicules.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Manager Qualité, Méthodes et Outils R&amp;D</h5>
+            <p class="text-muted">Février 2016 -  Janvier 2020 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsabilités :</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Définition et optimisation du Système Qualité (Cycle de développement).</li>
+                
+                    <li>Contrôle de l’atteinte des objectifs qualités des projets.</li>
+                
+                    <li>Décideur sur les méthodes et outils à déployer et règles associées.</li>
+                
+                    <li>Gestion de risques et suivi projets / équipes.</li>
+                
+                    <li>Déployer l’esprit Qualité et Agilité.</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsabilités :</h6>
-    <ul class="justify-content-around">
-    
-        <li>Amélioration du Système Qualité (ISO9001 / ASpice2)</li>
-    
-        <li>Définition et mise en place de l&rsquo;usine de développement Logiciels</li>
-    
-        <li>Suivi Qualité des projets</li>
-    
-        <li>Représentant Qualité auprès des clients</li>
-    
-    </ul>
-    
+    </div>
 </div>
-
-
 
        </div>
      
@@ -1131,39 +1284,54 @@
    
      
        <div class="row align-items-center justify-content-end d-flex">
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Responsable Qualité</h5>
-        <h6><a href=https://fr.ennov.com/ title="Ennov / Clinsight (Éditeur de logiciel)" target="_blank" rel="noopener">Ennov / Clinsight (Éditeur de logiciel)</a></h6>
         
-        <p class="text-muted">Avril 2007 - Févriers 2011,
-            Poitiers (86)
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.valeo.com/fr/systemes-visibilite/ title="Valeo (Automobile - visibilité)" target="_blank" rel="noopener">Valeo (Automobile - visibilité)</a></h5>
+            <p class="text-muted">
+                Mars 2011 - Janvier 2016
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Chatellerault (86)
         </p>
+        
+        <p>Poste très large me positionnant comme responsable Qualité en termes de méthodes de travail et Qualité projet d’une équipe Electronique de 40 personnes(multi-métiers), et localisé dans 4 pays différents, développant des Cartes Electroniques pilotant des moteurs d’essuyage de véhicules.</p>
     </div>
     
-    <p>J’étais membre du codir en apportant la vision Qualité sur le périmètre complet de l&rsquo;entreprise.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Responsable Qualité R&amp;D Électronique</h5>
+            <p class="text-muted">Mars 2011 -  Janvier 2016 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsabilités :</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Amélioration du Système Qualité (ISO9001 / ASpice2)</li>
+                
+                    <li>Définition et mise en place de l&rsquo;usine de développement Logiciels</li>
+                
+                    <li>Suivi Qualité des projets</li>
+                
+                    <li>Représentant Qualité auprès des clients</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsabilités :</h6>
-    <ul class="justify-content-around">
-    
-        <li>Définition et maitrise du Système Qualité (ISO9001)</li>
-    
-        <li>Industrialiser le développement et faire adhérer l’entreprise à la Qualité</li>
-    
-        <li>Rédaction des Cahiers de conformité auprès des instances médicales</li>
-    
-    </ul>
-    
+    </div>
 </div>
 
-
-
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">4</div>
+  <div class="circle fw-bold">4</div>
 </div>
 
        </div>
@@ -1186,45 +1354,125 @@
      
        <div class="row align-items-center  d-flex">
          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
-  <div class="circle font-weight-bold">5</div>
+  <div class="circle fw-bold">5</div>
 </div>
 
-         
-  <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
     <div class="experience-entry-heading">
         
         
-        <h5>Ingénieur Qualité Logiciel</h5>
-        <h6><a href=https://www.autoliv.com/ title="Autoliv Electronics Europe (Automobile - sécurité passive)" target="_blank" rel="noopener">Autoliv Electronics Europe (Automobile - sécurité passive)</a></h6>
         
-        <p class="text-muted">Septempbre 2001 - Mars 2007,
-            Cergy (95)
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://fr.ennov.com/ title="Ennov / Clinsight (Éditeur de logiciel)" target="_blank" rel="noopener">Ennov / Clinsight (Éditeur de logiciel)</a></h5>
+            <p class="text-muted">
+                Avril 2007 - Févriers 2011
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Poitiers (86)
         </p>
+        
+        <p>J’étais membre du codir en apportant la vision Qualité sur le périmètre complet de l&rsquo;entreprise.</p>
     </div>
     
-    <p>J&rsquo;ai construit mon expérience chez Autoliv tant au niveau technique que savoir-etre/savoir-faire grâce notamment au fait d&rsquo;avoir pu occuper plusieurs fonctions différentes au sein du bureau d&rsquo;études.</p>
+    <div class="positions">
     
+        <div class="company-heading">
+            <h5 class="designation">Responsable Qualité</h5>
+            <p class="text-muted">Avril 2007 -  Févriers 2011 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsabilités :</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Définition et maitrise du Système Qualité (ISO9001)</li>
+                
+                    <li>Industrialiser le développement et faire adhérer l’entreprise à la Qualité</li>
+                
+                    <li>Rédaction des Cahiers de conformité auprès des instances médicales</li>
+                
+            </ul>
+        
     
-    <h6 class="text-muted">Responsabilités :</h6>
-    <ul class="justify-content-around">
-    
-        <li>Assurer le maintien et l’amélioration du système qualité du bureau d’études.</li>
-    
-        <li>Ingénieur Qualité Logiciel sur les projets.</li>
-    
-        <li>Définition d’outils de pilotage de système Qualité.</li>
-    
-        <li>Mise en place d&rsquo;outils et de méthodes.</li>
-    
-        <li>Superviseur du pôle &ldquo;Outils &amp; Méthode&rdquo;.</li>
-    
-        <li>Chef de projet déploiement de DOORS.</li>
-    
-    </ul>
-    
+    </div>
 </div>
 
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
 
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        
+        
+        
+        
+        <div class="company-heading">
+            <h5><a href=https://www.autoliv.com/ title="Autoliv Electronics Europe (Automobile - sécurité passive)" target="_blank" rel="noopener">Autoliv Electronics Europe (Automobile - sécurité passive)</a></h5>
+            <p class="text-muted">
+                Septempbre 2001 - Mars 2007
+            </p>
+        </div>
+        <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> Cergy (95)
+        </p>
+        
+        <p>J&rsquo;ai construit mon expérience chez Autoliv tant au niveau technique que savoir-etre/savoir-faire grâce notamment au fait d&rsquo;avoir pu occuper plusieurs fonctions différentes au sein du bureau d&rsquo;études.</p>
+    </div>
+    
+    <div class="positions">
+    
+        <div class="company-heading">
+            <h5 class="designation">Ingénieur Qualité Logiciel</h5>
+            <p class="text-muted">Septempbre 2001 -  Mars 2007 </p>
+        </div>
+        
+        
+            <h6 class="text-heading">Responsabilités :</h6>
+            <ul class="justify-content-around">
+                
+                    <li>Assurer le maintien et l’amélioration du système qualité du bureau d’études.</li>
+                
+                    <li>Ingénieur Qualité Logiciel sur les projets.</li>
+                
+                    <li>Définition d’outils de pilotage de système Qualité.</li>
+                
+                    <li>Mise en place d&rsquo;outils et de méthodes.</li>
+                
+                    <li>Superviseur du pôle &ldquo;Outils &amp; Méthode&rdquo;.</li>
+                
+                    <li>Chef de projet déploiement de DOORS.</li>
+                
+            </ul>
+        
+    
+    </div>
+</div>
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle fw-bold">6</div>
+</div>
 
        </div>
      
@@ -1243,7 +1491,55 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 accomplishments-section">
+  
+    <h1 class="text-center">
+        <span id="accomplishments"></span>Certifications</h1>
+  
+  
+  <div class="container">
+    <div class="row" id="accomplishment-card-holder">
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Professional Scrum Product Owner Level 1 (PSPO-1)</h5>
+      <div class="sub-title">
+        <span><a href="https://www.scrum.org" title="Scrum.org" target="_blank" rel="noopener">Scrum.org</a></span>
+        <span class="ms-2">17 février 2024</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>Certification validant l&rsquo;expertise en gestion de produits dans un contexte Agile/Scrum. Démontre la capacité à maximiser la valeur créée par un produit, à gérer efficacement le Product Backlog, à collaborer avec les stakeholders et à travailler au sein d&rsquo;équipes Scrum pour livrer régulièrement des incréments de produit de valeur.</p>
+    </div>
+    <div class="card-footer">
+      
+        <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="https://www.scrum.org/user/1358834" target="_blank" rel="noopener" role="button">Afficher le certificat</a>
+      
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -1254,13 +1550,13 @@
     <h1 class="text-center">
         <span id="projects"></span>Projets</h1>
   
-  <div class="container ml-auto text-center">
-    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons-projects">
       
     </div>
   </div>
-  <div class="container filtr-projects">
-    <div class="row" id="project-card-holder">
+  <div class="container filtr-projects" data-section="projects">
+    <div class="row" id="project-card-holder-projects">
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
@@ -1268,26 +1564,33 @@
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="https://github.com/nilsteampassnet/TeamPass" target="_blank" rel="noopener">
-        <div>
-          <div class="d-flex">
-            
-
-            
-            
-            
-            
+      <a href="https://github.com/nilsteampassnet/TeamPass" target="_blank" rel="noopener">
+        
+        <div class="card-header">
+          <div>
+            <div class="d-flex">
               
-            
 
-            <img class="card-img-xs" src="/images/sections/projects/teampass_logo_hu13715717224485850604.png" alt="Application Teampass" />
-            
-            
-            <h5 class="card-title mb-0">Application Teampass</h5>
-          </div>
-          <div class="sub-title">
-            <span>Propriétaire &amp; Créateur</span>
-            <span>Depuis 2009</span>
+                
+
+                  
+                    
+                      
+                      
+                        
+                      
+                      <img class="card-img-xs" src="/images/sections/projects/teampass_logo_hu_3b8a4488a5e8601d.png" alt="Application Teampass" />
+                    
+                  
+
+              
+              
+              <h5 class="card-title mb-0">Application Teampass</h5>
+            </div>
+            <div class="sub-title">
+              <span>Propriétaire &amp; Créateur</span>
+              <span>Depuis 2009</span>
+            </div>
           </div>
         </div>
       </a>
@@ -1338,26 +1641,33 @@
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="https://teampass.net/" target="_blank" rel="noopener">
-        <div>
-          <div class="d-flex">
-            
-
-            
-            
-            
-            
+      <a href="https://teampass.net/" target="_blank" rel="noopener">
+        
+        <div class="card-header">
+          <div>
+            <div class="d-flex">
               
-            
 
-            <img class="card-img-xs" src="/images/sections/projects/teampass_logo_hu13715717224485850604.png" alt="Siteweb Teampass" />
-            
-            
-            <h5 class="card-title mb-0">Siteweb Teampass</h5>
-          </div>
-          <div class="sub-title">
-            <span>Créateur</span>
-            <span>Depuis 2019</span>
+                
+
+                  
+                    
+                      
+                      
+                        
+                      
+                      <img class="card-img-xs" src="/images/sections/projects/teampass_logo_hu_3b8a4488a5e8601d.png" alt="Siteweb Teampass" />
+                    
+                  
+
+              
+              
+              <h5 class="card-title mb-0">Siteweb Teampass</h5>
+            </div>
+            <div class="sub-title">
+              <span>Créateur</span>
+              <span>Depuis 2019</span>
+            </div>
           </div>
         </div>
       </a>
@@ -1407,15 +1717,19 @@
 >
   <div class="card mt-1">
     <div class="card">
-      <a class="card-header" href="https://www.vag-technique.fr/" target="_blank" rel="noopener">
-        <div>
-          <div class="d-flex">
-            
-            <h5 class="card-title mb-0">VAG-Technique.fr</h5>
-          </div>
-          <div class="sub-title">
-            <span>Propriétaire &amp; Créateur</span>
-            <span>Depuis Mars 2010</span>
+      <a href="https://www.vag-technique.fr/" target="_blank" rel="noopener">
+        
+        <div class="card-header">
+          <div>
+            <div class="d-flex">
+              
+              
+              <h5 class="card-title mb-0">VAG-Technique.fr</h5>
+            </div>
+            <div class="sub-title">
+              <span>Propriétaire &amp; Créateur</span>
+              <span>Depuis Mars 2010</span>
+            </div>
           </div>
         </div>
       </a>
@@ -1477,7 +1791,7 @@
         
       
         
-          <div class="container-fluid section-holder d-flex bg-white">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
   
@@ -1495,81 +1809,94 @@
   <div class="container">
     <div class="row" id="recent-post-cards">
       
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/posts/informatique/android/" title="Comment retirer les paramètres restreints de certaines applications" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/posts/informatique/android/images/android_parametre_restreint.png'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
+      
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/informatique/android/" class="post-card-link">
+        <img class="card-img-top" src='/posts/informatique/android/images/android_parametre_restreint.png' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/informatique/android/" class="post-card-link">
         <h5 class="card-title">Comment retirer les paramètres restreints de certaines applications</h5>
-        <p class="card-text post-summary"> <p>Je viens d&rsquo;upgrader mon smartphone (OnePlus 8T) sur Android 14 et je me suis confronté à un problème de paramètre restreint sur une de mes applications préférées.</p>
-<p>En effet, j&rsquo;utilise une application tiers comme launcher combinée au <code>double appui</code> pour éteindre l&rsquo;écran. Et c&rsquo;est sur cette action que je voyais apparaitre l&rsquo;erreur en question.</p>
-<h1 id="erreur-rencontrée">Erreur rencontrée</h1>
-<p>Ainsi après avoir upgradé vers Android 14, en faisant le <code>double appui</code> sur une zone vide l&rsquo;écran, au lieu que celui-ci ne s&rsquo;éteigne, le message suivant était visible.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">November 29, 2023</span>
-        <a href="/posts/informatique/android/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
-      </div>
+        <p class="card-text post-summary">Je viens d&rsquo;upgrader mon smartphone (OnePlus 8T) sur Android 14 et je me suis confronté à un problème de paramètre restreint sur une de mes applications préférées.
+En effet, j&rsquo;utilise une application tiers comme launcher combinée au double appui pour éteindre l&rsquo;écran. Et c&rsquo;est sur cette action que je voyais apparaitre l&rsquo;erreur en question.
+Erreur rencontrée Ainsi après avoir upgradé vers Android 14, en faisant le double appui sur une zone vide l&rsquo;écran, au lieu que celui-ci ne s&rsquo;éteigne, le message suivant était visible.
+</p>
+      </a>
+      
     </div>
-  </a>
+    <div class="card-footer">
+      <span class="float-start">
+          mercredi 29 novembre 2023
+          </span>
+      <a
+      href="/posts/informatique/android/"
+      class="float-end btn btn-outline-info btn-sm">Lire</a>
+    </div>
+  </div>
 </div>
 
       
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/posts/informatique/windows-winget/" title="Comment mettre à jour automatiquement vos logiciels sous Windows 11" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/posts/informatique/windows-winget/images/winget_install.png'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/informatique/windows-winget/" class="post-card-link">
+        <img class="card-img-top" src='/posts/informatique/windows-winget/images/winget_install.png' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/informatique/windows-winget/" class="post-card-link">
         <h5 class="card-title">Comment mettre à jour automatiquement vos logiciels sous Windows 11</h5>
-        <p class="card-text post-summary"> <blockquote>
-<p>Mon cas d&rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés</p>
-</blockquote>
-<h1 id="winget-">Winget ?</h1>
-<p>Winget est l&rsquo;outil en ligne de commande du gestionnaire de packages de Windows (10 et 11). L&rsquo;avantage étant que l&rsquo;on peut donc l&rsquo;utiliser dans des scripts maisons pour définir notre propre stratégie de mise à jour des logiciels.</p>
-<p>Toute la <a href="https://learn.microsoft.com/fr-fr/windows/package-manager/winget/" target="_blank" rel="noopener">documentation de Winget</a> est disponible.</p>
-<p>À savoir pour la suite que Winget présente les applications de la façon suivante.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">March 26, 2023</span>
-        <a href="/posts/informatique/windows-winget/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
-      </div>
+        <p class="card-text post-summary"> Mon cas d&rsquo;usage, pouvoir mettre à jour automatiquement les différents logiciels installés
+Winget ? Winget est l&rsquo;outil en ligne de commande du gestionnaire de packages de Windows (10 et 11). L&rsquo;avantage étant que l&rsquo;on peut donc l&rsquo;utiliser dans des scripts maisons pour définir notre propre stratégie de mise à jour des logiciels.
+Toute la documentation de Winget est disponible.
+À savoir pour la suite que Winget présente les applications de la façon suivante.
+</p>
+      </a>
+      
     </div>
-  </a>
+    <div class="card-footer">
+      <span class="float-start">
+          dimanche 26 mars 2023
+          </span>
+      <a
+      href="/posts/informatique/windows-winget/"
+      class="float-end btn btn-outline-info btn-sm">Lire</a>
+    </div>
+  </div>
 </div>
 
       
-        <div class="col-lg-4 col-md-6 pt-2 post-card">
-  <a href="/posts/informatique/esp8266-parametrer/" title="Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/posts/informatique/esp8266-parametrer/images/d1_mini_esp8266-wemos-d1-mini-pinout.png'
-          alt="Card image cap"
-        />
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</h5>
-        <p class="card-text post-summary"> <p>Cette page s&rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&rsquo;émetteur IR pour contrôler une unité intérieure d&rsquo;une climatisation.</p>
-<p>Cette 2de étape permet d&rsquo;associer l&rsquo;ESP8266 à une connexion wifi.</p>
-<h1 id="association-au-wifi">Association au Wifi</h1>
-<p>Rien de bien sorcier, il suffit d&rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.</p>
-<ul>
-<li>
-<p>L&rsquo;ESP8266 doit être branché et activé.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">February 18, 2023</span>
-        <a href="/posts/informatique/esp8266-parametrer/" title="Lire" class="float-right btn btn-outline-info btn-sm">Lire</a>
-      </div>
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/informatique/esp8266-parametrer/" class="post-card-link">
+        <img class="card-img-top" src='/posts/informatique/esp8266-parametrer/images/d1_mini_esp8266-wemos-d1-mini-pinout.png' alt="Hero Image">
+      </a>
     </div>
-  </a>
+    <div class="card-body">
+      <a href="/posts/informatique/esp8266-parametrer/" class="post-card-link">
+        <h5 class="card-title">Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</h5>
+        <p class="card-text post-summary">Cette page s&rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&rsquo;émetteur IR pour contrôler une unité intérieure d&rsquo;une climatisation.
+Cette 2de étape permet d&rsquo;associer l&rsquo;ESP8266 à une connexion wifi.
+Association au Wifi Rien de bien sorcier, il suffit d&rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.
+L&rsquo;ESP8266 doit être branché et activé.
+</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          samedi 18 février 2023
+          </span>
+      <a
+      href="/posts/informatique/esp8266-parametrer/"
+      class="float-end btn btn-outline-info btn-sm">Lire</a>
+    </div>
+  </div>
 </div>
 
       
@@ -1586,9 +1913,7 @@
         
       
         
-      
-        
-          <div class="container-fluid section-holder d-flex bg-dimmed">
+          <div class="container-fluid section-holder d-flex bg-primary">
             
 
   
@@ -1600,11 +1925,11 @@
         <span id="achievements"></span>Mes passions</h1>
   
   <div class="container">
-    <div class="row" id="gallery">
+    <div class="row achievements-gallery" id="gallery-achievements">
     </div>
   </div>
   
-  <div class="d-none" id="achievements-holder">
+  <div class="d-none achievements-holder" id="achievements-holder-achievements">
     
       
 
@@ -1620,18 +1945,18 @@
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/mecanique_hu15081944001277348585.jpg');"
+  style="background-image: url('/images/sections/achievements/mecanique_hu_eee10ba21d33ac10.jpg');"
 >
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">La mécanique</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>La mécanique</h4>
     <p>Mécanique et diagnostique électronique sont maintenant indissociable &hellip; tellement passionnant.</p>
     
   </div>
-  <span style="background-image: url('/images/sections/achievements/mecanique_hu15081944001277348585.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/mecanique_hu5314507224757359252.jpg');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('/images/sections/achievements/mecanique_hu_eee10ba21d33ac10.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/mecanique_hu_8b6dae2b77df4da0.jpg');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -1649,18 +1974,18 @@
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/vtt_hu9051123306201352607.jpg');"
+  style="background-image: url('/images/sections/achievements/vtt_hu_16cb754e8fa6deb5.jpg');"
 >
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">Le VTT</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>Le VTT</h4>
     <p>Que dire ? liberté, émotions, frissons, orientation, &hellip; et se donner à fond.</p>
     
   </div>
-  <span style="background-image: url('/images/sections/achievements/vtt_hu9051123306201352607.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/vtt_hu4829562275874773311.jpg');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('/images/sections/achievements/vtt_hu_16cb754e8fa6deb5.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/vtt_hu_8a99aaf612ad4349.jpg');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -1678,18 +2003,18 @@
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/music2_hu8931611234092105041.jpg');"
+  style="background-image: url('/images/sections/achievements/music2_hu_d34f3a2afff09ea7.jpg');"
 >
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">La musique</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>La musique</h4>
     <p>Une basse, une batterie et une guitare, en avant les décibels, quel pied.</p>
     
   </div>
-  <span style="background-image: url('/images/sections/achievements/music2_hu8931611234092105041.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/music2_hu13258204398217904603.jpg');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('/images/sections/achievements/music2_hu_d34f3a2afff09ea7.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/music2_hu_f8bc2e3149e5891b.jpg');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -1707,18 +2032,18 @@
 
 <div 
   class="achievement-entry text-center"
-  style="background-image: url('/images/sections/achievements/moto_hu5056137244936260120.jpg');"
+  style="background-image: url('/images/sections/achievements/moto_hu_1dccc4dbc7d4549c.jpg');"
 >
   <i class="fa-solid fa-xmark hidden"></i>
   <i class="fa-solid fa-magnifying-glass-plus" id="enlarge-icon"></i>
   <h4 class="title" id="achievement-title">La moto</h4>
-  <div class="caption hidden col-lg-6 text-left" id="caption">
+  <div class="caption hidden col-lg-6 text-start" id="caption">
     <h4>La moto</h4>
     <p>La passion de toujours &hellip; rien ne peut remplacer le cliquetis du moteur et l&rsquo;adrénaline que ça procure.</p>
     
   </div>
-  <span style="background-image: url('/images/sections/achievements/moto_hu5056137244936260120.jpg');" class="d-none" id="SmallImage" active="true"></span>
-<span  style="background-image: url('/images/sections/achievements/moto_hu13420643550346388414.jpg');" class="d-none" id="LargeImage"></span>
+  <span style="background-image: url('/images/sections/achievements/moto_hu_1dccc4dbc7d4549c.jpg');" class="d-none" id="SmallImage" active="true"></span>
+<span  style="background-image: url('/images/sections/achievements/moto_hu_c162a17031d3bdb9.jpg');" class="d-none" id="LargeImage"></span>
 </div>
 
     
@@ -1791,7 +2116,7 @@
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         
         <div class="col-md-4 col-sm-12">
@@ -1815,15 +2140,15 @@
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
-            <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
+            <img src="/images/theme-logo_hu_b3360284c55cf72d.png" alt="Toha Theme Logo">
             Toha
           </a>
         </div>
         <div class="col-md-4 text-center">© 2023 Tous droits réservés.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
           <img
             src="/images/hugo-logo.svg"
@@ -1838,8 +2163,7 @@
   </footer>
 
 
-    <script src="/scripts/application.js" integrity="" defer></script>
-
+    <script src="/application.1c13140d4f885a4faf169c113ee297f7e569c18d2ec910258271fa8594ff1744.js" integrity="sha256-HBMUDU&#43;IWk&#43;vFpwRPuKX9&#43;VpwY0uyRAlgnH6hZT/F0Q=" defer></script>
 
 
     

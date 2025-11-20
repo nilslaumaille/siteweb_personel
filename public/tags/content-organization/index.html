@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/styles/application.template.scss" integrity="" />
+<link rel="stylesheet" href="/application.ab5688193c570f61730c933b24f66c0473028a66973d0deaddda2ad423cf833b.css" integrity="sha256-q1aIGTxXD2FzDJM7JPZsBHMCimaXPQ3q3doq1CPPgzs=" />
 
 
 
@@ -21,47 +21,51 @@
   
   
 
-  <link rel="icon" type="image/png" href="/images/site/favicon_hu14458373468778497799.png" />
-
-<meta property="og:url" content="http://localhost:1313/tags/content-organization/">
-  <meta property="og:site_name" content="Nils Laumaillé">
-  <meta property="og:title" content="Content Organization">
-  <meta property="og:locale" content="fr">
-  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="/images/site/favicon_hu_a7920c91965714cb.png" />
 
 
-    
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/content-organization/index.xml" title="Nils Laumaillé">
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Nils Laumaillé"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Portfolio et blog de Nils Laumaillé"/>
+<meta property="og:image" content="/images/site/nl_avatar.png">
+<meta property="og:url" content="http://localhost:1313/">
+
      
 
     
 
     
-        
-        
-        
-            
-            
-            
-        
 
-        
-        
 
-        
-        
 
-        
-        
-        
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
     
+  </head>
 
-
-
-
-</head>
-
-  <body class="type-tags kind-term" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
-    <div class="container-fluid bg-dimmed wrapper">
+  <body class="type-tags kind-term" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="80">
+    <div class="container-fluid bg-secondary wrapper">
       
       
     
@@ -77,43 +81,194 @@
 
 
 
-<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow " id="top-navbar">
   <div class="container">
-      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
-      <span class="navbar-toggler-icon"></span>
+    
+    <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <i data-feather="sidebar"></i>
     </button>
+    
     <a class="navbar-brand" href="/">
       Nils Laumaillé</a>
-    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
-      <span class="navbar-toggler-icon"></span>
+    <button
+      class="navbar-toggler navbar-light"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
     </button>
 
-    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
-      
-      
-        <li class="nav-item dropdown">
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/#home">Accueil</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">A propos</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#skills">Compétences</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#experiences">Expériences</a>
+                </li>
+              
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="/#projects">Projets</a>
+                </li>
+              
+            
+            
+            
+              
+              
+            
+            
+            
+              
+              
+            
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Suite</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                    
+                    
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#recent-posts">Publications</a>
+                    
+                  
+                  
+                  
+                    
+                    
+                      <a class="dropdown-item" href="/#achievements">Mes passions</a>
+                    
+                  
+              </div>
+            </li>
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">Articles</a>
+          </li>
+        
+        
+        
+        
+        
+          
+
+
+
+
+<li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
-  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
 </a>
 <div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="light">
-    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="dark">
-    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
   </a>
+  
+  
   <a class="dropdown-item nav-link" href="#" data-scheme="system">
-    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
   </a>
+  
 </div>
 </li>
 
-      
+        
       </ul>
     </div>
   </div>
+  
   
   
   
@@ -193,61 +348,66 @@
       
       
       
+      
         
           <div class="post-card">
-  <a href="/posts/informatique/esp8266-jeedom/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/informatique/esp8266-jeedom/" class="post-card-link">
         <img class="card-img-top" src='/posts/informatique/esp8266-jeedom/images/d1_mini_esp8266-wemos-d1-mini-pinout.png' alt="Hero Image">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Comment inclure un module ESP8266 dans Jeedom avec ESPEasy</h5>
-        <p class="card-text post-summary"><p>Cette page s&rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&rsquo;émetteur IR pour contrôler une unité intérieure d&rsquo;une climatisation.</p>
-<p>Cette étape permet d&rsquo;inclure un module ESP8266 dans Jeedom avec le pluggin ESPEasy</p>
-<h1 id="paraméter-lesp8266-pour-linclure-dans-jeedom">Paraméter l&rsquo;ESP8266 pour l&rsquo;inclure dans jeedom</h1>
-<p>Cette étape permet de préparer l&rsquo;ESP8266 pour qu&rsquo;il puisse être inclut dans le pluggin EspEasy dans Jeedom.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">February 18, 2023</span>
-        <a
-        href="/posts/informatique/esp8266-jeedom/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Lire</a
-        >
-      </div>
+      </a>
     </div>
-  </a>
+    <div class="card-body">
+      <a href="/posts/informatique/esp8266-jeedom/" class="post-card-link">
+        <h5 class="card-title">Comment inclure un module ESP8266 dans Jeedom avec ESPEasy</h5>
+        <p class="card-text post-summary">Cette page s&rsquo;inscrit dans une opération plus globale qui consiste à inclure un module esp8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&rsquo;émetteur IR pour contrôler une unité intérieure d&rsquo;une climatisation.
+Cette étape permet d&rsquo;inclure un module ESP8266 dans Jeedom avec le pluggin ESPEasy
+Paraméter l&rsquo;ESP8266 pour l&rsquo;inclure dans jeedom Cette étape permet de préparer l&rsquo;ESP8266 pour qu&rsquo;il puisse être inclut dans le pluggin EspEasy dans Jeedom.
+</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          samedi 18 février 2023
+          </span>
+      <a
+      href="/posts/informatique/esp8266-jeedom/"
+      class="float-end btn btn-outline-info btn-sm">Lire</a>
+    </div>
+  </div>
 </div>
 
         
       
         
           <div class="post-card">
-  <a href="/posts/informatique/esp8266-parametrer/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/informatique/esp8266-parametrer/" class="post-card-link">
         <img class="card-img-top" src='/posts/informatique/esp8266-parametrer/images/d1_mini_esp8266-wemos-d1-mini-pinout.png' alt="Hero Image">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</h5>
-        <p class="card-text post-summary"><p>Cette page s&rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&rsquo;émetteur IR pour contrôler une unité intérieure d&rsquo;une climatisation.</p>
-<p>Cette 2de étape permet d&rsquo;associer l&rsquo;ESP8266 à une connexion wifi.</p>
-<h1 id="association-au-wifi">Association au Wifi</h1>
-<p>Rien de bien sorcier, il suffit d&rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.</p>
-<ul>
-<li>
-<p>L&rsquo;ESP8266 doit être branché et activé.</p></p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">February 18, 2023</span>
-        <a
-        href="/posts/informatique/esp8266-parametrer/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Lire</a
-        >
-      </div>
+      </a>
     </div>
-  </a>
+    <div class="card-body">
+      <a href="/posts/informatique/esp8266-parametrer/" class="post-card-link">
+        <h5 class="card-title">Comment Paramétrer un ESP8266 sous Windows 11 avec ESP Easy</h5>
+        <p class="card-text post-summary">Cette page s&rsquo;inscrit dans une opération plus globale qui consiste à inclure un module ESP8266 dans le plugin ESPEasy de Jeedom. Sa fonctionnalité sera de servir d&rsquo;émetteur IR pour contrôler une unité intérieure d&rsquo;une climatisation.
+Cette 2de étape permet d&rsquo;associer l&rsquo;ESP8266 à une connexion wifi.
+Association au Wifi Rien de bien sorcier, il suffit d&rsquo;être méthodique. Aussi, je vous propose de suivre les étapes suivantes.
+L&rsquo;ESP8266 doit être branché et activé.
+</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          samedi 18 février 2023
+          </span>
+      <a
+      href="/posts/informatique/esp8266-parametrer/"
+      class="float-end btn btn-outline-info btn-sm">Lire</a>
+    </div>
+  </div>
 </div>
 
         
@@ -321,7 +481,7 @@
 
   <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
     <div class="container pt-5">
-      <div class="row text-left">
+      <div class="row text-start">
         
         
         <div class="col-md-4 col-sm-12">
@@ -345,15 +505,15 @@
     
     <hr />
     <div class="container">
-      <div class="row text-left">
+      <div class="row text-start">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
-            <img src="/images/theme-logo_hu16779671404603505019.png" alt="Toha Theme Logo">
+            <img src="/images/theme-logo_hu_b3360284c55cf72d.png" alt="Toha Theme Logo">
             Toha
           </a>
         </div>
         <div class="col-md-4 text-center">© 2023 Tous droits réservés.</div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 text-end">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
           <img
             src="/images/hugo-logo.svg"
@@ -368,8 +528,7 @@
   </footer>
 
 
-    <script src="/scripts/application.js" integrity="" defer></script>
-
+    <script src="/application.1c13140d4f885a4faf169c113ee297f7e569c18d2ec910258271fa8594ff1744.js" integrity="sha256-HBMUDU&#43;IWk&#43;vFpwRPuKX9&#43;VpwY0uyRAlgnH6hZT/F0Q=" defer></script>
 
 
     
